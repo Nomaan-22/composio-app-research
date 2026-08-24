@@ -1,0 +1,55 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "Intercom",
+  "website": "https://intercom.com/",
+  "category": "Support and Helpdesk",
+  "completed_at": "2026-08-23T15:50:32.540051+00:00",
+  "elapsed_seconds": 60.19,
+  "repair_attempts": 0,
+  "research_result": {
+    "app": "Intercom",
+    "website": "https://intercom.com/",
+    "category": "Support and Helpdesk",
+    "description": "Intercom is an AI customer service platform providing customer support, messaging, inbox management, articles, and automated customer engagement capabilities via SDKs, REST APIs, and MCP.",
+    "auth_methods": [
+      "OAuth",
+      "Bearer Token"
+    ],
+    "credential_requirements": "Developers can create a free development workspace in Intercom's Developer Hub to get an Access Token for private apps or configure OAuth for public apps.",
+    "self_serve": "free",
+    "rest_api": "yes",
+    "graphql_api": "unknown",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Intercom supports API authentication via Access Tokens (for private apps) and OAuth (for public apps), both sent via Bearer authorization headers.",
+        "url": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "To access the Intercom API, you have two authentication options depending on whether you app is public or private."
+      },
+      {
+        "claim": "Developers can create free development workspaces for building and testing integrations.",
+        "url": "https://developers.intercom.com/docs/build-an-integration/getting-started",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Development workspaces are free and intended for development purposes only."
+      },
+      {
+        "claim": "Intercom provides a comprehensive REST API.",
+        "url": "https://developers.intercom.com/docs/references/introduction",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "This is documentation for version 2.16 of the REST API."
+      },
+      {
+        "claim": "Intercom provides an official remote MCP server for AI tools.",
+        "url": "https://developers.intercom.com/docs/guides/mcp",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Intercom hosts a remote MCP server that follows the authenticated remote MCP specification."
+      }
+    ],
+    "confidence": "high"
+  }
+}

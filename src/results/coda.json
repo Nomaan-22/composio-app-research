@@ -1,0 +1,62 @@
+{
+  "status": "completed",
+  "validated": false,
+  "app": "Coda",
+  "website": "https://coda.io/developers",
+  "category": "Productivity and Project Management",
+  "completed_at": "2026-08-24T10:24:24.260138+00:00",
+  "elapsed_seconds": 333.51,
+  "repair_attempts": 2,
+  "research_result": {
+    "app": "Coda",
+    "website": "https://coda.io/developers",
+    "category": "Productivity and Project Management",
+    "description": "Coda is a collaborative document and workspace platform providing a RESTful API and an official hosted MCP server to programmatically manage docs, pages, tables, rows, formulas, and controls.",
+    "auth_methods": [
+      "Bearer Token",
+      "OAuth 2.0",
+      "API Key"
+    ],
+    "credential_requirements": "Developers can generate an API key or API token directly in their Coda account settings page (coda.io/account) free of charge. OAuth 2.0 is also available for authenticating integrations such as remote MCP clients.",
+    "self_serve": "free",
+    "rest_api": "yes",
+    "graphql_api": "unknown",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Coda provides a public RESTful API available to all users free of charge in both free and paid workspaces.",
+        "url": "https://www.postman.com/codaio/coda-workspace/documentation/0vy7uxn/coda-api",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "We make the Coda API available to all of our users free of charge, in both free and paid workspaces."
+      },
+      {
+        "claim": "Coda supports Bearer token authentication for API requests.",
+        "url": "https://rollout.com/integration-guides/coda/api-essentials",
+        "source_type": "third_party",
+        "quote_or_excerpt": "Uses Bearer token authentication"
+      },
+      {
+        "claim": "Coda supports OAuth 2 authentication for client integrations.",
+        "url": "https://help.coda.io/hc/en-us/articles/44722661982989-Connect-to-the-Coda-MCP",
+        "source_type": "official_help",
+        "quote_or_excerpt": "When connecting the Coda MCP via OAuth 2 (as with ChatGPT, Claude, and Cursor) the auth scope will automatically be set to read and write."
+      },
+      {
+        "claim": "Coda allows users to generate API keys in account settings to connect with the API.",
+        "url": "https://coda.io/@oleg/getting-started-guide-coda-api/start-here-5",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Generate an API Key for your Coda account"
+      },
+      {
+        "claim": "Coda provides an official hosted MCP server at coda.io/apis/mcp.",
+        "url": "https://www.usecarly.com/blog/coda-mcp/",
+        "source_type": "third_party",
+        "quote_or_excerpt": "Yes — Coda has an official MCP server. It’s a hosted, remote server at coda.io/apis/mcp that lets any MCP-compatible AI tool read and write your Coda docs, pages, tables, and rows."
+      }
+    ],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "Plaid",
+  "website": "https://plaid.com/docs",
+  "category": "Finance and Fintech",
+  "completed_at": "2026-08-24T10:40:05.734399+00:00",
+  "elapsed_seconds": 149.73,
+  "repair_attempts": 2,
+  "research_result": {
+    "app": "Plaid",
+    "website": "https://plaid.com/docs",
+    "category": "Finance and Fintech",
+    "description": "Plaid is a financial technology platform that provides APIs connecting applications with user bank accounts, transactional data, and payment services.",
+    "auth_methods": [
+      "API Key",
+      "OAuth 2.0"
+    ],
+    "credential_requirements": "Developers obtain API credentials (a client_id and secret) by creating an account on the Plaid Dashboard. Free developer testing is provided in the Sandbox environment, while production access is available via free Trial plans or paid tiers.",
+    "self_serve": "free",
+    "rest_api": "yes",
+    "graphql_api": "unknown",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Plaid provides API keys (client_id and secret) upon Dashboard signup.",
+        "url": "https://plaid.com/docs/quickstart/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "You'll need API keys, which you can receive by signing up in the Dashboard."
+      },
+      {
+        "claim": "Plaid API endpoints require authentication using client_id and secret sent via headers or body.",
+        "url": "https://plaid.com/docs/api/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Almost all Plaid API endpoints require a `client_id` and `secret`. These may be sent either in the request body or in the headers `PLAID-CLIENT-ID` and `PLAID-SECRET`."
+      },
+      {
+        "claim": "Plaid supports OAuth 2.0 specification for OAuth token endpoints.",
+        "url": "https://plaid.com/docs/api/oauth/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The fields for the form are equivalent to the fields for JSON and conform to the OAuth 2.0 specification."
+      },
+      {
+        "claim": "Plaid offers Model Context Protocol (MCP) servers.",
+        "url": "https://plaid.com/docs/resources/mcp/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Plaid offers two Model Context Protocol (MCP) servers:"
+      },
+      {
+        "claim": "Plaid API is specified as a RESTful API using OpenAPI.",
+        "url": "https://plaid.com/docs/api/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "OpenAPI is a standard format for describing RESTful APIs that allows those APIs to be integrated with tools for a wide variety of applications, including testing, client library generation, IDE integration, and more."
+      },
+      {
+        "claim": "Plaid offers free trial access.",
+        "url": "https://plaid.com/docs/account/billing/",
+        "source_type": "official_pricing",
+        "quote_or_excerpt": "Trial – Free access. Limited to 10 Items; upgrade to a paid plan to access more Items."
+      }
+    ],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "Cloudflare",
+  "website": "https://developers.cloudflare.com/api",
+  "category": "Developer, Infra and Data platforms",
+  "completed_at": "2026-08-24T08:48:13.091671+00:00",
+  "elapsed_seconds": 97.09,
+  "repair_attempts": 2,
+  "research_result": {
+    "app": "Cloudflare",
+    "website": "https://developers.cloudflare.com/api",
+    "category": "Developer, Infra and Data platforms",
+    "description": "Cloudflare is a cloud platform offering security, performance, serverless compute, and infrastructure services with extensive REST and GraphQL APIs and native Model Context Protocol (MCP) support.",
+    "auth_methods": [
+      "API Token",
+      "OAuth 2.0",
+      "API Key"
+    ],
+    "credential_requirements": "Developers can sign up for a free Cloudflare account using an email address and password to generate API tokens or retrieve API keys. While initial setup and basic usage are free, usage-based billing or paid plan subscriptions apply for elevated infrastructure usage.",
+    "self_serve": "free",
+    "rest_api": "yes",
+    "graphql_api": "yes",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Cloudflare supports authentication using API tokens.",
+        "url": "https://developers.cloudflare.com/fundamentals/api/get-started/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Create an API token to grant access to the API to perform actions."
+      },
+      {
+        "claim": "Cloudflare supports OAuth 2.0 for authorization.",
+        "url": "https://developers.cloudflare.com/fundamentals/oauth/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "As an industry-standard protocol for authorization, OAuth 2.0 enables applications to obtain limited access to user accounts on an HTTP service."
+      },
+      {
+        "claim": "Cloudflare supports authentication using Global API keys as a legacy mechanism.",
+        "url": "https://developers.cloudflare.com/fundamentals/api/get-started/keys/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Global API key is the previous authorization scheme for interacting with the Cloudflare API."
+      },
+      {
+        "claim": "Cloudflare accounts can be created via self-serve sign up.",
+        "url": "https://developers.cloudflare.com/fundamentals/account/create-account/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "To create a Cloudflare account:"
+      },
+      {
+        "claim": "Cloudflare provides a REST API.",
+        "url": "https://developers.cloudflare.com/fundamentals/api/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Use the following resources to learn more about Cloudflare's REST API:"
+      },
+      {
+        "claim": "Cloudflare provides a GraphQL API.",
+        "url": "https://developers.cloudflare.com/fundamentals/api/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Interact with Cloudflare services programmatically using the REST and GraphQL APIs."
+      },
+      {
+        "claim": "Cloudflare natively supports building and deploying Model Context Protocol (MCP) servers.",
+        "url": "https://developers.cloudflare.com/agents/model-context-protocol/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "You can build and deploy Model Context Protocol (MCP) ↗ servers on Cloudflare."
+      }
+    ],
+    "confidence": "high"
+  }
+}

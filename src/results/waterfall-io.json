@@ -1,0 +1,54 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "Waterfall.io",
+  "website": "https://waterfall.io/",
+  "category": "Data, SEO and Scraping",
+  "completed_at": "2026-08-24T08:29:33.135913+00:00",
+  "elapsed_seconds": 70.75,
+  "repair_attempts": 1,
+  "research_result": {
+    "app": "Waterfall.io",
+    "website": "https://waterfall.io/",
+    "category": "Data, SEO and Scraping",
+    "description": "Waterfall.io provides a B2B data solution and API for contact prospecting, contact and company enrichment, phone lookup, email verification, and job change tracking.",
+    "auth_methods": [
+      "API key"
+    ],
+    "credential_requirements": "API access requires an API key provided as part of a custom contract after booking a sales call with the Waterfall team.",
+    "self_serve": "gated",
+    "rest_api": "yes",
+    "graphql_api": "no",
+    "api_breadth": "broad",
+    "mcp_available": "no",
+    "buildability": "conditional",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Waterfall API authenticates requests using an API key passed in the x-api-key header.",
+        "url": "https://docs.waterfall.io/v1/authentication",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "All requests are authenticated using `x-api-key`."
+      },
+      {
+        "claim": "Obtaining an API key requires a contract with Waterfall.",
+        "url": "https://docs.waterfall.io/v1/api-keys-create",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "To access the API, you need the API key provided in your contract."
+      },
+      {
+        "claim": "Accessing Waterfall involves booking a call with the team to discuss custom business needs.",
+        "url": "https://www.waterfall.io/",
+        "source_type": "official_pricing",
+        "quote_or_excerpt": "Every company has different needs. Talk to our team (most likely one of the founders) to share your use case and see how Waterfall can help."
+      },
+      {
+        "claim": "Waterfall provides a REST API covering endpoints for prospector, contact/company enrichment, phone enrichment, job changes, email verification, and account reporting.",
+        "url": "https://docs.waterfall.io/v1/introduction",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Complete API reference for Waterfall — find and enrich contacts, prospect by title and company, verify emails, and more."
+      }
+    ],
+    "confidence": "high"
+  }
+}

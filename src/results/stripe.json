@@ -1,0 +1,68 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "Stripe",
+  "website": "https://stripe.com/docs/api",
+  "category": "Finance and Fintech",
+  "completed_at": "2026-08-23T08:02:43.328645+00:00",
+  "elapsed_seconds": 108.14,
+  "repair_attempts": 2,
+  "research_result": {
+    "app": "Stripe",
+    "website": "https://stripe.com/docs/api",
+    "category": "Finance and Fintech",
+    "description": "Stripe is a financial infrastructure platform offering REST APIs and an official Model Context Protocol (MCP) server for payments, subscriptions, payouts, and financial workflows.",
+    "auth_methods": [
+      "API key",
+      "HTTP Basic Auth",
+      "OAuth 2.0"
+    ],
+    "credential_requirements": "Developers can provision an anonymous test sandbox with API keys via the Stripe CLI or register for a free Stripe account to generate sandbox and live API keys in the Dashboard.",
+    "self_serve": "free",
+    "rest_api": "yes",
+    "graphql_api": "unknown",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Stripe provides an official Model Context Protocol (MCP) server for AI agents.",
+        "url": "https://docs.stripe.com/mcp",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The Stripe Model Context Protocol (MCP) server provides tools that AI agents can use to interact with the Stripe API and search Stripe’s knowledge base, including documentation and support articles."
+      },
+      {
+        "claim": "Stripe API is organized around REST.",
+        "url": "https://docs.stripe.com/api?lang=python",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The Stripe API is organized around REST."
+      },
+      {
+        "claim": "Stripe authenticates API requests using API keys.",
+        "url": "https://docs.stripe.com/keys",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Use API keys to authenticate API requests."
+      },
+      {
+        "claim": "Stripe authenticates API requests using HTTP Basic Auth.",
+        "url": "https://docs.stripe.com/api/authentication",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Provide your API key as the basic auth username value. You don’t need to provide a password."
+      },
+      {
+        "claim": "Stripe supports OAuth 2.0 for authenticating requests on behalf of users.",
+        "url": "https://docs.stripe.com/stripe-apps/api-authentication/oauth",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Use the industry standard OAuth 2.0 to authenticate requests to the Stripe API on behalf of your users."
+      },
+      {
+        "claim": "Developers can create an anonymous sandbox with API keys for free using the CLI.",
+        "url": "https://docs.stripe.com/get-started",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Coding agents should install the Stripe CLI (`npm i -g @stripe/cli`) and run the command `stripe sandbox create --help` to provision an anonymous Stripe sandbox with working API keys. No account registration required."
+      }
+    ],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "Consensus",
+  "website": "https://consensus.app/",
+  "category": "AI, Research and Media-native",
+  "completed_at": "2026-08-24T11:49:01.083618+00:00",
+  "elapsed_seconds": 49.38,
+  "repair_attempts": 0,
+  "research_result": {
+    "app": "Consensus",
+    "website": "https://consensus.app/",
+    "category": "AI, Research and Media-native",
+    "description": "Consensus is an AI research search engine that allows users and AI applications to search, synthesize, and retrieve citations from peer-reviewed scientific literature.",
+    "auth_methods": [
+      "API Key",
+      "Bearer Token",
+      "OAuth"
+    ],
+    "credential_requirements": "Access to the API requires submitting an application to receive a custom quote and approval. Enterprise and direct API access use an API key transmitted as a Bearer token in the Authorization header. MCP client connections also support OAuth sign-in or unauthenticated use with search limits.",
+    "self_serve": "gated",
+    "rest_api": "yes",
+    "graphql_api": "no",
+    "api_breadth": "narrow",
+    "mcp_available": "yes",
+    "buildability": "conditional",
+    "main_blocker": "API access is gated by application approval and custom pricing, though a dedicated MCP server is publicly available.",
+    "evidence": [
+      {
+        "claim": "The Consensus API requires submitting an application for access.",
+        "url": "https://consensus.app/home/api/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The Consensus API is available by application only. Our baseline pricing starts at $0.10 per call, plus a platform fee."
+      },
+      {
+        "claim": "Consensus exposes a REST API v1 quick search endpoint.",
+        "url": "https://agentsapis.com/consensus-api/",
+        "source_type": "third_party",
+        "quote_or_excerpt": "Consensus documentation shows a v1 “quick search” endpoint at api.consensus.app."
+      },
+      {
+        "claim": "Consensus provides an official MCP server for AI clients.",
+        "url": "https://docs.consensus.app/docs/mcp",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The Consensus MCP server enables AI assistants like ChatGPT, Claude, and other MCP-compatible clients to search over 200 million peer-reviewed academic research papers directly from the conversation."
+      },
+      {
+        "claim": "Enterprise API access is authenticated using an API key sent as a Bearer token.",
+        "url": "https://docs.consensus.app/docs/mcp",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "For enterprise access with unlimited rate limits, include your API key as a Bearer token:"
+      },
+      {
+        "claim": "MCP client connections support OAuth sign-in.",
+        "url": "https://docs.consensus.app/docs/mcp",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "If your client supports OAuth, authentication will be handled automatically."
+      }
+    ],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "Snowflake",
+  "website": "https://docs.snowflake.com/",
+  "category": "Developer, Infra and Data platforms",
+  "completed_at": "2026-08-24T09:43:12.830192+00:00",
+  "elapsed_seconds": 2288.38,
+  "repair_attempts": 1,
+  "research_result": {
+    "app": "Snowflake",
+    "website": "https://docs.snowflake.com/",
+    "category": "Developer, Infra and Data platforms",
+    "description": "Snowflake is a data cloud platform offering REST APIs, SQL APIs, and native Model Context Protocol (MCP) server integration to manage infrastructure, run queries, and build AI-agent workflows.",
+    "auth_methods": [
+      "OAuth 2.0",
+      "Key Pair Authentication",
+      "Programmatic Access Token",
+      "Workload Identity Federation"
+    ],
+    "credential_requirements": "Access requires a Snowflake account, which can be created via a free trial or paid subscription. Developers generate credentials such as OAuth access tokens, programmatic access tokens (PATs), or key-pair JWT tokens.",
+    "self_serve": "trial_or_paid",
+    "rest_api": "yes",
+    "graphql_api": "no",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Snowflake offers native MCP server support to serve Cortex Analyst, Cortex Search, Cortex Agents, SQL execution, and custom tools to AI agents.",
+        "url": "https://docs.snowflake.com/en/en/user-guide/snowflake-cortex/cortex-agents-mcp",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The Snowflake-managed MCP server lets AI agents securely retrieve data from Snowflake accounts without needing to deploy separate infrastructure."
+      },
+      {
+        "claim": "Snowflake supports OAuth 2.0 protocol for API authentication and authorization.",
+        "url": "https://docs.snowflake.com/en/en/user-guide/oauth-intro",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Snowflake supports the OAuth 2.0 protocol for authentication and authorization using one of the options below:"
+      },
+      {
+        "claim": "Snowflake supports key pair authentication, programmatic access tokens, and workload identity federation for REST APIs.",
+        "url": "https://docs.snowflake.com/en/en/developer-guide/snowflake-rest-api/authentication",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "When using key pair authentication, you need to complete the following tasks:"
+      },
+      {
+        "claim": "Snowflake offers self-serve access via a free trial account or paid account creation.",
+        "url": "https://docs.snowflake.com/en/user-guide/setup.html",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "If your organization doesn't have a Snowflake account, you can sign up for a free trial account or contact us directly to request an account."
+      },
+      {
+        "claim": "Snowflake provides a broad REST API surface covering database resources, compute warehouses, data loading, AI/ML tools, and security management.",
+        "url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/snowflake-rest-api",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The %sf-rest% suite of APIs enables developers to build end-to-end automation and integration with Snowflake resources."
+      }
+    ],
+    "confidence": "high"
+  }
+}

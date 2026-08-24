@@ -1,0 +1,61 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "HubSpot",
+  "website": "https://hubspot.com/",
+  "category": "CRM and Sales",
+  "completed_at": "2026-08-23T15:46:33.539932+00:00",
+  "elapsed_seconds": 39.27,
+  "repair_attempts": 0,
+  "research_result": {
+    "app": "HubSpot",
+    "website": "https://hubspot.com/",
+    "category": "CRM and Sales",
+    "description": "HubSpot is a CRM platform providing extensive REST APIs, local developer CLI tools, and official remote and local Model Context Protocol (MCP) servers for AI agents.",
+    "auth_methods": [
+      "OAuth 2.0",
+      "Static auth access token"
+    ],
+    "credential_requirements": "Developers can sign up for a free HubSpot account or developer test account. Credentials (client ID and client secret for OAuth 2.0, or static auth access tokens for private apps) can be created directly within the development overview section of the HubSpot portal.",
+    "self_serve": "free",
+    "rest_api": "yes",
+    "graphql_api": "unknown",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "HubSpot supports OAuth for multi-account app distribution and static auth access tokens for single-account apps.",
+        "url": "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/overview",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "There are two authentication types available based on how you plan to distribute your app: OAuth is required for multiple accounts, while static auth access tokens are used for installing in a single account at a time."
+      },
+      {
+        "claim": "Developers can create free accounts and developer test accounts to build and test integrations.",
+        "url": "https://developers.hubspot.com/docs/getting-started/account-types",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Developer test accounts are free HubSpot accounts with access to a 90-day trial of many enterprise features"
+      },
+      {
+        "claim": "HubSpot provides date-versioned REST APIs across CRM objects, activities, and app platform tools.",
+        "url": "https://developers.hubspot.com/docs/developer-tooling/platform/versioning",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "HubSpot developer projects and REST APIs are versioned based on when they were released."
+      },
+      {
+        "claim": "HubSpot provides both a remote MCP server for CRM data interactions and a local MCP server for development workflows.",
+        "url": "https://developers.hubspot.com/ai-tools/mcp",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "HubSpot offers two distinct MCP (Model Context Protocol) servers — one for connecting any MCP-compatible AI tool or agent to your CRM, and one for building on the HubSpot Developer Platform."
+      },
+      {
+        "claim": "Connecting to the remote HubSpot MCP server requires an MCP auth app using OAuth authentication with PKCE.",
+        "url": "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/integrate-with-the-remote-hubspot-mcp-server",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Once you've created your MCP auth app, you can use it with any MCP client that supports OAuth authentication with PKCE (Proof Key for Code Exchange)."
+      }
+    ],
+    "confidence": "high"
+  }
+}

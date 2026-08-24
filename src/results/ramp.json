@@ -1,0 +1,68 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "Ramp",
+  "website": "https://docs.ramp.com/",
+  "category": "Finance and Fintech",
+  "completed_at": "2026-08-24T11:32:52.522429+00:00",
+  "elapsed_seconds": 41.82,
+  "repair_attempts": 0,
+  "research_result": {
+    "app": "Ramp",
+    "website": "https://docs.ramp.com/",
+    "category": "Finance and Fintech",
+    "description": "Ramp is a finance automation and spend management platform offering APIs and AI tools for managing corporate cards, bills, reimbursements, spend controls, and procurement.",
+    "auth_methods": [
+      "OAuth 2.0",
+      "HTTP Basic Auth",
+      "Bearer Token"
+    ],
+    "credential_requirements": "Creating developer applications requires admin access on a Ramp account. Access to sandbox or production APIs requires submitting a request for Ramp review, which Ramp may approve, condition, or deny.",
+    "self_serve": "gated",
+    "rest_api": "yes",
+    "graphql_api": "no",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "conditional",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Ramp uses OAuth 2.0 for API access and HTTP Basic Auth for requesting access tokens.",
+        "url": "https://docs.ramp.com/llms-guides/authorization.txt",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Ramp uses OAuth 2.0 for secure API access, providing granular permission control through scopes and supporting multiple authorization flows for different use cases. Ramp authenticates requests to /developer/v1/token using your client ID and client secret, typically with HTTP Basic Auth."
+      },
+      {
+        "claim": "API calls to Ramp endpoints use Bearer tokens in the HTTP Authorization header.",
+        "url": "https://docs.ramp.com/llms-guides/getting-started.txt",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Add the header Authorization: Bearer <YOUR_TOKEN_HERE> and make a GET request to {environment-url}/developer/v1/transactions."
+      },
+      {
+        "claim": "Ramp provides a REST API surface covering its data models, custom records, and webhooks.",
+        "url": "https://docs.ramp.com/developer-api/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Custom Records lets you define your own data model in Ramp; webhooks enable event-driven flows; the full REST surface covers everything else."
+      },
+      {
+        "claim": "Ramp does not have a native GraphQL endpoint.",
+        "url": "https://github.com/api-evangelist/ramp/blob/main/graphql/ramp-graphql.md",
+        "source_type": "third_party",
+        "quote_or_excerpt": "**Endpoint:** No native GraphQL endpoint — conceptual schema derived from Ramp REST API"
+      },
+      {
+        "claim": "Ramp provides native Model Context Protocol (MCP) servers.",
+        "url": "https://docs.ramp.com/developer-api/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Ramp ships three MCP servers, each scoped to a different audience."
+      },
+      {
+        "claim": "API access to sandbox or production environments requires submitting a request for Ramp review.",
+        "url": "https://ramp.com/legal/developer-terms/developer-terms/api-agreement",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "To receive access to the Ramp APIs in a sandbox or production environment, you must submit a request for Ramp review. Ramp may approve, condition, limit, or deny any request for access in our sole discretion, and may suspend or revoke access to either at any time for any reason."
+      }
+    ],
+    "confidence": "high"
+  }
+}

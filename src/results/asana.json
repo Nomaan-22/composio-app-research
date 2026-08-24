@@ -1,0 +1,68 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "Asana",
+  "website": "https://developers.asana.com/",
+  "category": "Productivity and Project Management",
+  "completed_at": "2026-08-24T09:58:50.947833+00:00",
+  "elapsed_seconds": 38.78,
+  "repair_attempts": 0,
+  "research_result": {
+    "app": "Asana",
+    "website": "https://developers.asana.com/",
+    "category": "Productivity and Project Management",
+    "description": "Asana is a productivity and work management platform that offers a comprehensive REST API and an official Model Context Protocol (MCP) server for programmatic task, project, and workflow integration.",
+    "auth_methods": [
+      "OAuth 2.0",
+      "Personal Access Token",
+      "Service Account"
+    ],
+    "credential_requirements": "Developers can self-serve credentials by creating Personal Access Tokens (PATs) or registering OAuth/MCP apps in the Asana Developer Console. For organization-wide access without user attribution, Service Accounts require an Enterprise tier plan and creation by an Asana super admin.",
+    "self_serve": "free",
+    "rest_api": "yes",
+    "graphql_api": "unknown",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Asana supports Personal Access Tokens (PATs) for programmatic REST API access.",
+        "url": "https://developers.asana.com/docs/personal-access-token",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "generating a PAT allows you to access (i.e., make requests to) the Asana REST API upon successful authentication."
+      },
+      {
+        "claim": "Asana supports OAuth 2.0 authorization code grant flow for authorizing third-party apps.",
+        "url": "https://developers.asana.com/docs/oauth",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Asana supports the authorization code grant flow"
+      },
+      {
+        "claim": "Asana supports Service Accounts on Enterprise tiers for org-wide access.",
+        "url": "https://developers.asana.com/docs/authentication",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Service Accounts (SAs) are long-lived tokens that provide programmatic access to the API. Service Accounts are an Enterprise tier feature and can only be created by Asana super admins"
+      },
+      {
+        "claim": "Asana provides a RESTful API.",
+        "url": "https://developers.asana.com/reference/rest-api-reference",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The Asana API is a RESTful interface with predictable resource-oriented URLs, accepts JSON or form-encoded requests, returns JSON, and uses standard HTTP features"
+      },
+      {
+        "claim": "Asana provides an official Model Context Protocol (MCP) server.",
+        "url": "https://developers.asana.com/docs/mcp-server",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Asana offers a Model Context Protocol (MCP) server, accessible via app integration, which allows AI assistants and other applications to access the Asana Work Graph from beyond the Asana platform."
+      },
+      {
+        "claim": "Developers can self-serve PATs and app creation via the Developer Console.",
+        "url": "https://developers.asana.com/docs/manage-and-share-your-app",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "You can use the developer console to create apps and personal access tokens (PATs)."
+      }
+    ],
+    "confidence": "high"
+  }
+}

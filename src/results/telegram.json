@@ -1,0 +1,54 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "Telegram",
+  "website": "https://core.telegram.org/",
+  "category": "Communications and Messaging",
+  "completed_at": "2026-08-24T06:52:01.027228+00:00",
+  "elapsed_seconds": 88.3,
+  "repair_attempts": 1,
+  "research_result": {
+    "app": "Telegram",
+    "website": "https://core.telegram.org/",
+    "category": "Communications and Messaging",
+    "description": "Telegram is a cloud-based messaging platform providing APIs and developer libraries to build messaging bots, userbots, and custom client applications.",
+    "auth_methods": [
+      "Bearer token"
+    ],
+    "credential_requirements": "Developers can obtain a bot token for free by messaging @BotFather on Telegram. For client applications using the MTProto API, developers can register for an api_id and api_hash at my.telegram.org. Access tokens for the Gateway API can be obtained in Telegram Gateway account settings.",
+    "self_serve": "free",
+    "rest_api": "unknown",
+    "graphql_api": "no",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Telegram Gateway API supports authorization via HTTP Bearer token",
+        "url": "https://core.telegram.org/gateway/api",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Before invoking API methods, you must obtain an access token in the Telegram Gateway account settings. The token must be passed in every request in one of two ways: in the HTTP header: Authorization: Bearer <access_token>"
+      },
+      {
+        "claim": "Telegram Bot Platform and APIs are free for developers",
+        "url": "https://core.telegram.org/bots",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The Telegram Bot Platform hosts more than 10 million bots and is free for both users and developers."
+      },
+      {
+        "claim": "Community Model Context Protocol (MCP) servers are available for Telegram",
+        "url": "https://github.com/chaindead/telegram-mcp",
+        "source_type": "third_party",
+        "quote_or_excerpt": "Telegram MCP for managing dialogs, messages, drafts, read statuses, and more."
+      },
+      {
+        "claim": "Telegram offers broad developer APIs including Bot API, Telegram API, TDLib, and Gateway API",
+        "url": "https://core.telegram.org/api/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "We offer three kinds of APIs for developers. The Bot API allows you to easily create programs that use Telegram messages for an interface. The Telegram API and TDLib allow you to build your own customized Telegram clients."
+      }
+    ],
+    "confidence": "high"
+  }
+}

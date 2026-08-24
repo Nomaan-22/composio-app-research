@@ -1,0 +1,40 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "Sherlock",
+  "website": "https://github.com/sherlock-project/sherlock",
+  "category": "Data, SEO and Scraping",
+  "completed_at": "2026-08-24T08:28:22.382093+00:00",
+  "elapsed_seconds": 269.11,
+  "repair_attempts": 2,
+  "research_result": {
+    "app": "Sherlock",
+    "website": "https://github.com/sherlock-project/sherlock",
+    "category": "Data, SEO and Scraping",
+    "description": "Sherlock is an open-source tool ecosystem with an MCP server implementation available for integration with AI agents.",
+    "auth_methods": [],
+    "credential_requirements": "No credentials or API keys are required to install and run the Sherlock MCP server locally over stdio.",
+    "self_serve": "unknown",
+    "rest_api": "unknown",
+    "graphql_api": "unknown",
+    "api_breadth": "unknown",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Sherlock runs as a standard MCP server that communicates over stdio.",
+        "url": "https://github.com/jcucci/dotnet-sherlock-mcp",
+        "source_type": "official_github",
+        "quote_or_excerpt": "Sherlock runs as a standard MCP server that communicates over stdio."
+      },
+      {
+        "claim": "No arguments are required to run the server, and tools self-register on launch.",
+        "url": "https://github.com/jcucci/dotnet-sherlock-mcp",
+        "source_type": "official_github",
+        "quote_or_excerpt": "No arguments are required. The server self-registers all tools when launched."
+      }
+    ],
+    "confidence": "high"
+  }
+}

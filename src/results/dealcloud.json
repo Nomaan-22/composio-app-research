@@ -1,0 +1,61 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "DealCloud",
+  "website": "https://api.docs.dealcloud.com/",
+  "category": "CRM and Sales",
+  "completed_at": "2026-08-24T05:59:46.526743+00:00",
+  "elapsed_seconds": 36.16,
+  "repair_attempts": 0,
+  "research_result": {
+    "app": "DealCloud",
+    "website": "https://api.docs.dealcloud.com/",
+    "category": "CRM and Sales",
+    "description": "DealCloud is a CRM platform for private capital markets, offering REST APIs, SDKs, and an MCP server to manage records, schema, users, backups, and real-time publications.",
+    "auth_methods": [
+      "OAuth 2.0",
+      "API Key"
+    ],
+    "credential_requirements": "To access APIs, an organization admin must grant 'API' capabilities under User Group settings (or users contact their CSM). Once granted, API keys are obtained via the user profile. OAuth tokens are requested via the OAuth2 Client Credentials flow using client_id, client_secret, and scope. Access to the MCP server requires a 'DealCloud with Celeste' license and dedicated MCP permissions.",
+    "self_serve": "gated",
+    "rest_api": "yes",
+    "graphql_api": "unknown",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "conditional",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "DealCloud uses OAuth2 Client Credentials flow to generate bearer tokens for API requests.",
+        "url": "https://api.docs.dealcloud.com/docs/token",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "DealCloud uses the OAuth2 Client Credentials flow to generate a bearer token, which is then used in the HTTP Authentication header for API requests."
+      },
+      {
+        "claim": "API keys are obtained through user profile settings after enabling API capabilities in user groups.",
+        "url": "https://api.docs.dealcloud.com/docs/apikeys",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Scroll down to the API Key section and click Enable. Then click Copy API Key to Clipboard to copy your API key for use in integrations or API requests."
+      },
+      {
+        "claim": "DealCloud provides REST APIs covering functional areas including Authentication, User Management, Schema, Data, Backups, Publications, and Relationship Intelligence.",
+        "url": "https://api.docs.dealcloud.com/docs",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Welcome to the DealCloud API Docs! This site provides a comprehensive overview of our REST APIs, their capabilities, and available endpoints."
+      },
+      {
+        "claim": "DealCloud provides an MCP Server to allow AI assistants to retrieve context and execute workflows.",
+        "url": "https://api.docs.dealcloud.com/mcp",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The DealCloud MCP Server helps teams turn their DealCloud data into faster, higher-quality outcomes, from sharper relationship and pipeline insights to stronger diligence and meeting preparation."
+      },
+      {
+        "claim": "MCP server prerequisites require a DealCloud with Celeste license and administrative configuration permissions.",
+        "url": "https://api.docs.dealcloud.com/mcp/getting-started",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Licensing | DealCloud with Celeste license."
+      }
+    ],
+    "confidence": "high"
+  }
+}

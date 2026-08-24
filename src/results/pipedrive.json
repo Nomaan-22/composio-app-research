@@ -1,0 +1,55 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "Pipedrive",
+  "website": "https://pipedrive.com/",
+  "category": "CRM and Sales",
+  "completed_at": "2026-08-23T15:47:08.025767+00:00",
+  "elapsed_seconds": 34.48,
+  "repair_attempts": 0,
+  "research_result": {
+    "app": "Pipedrive",
+    "website": "https://pipedrive.com/",
+    "category": "CRM and Sales",
+    "description": "Pipedrive is a sales CRM platform featuring a RESTful API, webhooks, app extensions, and a native Model Context Protocol (MCP) server for integrating sales pipeline data with AI assistants and third-party tools.",
+    "auth_methods": [
+      "OAuth 2.0",
+      "API key"
+    ],
+    "credential_requirements": "Developers can sign up for a free developer sandbox account. Personal API tokens can be retrieved directly from Pipedrive user settings, while OAuth 2.0 app credentials (client_id and client_secret) are acquired by registering an app in the Developer Hub.",
+    "self_serve": "free",
+    "rest_api": "yes",
+    "graphql_api": "unknown",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Pipedrive offers a RESTful API covering core CRM entities.",
+        "url": "https://developers.pipedrive.com/docs/api/v1",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "This reference helps you implement the RESTful Pipedrive API."
+      },
+      {
+        "claim": "API access relies on API keys or OAuth 2.0 access tokens.",
+        "url": "https://www.pipedrive.com/en/features/crm-api",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Access to the Pipedrive API is only possible using the API key or an access token when using OAuth 2.0."
+      },
+      {
+        "claim": "Pipedrive provides a free sandbox environment for developers.",
+        "url": "https://developers.pipedrive.com/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Sign up for a Sandbox Account today to begin experimenting and developing in a risk free environment"
+      },
+      {
+        "claim": "Pipedrive maintains a native MCP server to connect AI assistants directly with CRM data.",
+        "url": "https://www.pipedrive.com/en/features/mcp-server",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "With Pipedrive MCP, your AI assistant can securely access and act on your CRM data using natural language."
+      }
+    ],
+    "confidence": "high"
+  }
+}

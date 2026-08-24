@@ -1,0 +1,55 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "Reducto",
+  "website": "https://reducto.ai/",
+  "category": "AI, Research and Media-native",
+  "completed_at": "2026-08-24T11:49:53.870710+00:00",
+  "elapsed_seconds": 52.79,
+  "repair_attempts": 0,
+  "research_result": {
+    "app": "Reducto",
+    "website": "https://reducto.ai/",
+    "category": "AI, Research and Media-native",
+    "description": "Reducto is an agentic document platform that parses, extracts, classifies, splits, and edits documents across 30+ file formats using AI models via REST APIs, SDKs, and an official MCP server.",
+    "auth_methods": [
+      "API key",
+      "Bearer token"
+    ],
+    "credential_requirements": "Developers can create a free account at studio.reducto.ai and generate an API key from the API Keys section in the Studio sidebar.",
+    "self_serve": "free",
+    "rest_api": "yes",
+    "graphql_api": "no",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Reducto offers a REST API for document parsing, extraction, classification, splitting, and editing.",
+        "url": "https://docs.reducto.ai/agent-guide",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Reducto is the agentic document platform. It provides a complete toolkit for classification, parsing, extraction, splitting, editing, and workflow orchestration across documents (PDFs, images, spreadsheets, DOCX, and 30+ other formats) via a REST API."
+      },
+      {
+        "claim": "API calls use API keys authenticated via Bearer tokens in HTTP headers.",
+        "url": "https://docs.reducto.ai/agent-guide",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "For direct REST calls, pass it as a Bearer token:"
+      },
+      {
+        "claim": "Developers can self-serve and sign up for a free account to get an API key.",
+        "url": "https://docs.reducto.ai/quickstart",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Go to studio.reducto.ai and sign up for a free account."
+      },
+      {
+        "claim": "Reducto provides an official Model Context Protocol (MCP) server for AI agents.",
+        "url": "https://docs.reducto.ai/mcp-server",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The Reducto MCP server connects AI agents directly to Reducto."
+      }
+    ],
+    "confidence": "high"
+  }
+}

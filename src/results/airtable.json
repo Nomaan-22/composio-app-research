@@ -1,0 +1,62 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "Airtable",
+  "website": "https://airtable.com/developers",
+  "category": "Productivity and Project Management",
+  "completed_at": "2026-08-24T09:56:02.168616+00:00",
+  "elapsed_seconds": 60.82,
+  "repair_attempts": 1,
+  "research_result": {
+    "app": "Airtable",
+    "website": "https://airtable.com/developers",
+    "category": "Productivity and Project Management",
+    "description": "Airtable is a cloud-based database and spreadsheet platform that provides a Web API and an official Model Context Protocol (MCP) server for querying, creating, and updating records, bases, schemas, and automations.",
+    "auth_methods": [
+      "OAuth 2.0",
+      "Personal Access Token",
+      "Bearer Token"
+    ],
+    "credential_requirements": "Developers can create Personal Access Tokens (PATs) directly from the developer hub or register OAuth 2.0 integrations to request authorization from end users. Free self-serve accounts provide API access with rate limits, while higher plans offer unlimited calls and enterprise features.",
+    "self_serve": "free",
+    "rest_api": "yes",
+    "graphql_api": "unknown",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Airtable Web API closely follows REST semantics, uses JSON, and uses standard HTTP codes.",
+        "url": "https://support.airtable.com/articles/9906627822-options-for-integrating-with-airtable",
+        "source_type": "official_help",
+        "quote_or_excerpt": "The API closely follows REST semantics, uses JSON to encode objects, and relies on standard HTTP codes to signal operation outcomes."
+      },
+      {
+        "claim": "Airtable supports personal access tokens and OAuth access tokens for API authentication.",
+        "url": "https://airtable.com/developers/web/api/authentication",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "We currently support using personal access tokens and OAuth access tokens during the authentication process."
+      },
+      {
+        "claim": "Requests are authenticated using HTTP authorization bearer token headers.",
+        "url": "https://airtable.com/developers/web/api/authentication",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Airtable's API uses token-based authentication, allowing users to authenticate API requests by inputting their tokens into the HTTP authorization bearer token header."
+      },
+      {
+        "claim": "Airtable provides an official MCP server to connect AI tools directly to Airtable bases.",
+        "url": "https://support.airtable.com/articles/9897799762-using-the-airtable-mcp-server",
+        "source_type": "official_help",
+        "quote_or_excerpt": "Airtable’s MCP server lets you connect AI tools directly to your Airtable bases."
+      },
+      {
+        "claim": "Airtable provides a Free plan with access to Base Data endpoints.",
+        "url": "https://airtable.com/developers/web/api/billing-plans",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Access to all \"Base Data\" endpoints except \"Views\""
+      }
+    ],
+    "confidence": "high"
+  }
+}

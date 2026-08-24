@@ -1,0 +1,60 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "DataForSEO",
+  "website": "https://docs.dataforseo.com/",
+  "category": "Data, SEO and Scraping",
+  "completed_at": "2026-08-24T08:00:39.435419+00:00",
+  "elapsed_seconds": 62.29,
+  "repair_attempts": 0,
+  "research_result": {
+    "app": "DataForSEO",
+    "website": "https://docs.dataforseo.com/",
+    "category": "Data, SEO and Scraping",
+    "description": "DataForSEO provides a comprehensive suite of REST APIs and tools for SERP analysis, keyword research, backlink monitoring, domain analytics, and web crawling for software developers and AI integrations.",
+    "auth_methods": [
+      "Basic Authentication"
+    ],
+    "credential_requirements": "Developers can sign up for a free account on the DataForSEO platform to obtain API credentials (an account login email and an automatically generated API password). Credentials are passed via HTTP Basic Authentication using Base64 encoding. New accounts receive $1 in trial credits and access to a free sandbox environment.",
+    "self_serve": "free",
+    "rest_api": "yes",
+    "graphql_api": "no",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "DataForSEO uses Basic Authentication to authorize API requests.",
+        "url": "https://docs.dataforseo.com/v3/auth/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "DataForSEO is using the Basic Authentication, which makes it possible to call our APIs with almost any programming language, Postman app, REST API platforms, and all major frameworks."
+      },
+      {
+        "claim": "DataForSEO APIs are built on REST technology.",
+        "url": "https://docs.dataforseo.com/v3/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "DataForSEO API is using the REST technology for interchanging data between your application and our service."
+      },
+      {
+        "claim": "DataForSEO provides an official Model Context Protocol (MCP) server.",
+        "url": "https://dataforseo.com/help-center/setting-up-the-official-dataforseo-mcp-server-simple-guide",
+        "source_type": "official_help",
+        "quote_or_excerpt": "The DataForSEO MCP server is a powerful tool that allows the seamless integration of DataForSEO APIs and enables advanced SEO data analytics capabilities."
+      },
+      {
+        "claim": "Developers can create a free account and receive trial credits to test the APIs.",
+        "url": "https://dataforseo.com/help-center/how-to-authenticate-with-dataforseo-google-search-serp-api-api-key-setup-and-code-examples",
+        "source_type": "official_help",
+        "quote_or_excerpt": "Create a free account on our website. New accounts get a $1 trial credit, and the SERP Google Organic Live Advanced endpoint costs $0.002 per call, so the trial covers around 500 live Google SERPs before you spend a cent."
+      },
+      {
+        "claim": "DataForSEO offers a broad set of 12 distinct API modules.",
+        "url": "https://github.com/dataforseo/pythonclient/",
+        "source_type": "official_github",
+        "quote_or_excerpt": "Client contains 12 sections (aka APIs):"
+      }
+    ],
+    "confidence": "high"
+  }
+}

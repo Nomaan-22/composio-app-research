@@ -1,0 +1,66 @@
+{
+  "status": "completed",
+  "validated": false,
+  "app": "Meta Ads",
+  "website": "https://developers.facebook.com/docs/marketing-apis",
+  "category": "Marketing, Ads, Email and Social",
+  "completed_at": "2026-08-24T06:59:17.884372+00:00",
+  "elapsed_seconds": 152.14,
+  "repair_attempts": 2,
+  "research_result": {
+    "app": "Meta Ads",
+    "website": "https://developers.facebook.com/docs/marketing-apis",
+    "category": "Marketing, Ads, Email and Social",
+    "description": "Meta Ads provides the Marketing API and an official Model Context Protocol (MCP) server endpoint, enabling programmatic management and AI-agent automation for ad campaigns, ad sets, ad creatives, custom audiences, pixels, and reporting insights across Meta technologies.",
+    "auth_methods": [
+      "OAuth 2.0"
+    ],
+    "credential_requirements": "To access the Marketing API or MCP server, developers must register as a Meta developer, create an app in the App Dashboard to obtain an App ID and App Secret, and use OAuth 2.0 access tokens. Production access requires submitting the app for App Review and receiving approval.",
+    "self_serve": "free",
+    "rest_api": "yes",
+    "graphql_api": "unknown",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "conditional",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Meta Ads Marketing API requires submitting the app for review and receiving approval for production use.",
+        "url": "https://developers.facebook.com/docs/marketing-api/using-the-api/faq/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "To use the Marketing API in production, you must submit your app for review and receive approval."
+      },
+      {
+        "claim": "Meta Ads Marketing API supports RESTful HTTP POST and GET requests for campaign creation and insights.",
+        "url": "https://developers.facebook.com/docs/marketing-api/using-the-api/faq/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "To create a campaign, send a `POST` request to the `/act\\_<AD\\_ACCOUNT\\_ID>/campaigns` endpoint with parameters such as `name`, `objective`, and `status`."
+      },
+      {
+        "claim": "Meta Ads supports authentication using OAuth 2.0.",
+        "url": "https://github.com/thiagocaliman/meta-ads-mcp-reference/blob/master/README.en.md",
+        "source_type": "third_party",
+        "quote_or_excerpt": "Authentication: OAuth 2.0 from Meta."
+      },
+      {
+        "claim": "Meta provides an official Model Context Protocol (MCP) server for Meta Ads.",
+        "url": "https://developers.facebook.com/docs/permissions",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The ads_mcp_management permission allows your app to access the Meta ads Model Context Protocol (MCP) server and enable AI agents to interact with Meta Ads on behalf of advertisers."
+      },
+      {
+        "claim": "Developer account registration is self-serve.",
+        "url": "https://developers.facebook.com/docs/development/register",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "This document explains how to register as a Meta developer."
+      },
+      {
+        "claim": "Every Marketing API call requires an access token parameter.",
+        "url": "https://developers.facebook.com/docs/marketing-api/get-started/authentication/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Every Marketing API call requires an access token as a parameter."
+      }
+    ],
+    "confidence": "high"
+  }
+}

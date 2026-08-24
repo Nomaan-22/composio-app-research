@@ -1,0 +1,56 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "Netlify",
+  "website": "https://docs.netlify.com/api",
+  "category": "Developer, Infra and Data platforms",
+  "completed_at": "2026-08-24T08:46:36.001690+00:00",
+  "elapsed_seconds": 67.57,
+  "repair_attempts": 0,
+  "research_result": {
+    "app": "Netlify",
+    "website": "https://docs.netlify.com/api",
+    "category": "Developer, Infra and Data platforms",
+    "description": "Netlify is a hosting and automation platform for web applications that offers comprehensive infrastructure management, atomic deployments, serverless functions, and database controls through a REST API, CLI, and official Model Context Protocol (MCP) server.",
+    "auth_methods": [
+      "OAuth 2.0",
+      "Bearer Token",
+      "Personal Access Token"
+    ],
+    "credential_requirements": "Developers can self-register a free Netlify account and generate Personal Access Tokens (PATs) under User Settings > Applications > Personal access tokens, or register an OAuth application to obtain a Client ID and Secret for user delegation.",
+    "self_serve": "free",
+    "rest_api": "yes",
+    "graphql_api": "unknown",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Netlify provides a REST API to manage site deployments, forms, JavaScript snippets, DNS, environment variables, databases, and functions.",
+        "url": "https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Use the Netlify REST API to manage atomic deploys of your sites and apps, manage form submissions, inject JavaScript snippets, manage DNS, and so much more."
+      },
+      {
+        "claim": "Netlify supports OAuth 2.0 and personal access tokens authenticated via Bearer headers.",
+        "url": "https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Netlify uses OAuth2 for authentication. All requests must use HTTPS."
+      },
+      {
+        "claim": "Netlify provides self-serve pricing options including a Free plan.",
+        "url": "https://docs.netlify.com/manage/accounts-and-billing/billing/billing-for-credit-based-plans/credit-based-pricing-plans/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Learn about our standard self-serve Credit-based plans in this doc, such as the Free, Personal, and Pro plans."
+      },
+      {
+        "claim": "Netlify maintains an official Model Context Protocol (MCP) server enabling AI agents to interact with the Netlify API and CLI.",
+        "url": "https://www.netlify.com/blog/netlify-mcp-server-ai-agents-deploy-your-code/",
+        "source_type": "official_blog",
+        "quote_or_excerpt": "Built on Anthropic’s open source Model Context Protocol, our MCP Server gives agents direct access to the Netlify API and CLI."
+      }
+    ],
+    "confidence": "high"
+  }
+}

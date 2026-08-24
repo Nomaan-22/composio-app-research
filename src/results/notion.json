@@ -1,0 +1,55 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "Notion",
+  "website": "https://developers.notion.com/",
+  "category": "Productivity and Project Management",
+  "completed_at": "2026-08-23T15:33:57.995479+00:00",
+  "elapsed_seconds": 119.66,
+  "repair_attempts": 0,
+  "research_result": {
+    "app": "Notion",
+    "website": "https://developers.notion.com/",
+    "category": "Productivity and Project Management",
+    "description": "Notion provides a REST API, personal access tokens, OAuth 2.0 public connections, and a hosted Model Context Protocol (MCP) server to query, read, create, and modify workspace pages, databases, comments, users, and file uploads.",
+    "auth_methods": [
+      "OAuth 2.0",
+      "Bearer Token"
+    ],
+    "credential_requirements": "Developers can obtain credentials by creating personal access tokens or internal connections in the Developer portal using a free personal workspace, or by setting up OAuth 2.0 public connections.",
+    "self_serve": "free",
+    "rest_api": "yes",
+    "graphql_api": "no",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Notion supports OAuth 2.0, static API tokens, and personal access tokens authenticated via bearer tokens.",
+        "url": "https://developers.notion.com/guides/get-started/authorization",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Internal connections use a static API token, personal access tokens use a user-scoped static API token, and public connections use the OAuth 2.0 protocol."
+      },
+      {
+        "claim": "The Notion API follows RESTful conventions.",
+        "url": "https://developers.notion.com/reference/intro",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The Notion API follows RESTful conventions when possible, with most operations performed via `GET`, `POST`, `PATCH`, and `DELETE` requests on page and database resources."
+      },
+      {
+        "claim": "Notion provides a hosted remote MCP server.",
+        "url": "https://developers.notion.com/guides/mcp/overview",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Notion MCP is a remote MCP server hosted by Notion."
+      },
+      {
+        "claim": "Developers can create personal workspaces and access tokens for free.",
+        "url": "https://developers.notion.com/reference/intro",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "If you're not an admin in any of your workspaces, create a personal workspace for free or use a PAT where workspace policy allows it."
+      }
+    ],
+    "confidence": "high"
+  }
+}

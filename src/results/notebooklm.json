@@ -1,0 +1,62 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "NotebookLM",
+  "website": "https://cloud.google.com/gemini",
+  "category": "AI, Research and Media-native",
+  "completed_at": "2026-08-23T15:38:08.290325+00:00",
+  "elapsed_seconds": 250.29,
+  "repair_attempts": 0,
+  "research_result": {
+    "app": "NotebookLM",
+    "website": "https://cloud.google.com/gemini",
+    "category": "AI, Research and Media-native",
+    "description": "NotebookLM (also referred to as Gemini Notebook) is Google's AI-powered research and document-synthesis tool that offers source-grounded reasoning, Q&A, and content artifact generation.",
+    "auth_methods": [
+      "OAuth 2.0",
+      "gcloud CLI",
+      "Environment Variable"
+    ],
+    "credential_requirements": "Official REST API access is restricted to enterprise accounts requiring a Google Cloud project, enterprise licensing (e.g., Gemini Enterprise), and admin configuration. Consumer users have no public API key access and rely on cookie-based browser session extraction for community tooling.",
+    "self_serve": "gated",
+    "rest_api": "yes",
+    "graphql_api": "no",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "conditional",
+    "main_blocker": "Official API access requires Google Cloud enterprise licensing and administrator setup; consumer access lacks an official API and relies on cookie-authenticated community MCP servers.",
+    "evidence": [
+      {
+        "claim": "NotebookLM Enterprise API exposes REST endpoints through Google Cloud Discovery Engine v1alpha service.",
+        "url": "https://webaistack.com/mastering-the-notebook-lm-api-a-comprehensive-guide-for-developers-and-data-scientists/",
+        "source_type": "third_party",
+        "quote_or_excerpt": "The API, available only to enterprise customers, exposes REST endpoints through Google Cloud’s Discovery Engine v1alpha service [9]."
+      },
+      {
+        "claim": "There is no official public consumer API for NotebookLM.",
+        "url": "https://web-clipper-for-notebooklm.com/blog/notebooklm-api",
+        "source_type": "third_party",
+        "quote_or_excerpt": "If you've searched for \"NotebookLM API,\" here's the short answer: there is no public consumer API."
+      },
+      {
+        "claim": "nblm-rs client supports authentication via gcloud CLI, environment variables, and OAuth2.",
+        "url": "https://k-dash.github.io/nblm-rs/getting-started/authentication/",
+        "source_type": "third_party",
+        "quote_or_excerpt": "nblm-rs supports three authentication methods:"
+      },
+      {
+        "claim": "An MCP server for NotebookLM is available providing programmatic access and tools for AI agents.",
+        "url": "https://web-clipper-for-notebooklm.com/blog/notebooklm-api",
+        "source_type": "third_party",
+        "quote_or_excerpt": "notebooklm-mcp-cli takes a similar approach but packages it as both a CLI and an MCP (Model Context Protocol) server."
+      },
+      {
+        "claim": "Enterprise usage requires Google Cloud plan authorization from an administrator.",
+        "url": "https://support.google.com/notebooklm/answer/16213268?hl=en",
+        "source_type": "official_help",
+        "quote_or_excerpt": "You can upgrade Gemini Notebook to get additional capabilities, including higher limits and more features through Google AI Plans, Google Cloud, or a qualifying Google Workspace plan."
+      }
+    ],
+    "confidence": "high"
+  }
+}

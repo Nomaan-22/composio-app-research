@@ -1,0 +1,60 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "Threads (Meta)",
+  "website": "https://developers.facebook.com/docs/threads",
+  "category": "Marketing, Ads, Email and Social",
+  "completed_at": "2026-08-24T07:29:15.538520+00:00",
+  "elapsed_seconds": 72.34,
+  "repair_attempts": 1,
+  "research_result": {
+    "app": "Threads (Meta)",
+    "website": "https://developers.facebook.com/docs/threads",
+    "category": "Marketing, Ads, Email and Social",
+    "description": "The Threads API allows developers to programmatically publish text, image, video, and carousel posts, manage replies, search locations, retrieve media, and access account and post insights.",
+    "auth_methods": [
+      "OAuth 2.0"
+    ],
+    "credential_requirements": "Developers must create a Meta App with the Threads Use Case to obtain a Threads App ID and Threads App Secret. Access tokens conform to OAuth 2.0 and are generated via an Authorization Window flow. Short-lived user access tokens can be exchanged server-side for long-lived tokens (valid for 60 days). Development and testing with designated Threads Testers is free, but access for general production users requires passing Meta's App Review process.",
+    "self_serve": "free",
+    "rest_api": "yes",
+    "graphql_api": "unknown",
+    "api_breadth": "moderate",
+    "mcp_available": "yes",
+    "buildability": "conditional",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Threads API authentication uses user access tokens conforming to the OAuth 2.0 protocol.",
+        "url": "https://developers.facebook.com/docs/threads/get-started/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "API authentication is handled by Threads user access tokens that conform to the OAuth 2.0 protocol."
+      },
+      {
+        "claim": "General production access for app users without an explicit app role requires Meta App Review approval.",
+        "url": "https://developers.facebook.com/docs/threads/get-started/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "In order for app users without a role on your app to be able to grant your app these permissions, each permission must first be approved through the App Review process, and your app must be published."
+      },
+      {
+        "claim": "The Threads API is accessible via graph.threads.com or graph.threads.net REST endpoints.",
+        "url": "https://developers.facebook.com/docs/threads/overview/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The Threads API can be accessed by either `graph.threads.com` or `graph.threads.net`."
+      },
+      {
+        "claim": "The Threads API is self-serve and accessible to all developers.",
+        "url": "https://developers.facebook.com/blog/post/2024/06/18/the-threads-api-is-finally-here/",
+        "source_type": "official_blog",
+        "quote_or_excerpt": "Today at the Cannes Lions International Festival of Creativity, we announced that the Threads API is now available to all developers."
+      },
+      {
+        "claim": "MCP servers are available for integrating AI agents with the Threads API.",
+        "url": "https://github.com/MetaThreads/meta-threads-mcp",
+        "source_type": "third_party",
+        "quote_or_excerpt": "Unofficial MCP server for Meta's Threads API. Enables LLMs like Claude to publish posts, manage replies, and track insights through the Model Context Protocol."
+      }
+    ],
+    "confidence": "high"
+  }
+}

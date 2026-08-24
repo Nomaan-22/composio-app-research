@@ -1,0 +1,54 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "Gladly",
+  "website": "https://gladly.com/",
+  "category": "Support and Helpdesk",
+  "completed_at": "2026-08-24T06:33:34.307057+00:00",
+  "elapsed_seconds": 71.29,
+  "repair_attempts": 1,
+  "research_result": {
+    "app": "Gladly",
+    "website": "https://gladly.com/",
+    "category": "Support and Helpdesk",
+    "description": "Gladly is a customer service and helpdesk platform that provides conversation-centered support, REST APIs, and Lookup APIs to manage agent, conversation, answer, and customer data.",
+    "auth_methods": [
+      "Basic authentication"
+    ],
+    "credential_requirements": "To access the API, a Gladly Administrator must assign the API User permission to a designated user account. Once granted, an API token can be generated under Settings > API Tokens. API calls use Basic Authentication with the agent's email address as the username and the API token as the password. Access to a sandbox environment requires contacting a Gladly CSM or Support.",
+    "self_serve": "gated",
+    "rest_api": "yes",
+    "graphql_api": "no",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "conditional",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Gladly uses token-based Basic Authentication requiring an agent email and API token.",
+        "url": "https://developer.gladly.com/rest/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Gladly API uses token-based Basic Authentication. API tokens are associated with designated Gladly users."
+      },
+      {
+        "claim": "Gladly provides a REST API to integrate and interact with platform data.",
+        "url": "https://developer.gladly.com/rest/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "You can integrate easily with Gladly by calling Gladly's REST API and implementing the Lookup API to provide data from your own services."
+      },
+      {
+        "claim": "Sandbox environments and initial account access are gated and require contacting Gladly support or CSM.",
+        "url": "https://help.gladly.com/developer-tutorials/docs/setup-and-testing",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "If you do not have a sandbox environment and are interested in purchasing one, please contact your Gladly CSM or Gladly Support team."
+      },
+      {
+        "claim": "StackOne provides a third-party hosted Gladly MCP server with 65 actions.",
+        "url": "https://www.stackone.com/connectors/gladly/mcp/",
+        "source_type": "third_party",
+        "quote_or_excerpt": "Connect your AI agent to StackOne's Gladly MCP server and give it 65 MCP tools out of the box."
+      }
+    ],
+    "confidence": "high"
+  }
+}

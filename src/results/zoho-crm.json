@@ -1,0 +1,60 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "Zoho CRM",
+  "website": "https://zoho.com/crm",
+  "category": "CRM and Sales",
+  "completed_at": "2026-08-23T15:49:32.345689+00:00",
+  "elapsed_seconds": 35.67,
+  "repair_attempts": 0,
+  "research_result": {
+    "app": "Zoho CRM",
+    "website": "https://zoho.com/crm",
+    "category": "CRM and Sales",
+    "description": "Zoho CRM is an enterprise sales and customer relationship management platform featuring extensive REST and GraphQL APIs, multi-language SDKs, automation workflows, and pre-built MCP servers for AI agent integrations.",
+    "auth_methods": [
+      "OAuth 2.0"
+    ],
+    "credential_requirements": "Developers can register an application in the Zoho API Console to obtain a Client ID and Client Secret for OAuth 2.0 authentication. For testing and server-to-server automation without redirect URIs, developers can set up a Self Client directly in the console. Free Developer Edition accounts are available for building and testing integrations.",
+    "self_serve": "free",
+    "rest_api": "yes",
+    "graphql_api": "yes",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Zoho CRM API uses OAuth 2.0 for authentication.",
+        "url": "https://www.zoho.com/crm/developer/docs/api/v8/oauth-overview.html",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The Zoho CRM API uses the OAuth 2.0 protocol for authentication."
+      },
+      {
+        "claim": "Zoho CRM provides a free Developer Edition for building and testing integrations.",
+        "url": "https://www.zoho.com/crm/developer/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The fully featured free Developer Edition is the perfect environment for users to learn their way around Zoho CRM's configuration, data model, and developer tools without risking access to any of your production data."
+      },
+      {
+        "claim": "Zoho CRM provides REST APIs across CRM module entities.",
+        "url": "https://www.zoho.com/crm/developer/docs/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Perform CRUD operations on CRM module entities and integrate with any third party application through flexible RESTful endpoints."
+      },
+      {
+        "claim": "Zoho CRM supports GraphQL APIs.",
+        "url": "https://www.zoho.com/crm/developer/docs/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Learn how to request specific resources, fields of the resources and relationships of the resources in a single query."
+      },
+      {
+        "claim": "Zoho CRM offers pre-built MCP servers to connect AI tools using Model Context Protocol.",
+        "url": "https://www.zoho.com/crm/developer/docs/mcp/overview.html",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Zoho CRM MCP servers connect your AI tools to Zoho CRM using the Model Context Protocol (MCP)."
+      }
+    ],
+    "confidence": "high"
+  }
+}

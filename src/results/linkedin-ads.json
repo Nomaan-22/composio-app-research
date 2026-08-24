@@ -1,0 +1,60 @@
+{
+  "status": "completed",
+  "validated": false,
+  "app": "LinkedIn Ads",
+  "website": "https://learn.microsoft.com/linkedin/marketing",
+  "category": "Marketing, Ads, Email and Social",
+  "completed_at": "2026-08-24T07:11:42.455151+00:00",
+  "elapsed_seconds": 156.16,
+  "repair_attempts": 2,
+  "research_result": {
+    "app": "LinkedIn Ads",
+    "website": "https://learn.microsoft.com/linkedin/marketing",
+    "category": "Marketing, Ads, Email and Social",
+    "description": "LinkedIn Ads (LinkedIn Marketing Developer Platform) provides RESTful APIs for managing advertising accounts, campaign groups, campaigns, ad creatives, reporting and analytics, lead sync, conversion tracking, and audience targeting.",
+    "auth_methods": [
+      "OAuth 2.0"
+    ],
+    "credential_requirements": "To access LinkedIn Ads APIs, developers must create an application in the LinkedIn Developer Portal, submit an application to access the Advertising API product, and obtain OAuth 2.0 access tokens (3-legged OAuth for member authorization) with required scopes such as r_ads, rw_ads, and r_ads_reporting.",
+    "self_serve": "gated",
+    "rest_api": "yes",
+    "graphql_api": "no",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "conditional",
+    "main_blocker": "Developer application approval and vetting by LinkedIn is required to access the Advertising API product.",
+    "evidence": [
+      {
+        "claim": "LinkedIn API uses OAuth 2.0 for member authorization and API authentication.",
+        "url": "https://learn.microsoft.com/en-us/linkedin/shared/authentication/authentication",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The LinkedIn API uses OAuth 2.0 for member (user) authorization and API authentication."
+      },
+      {
+        "claim": "Access to LinkedIn Advertising API is gated behind an application process starting at Development tier and requiring review/approval for Standard tier.",
+        "url": "https://learn.microsoft.com/en-us/linkedin/marketing/increasing-access?view=li-lms-2026-04",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "All applications start with Development tier. You must apply separately to upgrade to the Standard tier."
+      },
+      {
+        "claim": "LinkedIn Ads API provides REST endpoints for campaign management and advertising operations.",
+        "url": "https://learn.microsoft.com/en-us/linkedin/marketing/integrations/ads/account-structure/create-and-manage-campaigns?view=li-lms-2026-08",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "POST https://api.linkedin.com/rest/adAccounts/518121035/adCampaigns"
+      },
+      {
+        "claim": "LinkedIn Advertising API provides comprehensive management capabilities across ad accounts, campaign groups, campaigns, creatives, ad types, and analytics.",
+        "url": "https://learn.microsoft.com/en-us/linkedin/marketing/integrations/ads/ads-overview?view=li-lms-2026-05",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "These APIs provide all features available in LinkedIn Campaign Manager, including creation and management of ad accounts, campaign groups, campaigns, creatives, ad types, and analytics."
+      },
+      {
+        "claim": "Community-developed MCP servers exist for the LinkedIn Marketing API.",
+        "url": "https://github.com/Nuraveda-Labs/linkedin-ads-mcp",
+        "source_type": "third_party",
+        "quote_or_excerpt": "Model Context Protocol (MCP) server for the LinkedIn Marketing API."
+      }
+    ],
+    "confidence": "high"
+  }
+}

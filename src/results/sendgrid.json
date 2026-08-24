@@ -1,0 +1,67 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "SendGrid",
+  "website": "https://sendgrid.com/",
+  "category": "Marketing, Ads, Email and Social",
+  "completed_at": "2026-08-24T07:30:55.487277+00:00",
+  "elapsed_seconds": 99.95,
+  "repair_attempts": 1,
+  "research_result": {
+    "app": "SendGrid",
+    "website": "https://sendgrid.com/",
+    "category": "Marketing, Ads, Email and Social",
+    "description": "Twilio SendGrid is a cloud-based email delivery platform that provides REST APIs for transactional and marketing email delivery, contact management, dynamic email templates, and performance analytics.",
+    "auth_methods": [
+      "API Key",
+      "Bearer Token"
+    ],
+    "credential_requirements": "Developers can obtain API keys self-serve via the Twilio SendGrid console settings. New accounts start on a 60-day free trial plan with daily sending limits, after which upgrading to a paid Email API or Marketing Campaigns plan is required.",
+    "self_serve": "trial_or_paid",
+    "rest_api": "yes",
+    "graphql_api": "no",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Twilio SendGrid supports API key authentication delivered via Bearer token.",
+        "url": "https://www.twilio.com/docs/sendgrid/for-developers/sending-email/authentication",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Twilio SendGrid supports API keys delivered via Bearer token or Basic authentication, depending on the Twilio SendGrid functionality you are using."
+      },
+      {
+        "claim": "SendGrid provides a REST v3 Web API interface for sending email at scale.",
+        "url": "https://www.twilio.com/docs/sendgrid/api-reference",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The SendGrid v3 Web API provides a REST interface to send email at scale and ensure your application can handle high volumes."
+      },
+      {
+        "claim": "SendGrid is a REST-only email delivery platform and does not offer a native GraphQL endpoint.",
+        "url": "https://github.com/api-evangelist/sendgrid/blob/main/graphql/sendgrid-graphql.md",
+        "source_type": "third_party",
+        "quote_or_excerpt": "SendGrid (Twilio) is a REST-only email delivery platform — it does not expose a native GraphQL endpoint."
+      },
+      {
+        "claim": "Newly created SendGrid accounts are placed on a 60-day timed free trial plan before requiring a paid plan.",
+        "url": "https://support.sendgrid.com/hc/en-us/articles/35270136965403-Twilio-SendGrid-Trial-Account-Plan",
+        "source_type": "official_help",
+        "quote_or_excerpt": "users will be given a 60 day timed free trial plan. This trial period provides your team with time to evaluate and test the email offerings of the Twilio SendGrid product before determining if an Email API and Marketing Campaigns paid plan makes sense for your business."
+      },
+      {
+        "claim": "Model Context Protocol (MCP) server implementations exist for SendGrid API v3.",
+        "url": "https://registry.npmjs.org/sendgrid-mcp",
+        "source_type": "third_party",
+        "quote_or_excerpt": "Model Context Protocol (MCP) server for SendGrid API v3 - manage email marketing, automations, templates, and analytics"
+      },
+      {
+        "claim": "SendGrid MCP server exposes all 391 SendGrid v3 API operations to AI agents.",
+        "url": "https://docs.rs/crate/sendgrid-mcp/latest/source/docs/skill-using-the-server.md",
+        "source_type": "third_party",
+        "quote_or_excerpt": "Model Context Protocol (MCP) server exposing all 391 SendGrid v3 API operations to AI agents through a search → describe → invoke meta-tool surface."
+      }
+    ],
+    "confidence": "high"
+  }
+}

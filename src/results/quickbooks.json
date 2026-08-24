@@ -1,0 +1,73 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "QuickBooks",
+  "website": "https://developer.intuit.com/",
+  "category": "Finance and Fintech",
+  "completed_at": "2026-08-24T11:06:46.544297+00:00",
+  "elapsed_seconds": 108.47,
+  "repair_attempts": 0,
+  "research_result": {
+    "app": "QuickBooks",
+    "website": "https://developer.intuit.com/",
+    "category": "Finance and Fintech",
+    "description": "QuickBooks Online provides financial management APIs with REST and GraphQL support, enabling applications to interact with accounting data such as invoices, customers, bills, and reports. Intuit provides official open-source and hosted Model Context Protocol (MCP) servers to enable AI agents to directly interact with QuickBooks data.",
+    "auth_methods": [
+      "OAuth 2.0",
+      "OpenID Connect"
+    ],
+    "credential_requirements": "Developers can create a free Intuit Developer account and generate sandbox credentials immediately along with test companies. Obtaining live production client credentials requires submitting and receiving approval for the Production Key questionnaire/App Assessment checklist.",
+    "self_serve": "free",
+    "rest_api": "yes",
+    "graphql_api": "yes",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "QuickBooks uses OAuth 2.0 as its primary API authorization standard.",
+        "url": "https://developer.intuit.com/app/developer/qbo/docs/develop/authentication-and-authorization",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "When you’re ready to authorize your production app, connect it to the Intuit OAuth 2.0 server. OAuth 2.0 is Intuit’s standard authorization protocol."
+      },
+      {
+        "claim": "QuickBooks supports OpenID Connect for single sign-on authentication.",
+        "url": "https://developer.intuit.com/app/developer/qbo/docs/develop/authentication-and-authorization",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "If you also need to implement single sign-on, you can add OpenID Connect later on."
+      },
+      {
+        "claim": "QuickBooks Online Accounting API supports both REST and GraphQL.",
+        "url": "https://developer.intuit.com/app/developer/qbo/docs/learn/explore-the-quickbooks-online-api",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The QuickBooks Online Accounting API uses both the REST framework, with standard HTTP methods and JSON for input and output, and GraphQL."
+      },
+      {
+        "claim": "Developers can sign up for a free developer account and create sandbox companies.",
+        "url": "https://developer.intuit.com/app/developer/qbo/docs/get-started/start-developing-your-app",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Go to the Intuit Developer Portal and create a developer account. You’ll be asked to enter some basic company information and a name for your workspace."
+      },
+      {
+        "claim": "Production API keys require completing a questionnaire and receiving Intuit approval.",
+        "url": "https://developer.intuit.com/app/developer/qbo/docs/get-started/get-client-id-and-client-secret",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The client ID and client secret will be accessible only after completing the Production Key questionnaire and its approval."
+      },
+      {
+        "claim": "An official open-source QuickBooks Online MCP server is available.",
+        "url": "https://github.com/intuit/quickbooks-online-mcp-server",
+        "source_type": "official_github",
+        "quote_or_excerpt": "The QuickBooks MCP Server lets AI assistants access QuickBooks data via a standard interface."
+      },
+      {
+        "claim": "Intuit provides a hosted MCP server endpoint for AI pilot partners.",
+        "url": "https://github.com/IntuitDeveloper/intuit-3p-ai-pilot",
+        "source_type": "official_github",
+        "quote_or_excerpt": "Connect AI agents and LLM-powered apps to QuickBooks Online through the Model Context Protocol (MCP)."
+      }
+    ],
+    "confidence": "high"
+  }
+}

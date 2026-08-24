@@ -1,0 +1,69 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "Discord",
+  "website": "https://discord.com/",
+  "category": "Communications and Messaging",
+  "completed_at": "2026-08-23T15:54:36.273644+00:00",
+  "elapsed_seconds": 40.67,
+  "repair_attempts": 0,
+  "research_result": {
+    "app": "Discord",
+    "website": "https://discord.com/",
+    "category": "Communications and Messaging",
+    "description": "Discord is a communications platform offering messaging, voice, real-time events, and interactive features accessible via REST APIs, Gateway WebSockets, and developer applications.",
+    "auth_methods": [
+      "OAuth 2.0",
+      "Bot token",
+      "Bearer token",
+      "HTTP Basic authentication"
+    ],
+    "credential_requirements": "Developers can create applications and obtain bot tokens or OAuth2 credentials for free via the self-serve Discord Developer Portal. Certain privileged intents or partner scopes require app verification or explicit approval.",
+    "self_serve": "free",
+    "rest_api": "yes",
+    "graphql_api": "unknown",
+    "api_breadth": "broad",
+    "mcp_available": "no",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Discord provides a REST API to access and manipulate platform resources.",
+        "url": "https://docs.discord.com/developers/reference",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The Discord API is a REST API that allows you to interact with Discord data from your own applications."
+      },
+      {
+        "claim": "Discord supports OAuth2 authorization and standard OAuth2 flows.",
+        "url": "https://docs.discord.com/developers/topics/oauth2",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "OAuth2 enables application developers to build applications that utilize authentication and data from the Discord API."
+      },
+      {
+        "claim": "Calls to OAuth2 endpoints support HTTP Basic authentication.",
+        "url": "https://docs.discord.com/developers/topics/oauth2",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "All calls to the OAuth2 endpoints require either HTTP Basic authentication or client_id and client_secret supplied in the form data body."
+      },
+      {
+        "claim": "Discord API requests can be authenticated using bot tokens.",
+        "url": "https://docs.discord.com/developers/reference",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Using a bot token found on the Bot page within your app's settings."
+      },
+      {
+        "claim": "Discord API requests can be authenticated using OAuth2 bearer tokens.",
+        "url": "https://docs.discord.com/developers/reference",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Using an OAuth2 bearer token gained through the OAuth2 API."
+      },
+      {
+        "claim": "Developers can create applications self-serve in the developer portal.",
+        "url": "https://docs.discord.com/developers/quick-start/getting-started",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "First, you'll need to create an app in the developer portal if you don't have one already:"
+      }
+    ],
+    "confidence": "high"
+  }
+}

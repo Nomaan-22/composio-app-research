@@ -1,0 +1,54 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "Google Ads",
+  "website": "https://developers.google.com/google-ads",
+  "category": "Marketing, Ads, Email and Social",
+  "completed_at": "2026-08-23T08:11:21.394277+00:00",
+  "elapsed_seconds": 35.83,
+  "repair_attempts": 0,
+  "research_result": {
+    "app": "Google Ads",
+    "website": "https://developers.google.com/google-ads",
+    "category": "Marketing, Ads, Email and Social",
+    "description": "Google Ads is an advertising platform providing APIs for managing ad campaigns, keywords, ad groups, bidding strategies, budgets, audiences, recommendations, and reporting.",
+    "auth_methods": [
+      "OAuth 2.0"
+    ],
+    "credential_requirements": "Requires OAuth 2.0 credentials (client ID and client secret or service account keys) obtained via a Google Cloud project, along with a 22-character developer token obtained from a Google Ads manager account API Center.",
+    "self_serve": "free",
+    "rest_api": "yes",
+    "graphql_api": "no",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Google Ads API requires OAuth 2.0 credentials and a developer token.",
+        "url": "https://developers.google.com/google-ads/api/rest/auth",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "When calling the Google Ads API, you need both OAuth 2.0 application credentials and a developer token."
+      },
+      {
+        "claim": "The Google Ads API is free to use across access levels.",
+        "url": "https://developers.google.com/google-ads/api/docs/productionize/access-levels",
+        "source_type": "official_pricing",
+        "quote_or_excerpt": "The Google Ads API is free to use; there are no charges for using the Google Ads API at Explorer Access, Basic Access, or Standard Access levels."
+      },
+      {
+        "claim": "Google Ads API supports a REST interface alongside gRPC.",
+        "url": "https://developers.google.com/google-ads/api/rest/overview",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The Google Ads API can be called either using gRPC or REST."
+      },
+      {
+        "claim": "An official Google Ads MCP server is available for AI agents.",
+        "url": "https://developers.google.com/google-ads/api/docs/developer-toolkit/mcp-server",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The Google Ads MCP server provides a standardized bridge to the Google Ads API, which lets AI agents analyze and retrieve campaign data using natural language."
+      }
+    ],
+    "confidence": "high"
+  }
+}

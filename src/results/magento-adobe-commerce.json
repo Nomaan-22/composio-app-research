@@ -1,0 +1,69 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "Magento (Adobe Commerce)",
+  "website": "https://developer.adobe.com/commerce",
+  "category": "Ecommerce",
+  "completed_at": "2026-08-24T07:49:00.820107+00:00",
+  "elapsed_seconds": 113.93,
+  "repair_attempts": 1,
+  "research_result": {
+    "app": "Magento (Adobe Commerce)",
+    "website": "https://developer.adobe.com/commerce",
+    "category": "Ecommerce",
+    "description": "Magento (Adobe Commerce) is an ecommerce platform providing REST, GraphQL, and SOAP web APIs with support for multiple authentication mechanisms and community/IDE MCP integrations.",
+    "auth_methods": [
+      "Bearer token",
+      "OAuth 1.0a",
+      "OAuth 2.0",
+      "Session-based authentication"
+    ],
+    "credential_requirements": "Developer credentials depend on deployment type. For PaaS and Open Source instances, admin users can generate token credentials or register OAuth 1.0a integrations directly in the Magento Admin UI under System > Extensions > Integration. For Adobe Commerce SaaS/Cloud Services, developers obtain OAuth 2.0 IMS credentials through the Adobe Developer Console, which requires an active Adobe Commerce license and organization permissions.",
+    "self_serve": "gated",
+    "rest_api": "yes",
+    "graphql_api": "yes",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Adobe Commerce supports token-based Bearer authentication for API access.",
+        "url": "https://developer.adobe.com/commerce/webapi/get-started/authentication/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Registered users use token-based authentication to make web API calls using a mobile application."
+      },
+      {
+        "claim": "Adobe Commerce supports OAuth 1.0a for third-party application integration.",
+        "url": "https://developer.adobe.com/commerce/webapi/get-started/authentication/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "This method is a good choice for integrating with a third-party system that supports OAuth 1.0a."
+      },
+      {
+        "claim": "Adobe Commerce SaaS user authentication supports OAuth 2 authentication credentials via Adobe IMS.",
+        "url": "https://developer.adobe.com/commerce/webapi/rest/authentication/user",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Select the preferred OAuth 2 authentication type: Web App/Single-Page App/Native App."
+      },
+      {
+        "claim": "Adobe Commerce supports session-based authentication for web API requests.",
+        "url": "https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-session",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The web API framework uses your logged-in session information to verify your identity and authorize access to the requested resource."
+      },
+      {
+        "claim": "Adobe Commerce supports both REST and GraphQL web APIs.",
+        "url": "https://developer.adobe.com/commerce/webapi/get-started/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Support for GraphQL, REST(Representational State Transfer) and SOAP(Simple Object Access Protocol)."
+      },
+      {
+        "claim": "Model Context Protocol (MCP) servers exist for Magento 2 / Adobe Commerce.",
+        "url": "https://github.com/magebitcom/magento2-mcp-module",
+        "source_type": "third_party",
+        "quote_or_excerpt": "Extensible Model Context Protocol server for Magento 2."
+      }
+    ],
+    "confidence": "high"
+  }
+}

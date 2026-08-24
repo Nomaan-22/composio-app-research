@@ -1,0 +1,61 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "Monday.com",
+  "website": "https://developer.monday.com/",
+  "category": "Productivity and Project Management",
+  "completed_at": "2026-08-24T10:09:41.572244+00:00",
+  "elapsed_seconds": 126.89,
+  "repair_attempts": 1,
+  "research_result": {
+    "app": "Monday.com",
+    "website": "https://developer.monday.com/",
+    "category": "Productivity and Project Management",
+    "description": "monday.com is a work management platform offering a GraphQL platform API and a hosted Model Context Protocol (MCP) server for integrating AI agents with platform data.",
+    "auth_methods": [
+      "OAuth 2.0",
+      "Bearer token"
+    ],
+    "credential_requirements": "Developers can sign up for a free developer sandbox account to obtain personal API tokens or create an app in the Developer Center to get client credentials (client ID and client secret) for OAuth 2.0 flows.",
+    "self_serve": "free",
+    "rest_api": "no",
+    "graphql_api": "yes",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "monday.com supports OAuth 2.0 for app authorization.",
+        "url": "https://developer.monday.com/apps/docs/oauth",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "OAuth 2.0 is a protocol that lets your app request authorization to read or modify data in a user's monday account."
+      },
+      {
+        "claim": "monday.com OAuth tokens are bearer tokens.",
+        "url": "https://developer.monday.com/apps/docs/oauth",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "All monday OAuth tokens are *bearer* tokens."
+      },
+      {
+        "claim": "monday.com offers free developer accounts for testing and building apps.",
+        "url": "https://developer.monday.com/api-reference/docs/developer-sandbox-account",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "A developer account (also called a sandbox account) is a free monday.com account designed for building and testing monday apps and API integrations."
+      },
+      {
+        "claim": "The monday.com platform API is built on GraphQL rather than REST.",
+        "url": "https://developer.monday.com/api-reference/docs/introduction-to-graphql",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The monday.com API is built with GraphQL, a flexible query language that allows you to return as much or as little data as you need."
+      },
+      {
+        "claim": "monday.com provides an officially maintained hosted MCP server for AI agents.",
+        "url": "https://developer.monday.com/api-reference/docs/mondaycom-mcp",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The Platform MCP is monday.com's hosted MCP (Model Context Protocol) server, maintained by the monday.com AI team."
+      }
+    ],
+    "confidence": "high"
+  }
+}

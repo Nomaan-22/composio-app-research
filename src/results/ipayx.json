@@ -1,0 +1,55 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "iPayX",
+  "website": "https://ipayx.ai/docs",
+  "category": "Finance and Fintech",
+  "completed_at": "2026-08-24T10:45:41.599921+00:00",
+  "elapsed_seconds": 92.05,
+  "repair_attempts": 1,
+  "research_result": {
+    "app": "iPayX",
+    "website": "https://ipayx.ai/docs",
+    "category": "Finance and Fintech",
+    "description": "iPayX is an FX forensic audit platform that enables AI agents and businesses to audit foreign exchange rates, compute hidden bank markups, and generate FINTRAC-certified forensic reports.",
+    "auth_methods": [
+      "API Key",
+      "Bearer Token"
+    ],
+    "credential_requirements": "Basic rate checks and transaction audits can be performed without authentication. Access to full forensic reports and live provider comparisons requires an API key sent as a Bearer token.",
+    "self_serve": "free",
+    "rest_api": "yes",
+    "graphql_api": "no",
+    "api_breadth": "narrow",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "iPayX provides an open-source Model Context Protocol (MCP) server for foreign exchange forensic auditing.",
+        "url": "https://github.com/iPAYX-Technologies/mcp-fx-audit",
+        "source_type": "official_github",
+        "quote_or_excerpt": "The world's first Model Context Protocol server for foreign exchange forensic auditing."
+      },
+      {
+        "claim": "iPayX requires a Bearer token / API key for full forensic report generation while offering basic endpoints without auth.",
+        "url": "https://github.com/iPAYX-Technologies/mcp-fx-audit",
+        "source_type": "official_github",
+        "quote_or_excerpt": "**Auth:** Bearer token (API key required) | **Cost:** Per report"
+      },
+      {
+        "claim": "iPayX provides a REST API and SDKs for FX audit automation.",
+        "url": "https://www.ipayx.ai/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "REST API + SDKs for FX audit automation."
+      },
+      {
+        "claim": "iPayX offers a free tier with initial free audits before usage-based pricing.",
+        "url": "https://www.ipayx.ai/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Five free audits. Then transparent usage-based pricing."
+      }
+    ],
+    "confidence": "high"
+  }
+}

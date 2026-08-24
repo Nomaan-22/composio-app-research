@@ -1,0 +1,62 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "WooCommerce",
+  "website": "https://woocommerce.com/document/woocommerce-rest-api",
+  "category": "Ecommerce",
+  "completed_at": "2026-08-24T07:31:32.670678+00:00",
+  "elapsed_seconds": 37.18,
+  "repair_attempts": 0,
+  "research_result": {
+    "app": "WooCommerce",
+    "website": "https://woocommerce.com/document/woocommerce-rest-api",
+    "category": "Ecommerce",
+    "description": "WooCommerce is an open-source e-commerce platform integrated with WordPress. It provides full programmatic access via the WooCommerce REST API, Store API, an experimental GraphQL Dual API, and native Model Context Protocol (MCP) integration.",
+    "auth_methods": [
+      "API Key",
+      "Basic Authentication",
+      "OAuth 1.0a"
+    ],
+    "credential_requirements": "API credentials (Consumer Key and Consumer Secret) are generated directly by store administrators via WooCommerce > Settings > Advanced > REST API, or auto-generated through the Application Authentication Endpoint (/wc-auth/v1/authorize). There are no vendor approval processes or payment gates required to obtain API keys.",
+    "self_serve": "free",
+    "rest_api": "yes",
+    "graphql_api": "yes",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "WooCommerce supports a REST API for reading and writing store data.",
+        "url": "https://developer.woocommerce.com/docs/apis/rest-api/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "WooCommerce (WC) 2.6+ is fully integrated with the WordPress REST API. This allows WC data to be created, read, updated, and deleted using requests in JSON format and using WordPress REST API Authentication methods and standard HTTP verbs which are understood by most HTTP clients."
+      },
+      {
+        "claim": "WooCommerce has an experimental GraphQL API via its Dual API feature.",
+        "url": "https://developer.woocommerce.com/docs/apis/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The dual API is an experimental, code-first API: you write plain PHP classes (the code API) and a build script generates a matching GraphQL endpoint from them."
+      },
+      {
+        "claim": "WooCommerce includes native support for the Model Context Protocol (MCP).",
+        "url": "https://developer.woocommerce.com/docs/features/mcp/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "WooCommerce includes native support for the Model Context Protocol (MCP), enabling AI assistants and tools to interact directly with WooCommerce stores through a standardized protocol."
+      },
+      {
+        "claim": "WooCommerce supports REST API keys and HTTP Basic Auth over HTTPS.",
+        "url": "https://developer.woocommerce.com/docs/apis/rest-api/authentication/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "You may use HTTP Basic Auth by providing the REST API Consumer Key as the username and the REST API Consumer Secret as the password."
+      },
+      {
+        "claim": "WooCommerce supports OAuth 1.0a authentication for HTTP connections.",
+        "url": "https://developer.woocommerce.com/docs/apis/rest-api/authentication/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "You must use OAuth 1.0a \"one-legged\" authentication to ensure REST API credentials cannot be intercepted by an attacker."
+      }
+    ],
+    "confidence": "high"
+  }
+}

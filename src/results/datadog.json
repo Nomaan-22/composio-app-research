@@ -1,0 +1,75 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "Datadog",
+  "website": "https://docs.datadoghq.com/api",
+  "category": "Developer, Infra and Data platforms",
+  "completed_at": "2026-08-24T09:46:27.084792+00:00",
+  "elapsed_seconds": 89.95,
+  "repair_attempts": 1,
+  "research_result": {
+    "app": "Datadog",
+    "website": "https://docs.datadoghq.com/api",
+    "category": "Developer, Infra and Data platforms",
+    "description": "Datadog is an observability and cloud-scale monitoring platform that provides telemetry, metrics, log management, tracing, and infrastructure monitoring via comprehensive REST APIs and an official MCP Server.",
+    "auth_methods": [
+      "API Key",
+      "Application Key",
+      "Bearer Token",
+      "OAuth 2.0"
+    ],
+    "credential_requirements": "Users can generate API keys and Application Keys from Organization Settings or Personal Settings. Alternatively, users can create scoped Personal Access Tokens (PATs) used as Bearer tokens, or authenticate via OAuth flows for delegated access.",
+    "self_serve": "trial_or_paid",
+    "rest_api": "yes",
+    "graphql_api": "yes",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Datadog API calls require authentication using API keys and application keys.",
+        "url": "https://docs.datadoghq.com/api/latest/authentication/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "All requests to Datadog's API must be authenticated. Requests that write data require reporting access and require an `API key`. Requests that read data require full access and also require an `application key`."
+      },
+      {
+        "claim": "Datadog supports Personal Access Tokens authenticated via Bearer tokens in the Authorization header.",
+        "url": "https://docs.datadoghq.com/account_management/personal-access-tokens/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Pass the PAT as a Bearer token in the `Authorization` header. This method does not require an API key:"
+      },
+      {
+        "claim": "Datadog API is structured as an HTTP REST API.",
+        "url": "https://docs.datadoghq.com/api/latest.md",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The Datadog API is an HTTP REST API. The API uses resource-oriented URLs to call the API, uses status codes to indicate the success or failure of requests, returns JSON from all requests, and uses standard HTTP response codes."
+      },
+      {
+        "claim": "Datadog provides an official Model Context Protocol (MCP) server for connecting AI agents to observability data.",
+        "url": "https://docs.datadoghq.com/mcp_server/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The Datadog MCP Server acts as a bridge between your observability data in Datadog and any AI agents that support the Model Context Protocol (MCP)."
+      },
+      {
+        "claim": "Datadog offers a 14-day free trial for users.",
+        "url": "https://www.datadoghq.com/free-datadog-trial/",
+        "source_type": "official_pricing",
+        "quote_or_excerpt": "Try Datadog for 14 days and learn how seamlessly uniting metrics, traces, and logs in one platform improves agility, increases efficiency, and provides end-to-end visibility across your entire stack."
+      },
+      {
+        "claim": "Datadog supports OAuth flow authentication for delegated application and AI agent access.",
+        "url": "https://www.datadoghq.com/blog/datadog-api-authentication/",
+        "source_type": "official_blog",
+        "quote_or_excerpt": "In delegated workflows, users explicitly approve the scopes an application or AI agent can access before the application receives a short-lived token."
+      },
+      {
+        "claim": "Datadog API specs document GraphQL endpoint options.",
+        "url": "https://github.com/api-evangelist/datadog/blob/main/apis.yml",
+        "source_type": "third_party",
+        "quote_or_excerpt": "type: GraphQL"
+      }
+    ],
+    "confidence": "high"
+  }
+}

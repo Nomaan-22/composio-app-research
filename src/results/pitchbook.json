@@ -1,0 +1,54 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "PitchBook",
+  "website": "https://pitchbook.com/",
+  "category": "Finance and Fintech",
+  "completed_at": "2026-08-24T11:33:57.286686+00:00",
+  "elapsed_seconds": 64.76,
+  "repair_attempts": 1,
+  "research_result": {
+    "app": "PitchBook",
+    "website": "https://pitchbook.com/",
+    "category": "Finance and Fintech",
+    "description": "PitchBook is a private capital market data platform providing detailed data on companies, deals, investors, funds, limited partners, service providers, and professionals.",
+    "auth_methods": [
+      "API key"
+    ],
+    "credential_requirements": "API credentials require an active PitchBook Platform subscription and a separate, contracted Direct Data add-on. Access and API keys are provisioned directly by PitchBook's account or Direct Data teams.",
+    "self_serve": "gated",
+    "rest_api": "yes",
+    "graphql_api": "no",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "conditional",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "PitchBook offers a RESTful JSON API providing data on entities such as companies, deals, investors, funds, service providers, limited partners, and people.",
+        "url": "https://pitchbook.com/blog/what-is-direct-data",
+        "source_type": "official_blog",
+        "quote_or_excerpt": "The Direct Data API is a RESTful JSON that provides clients with on-demand data access for the following platform entities:"
+      },
+      {
+        "claim": "PitchBook uses an API key sent in the header as PB-Token.",
+        "url": "https://docs.sim.ai/integrations/pitchbook",
+        "source_type": "third_party",
+        "quote_or_excerpt": "PitchBook uses an API key sent as`Authorization: PB-Token {key}`, not a bearer token."
+      },
+      {
+        "claim": "PitchBook API access is gated and requires a separate enterprise contract on top of a platform subscription.",
+        "url": "https://pipeline.zoominfo.com/sales/pitchbook-api-review",
+        "source_type": "third_party",
+        "quote_or_excerpt": "PitchBook does offer a RESTful JSON API covering all of its core entity types, but the API is an enterprise add-on that requires a separate contract on top of an existing platform subscription."
+      },
+      {
+        "claim": "An official PitchBook MCP server is available for AI assistants.",
+        "url": "https://apigene.ai/mcp/official/pitchbook",
+        "source_type": "third_party",
+        "quote_or_excerpt": "The official PitchBook MCP server provides AI agents with standardized access to PitchBook's services, enabling powerful automation and integration capabilities that enhance developer productivity and streamline workflows."
+      }
+    ],
+    "confidence": "high"
+  }
+}

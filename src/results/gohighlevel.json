@@ -1,0 +1,68 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "GoHighLevel",
+  "website": "https://highlevel.stoplight.io/",
+  "category": "Marketing, Ads, Email and Social",
+  "completed_at": "2026-08-24T07:12:56.188764+00:00",
+  "elapsed_seconds": 73.73,
+  "repair_attempts": 1,
+  "research_result": {
+    "app": "GoHighLevel",
+    "website": "https://highlevel.stoplight.io/",
+    "category": "Marketing, Ads, Email and Social",
+    "description": "GoHighLevel is a marketing automation and CRM platform offering REST APIs, AI Agent Studio APIs, and a native Model Context Protocol (MCP) server for managing contacts, messaging, calendars, opportunities, and workflows.",
+    "auth_methods": [
+      "OAuth 2.0",
+      "Private Integration Token",
+      "Bearer token"
+    ],
+    "credential_requirements": "Developers can generate Private Integration Tokens directly within HighLevel account settings for single-location or internal tools, or register an app in the Developer Marketplace to obtain a Client ID and Client Secret for OAuth 2.0 authorization flows. API access is tied to HighLevel account plans (Starter, Unlimited, or Agency Pro).",
+    "self_serve": "trial_or_paid",
+    "rest_api": "yes",
+    "graphql_api": "no",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "GoHighLevel supports OAuth 2.0 for public integrations and Marketplace apps.",
+        "url": "https://help.gohighlevel.com/support/solutions/articles/48001060529-highlevel-api-documentation",
+        "source_type": "official_help",
+        "quote_or_excerpt": "HighLevel supports: - Private Integration Tokens for internal or single-location integrations - OAuth 2.0 for public integrations and Marketplace apps requiring user authorization"
+      },
+      {
+        "claim": "GoHighLevel supports Private Integration Tokens as a replacement for legacy API keys.",
+        "url": "https://help.gohighlevel.com/support/solutions/articles/155000003054-private-integrations-everything-you-need-to-know",
+        "source_type": "official_help",
+        "quote_or_excerpt": "Private Integration Tokens (PIT) are the recommended replacement for legacy API keys because they provide more secure and flexible access management."
+      },
+      {
+        "claim": "GoHighLevel APIs accept OAuth 2.0 bearer tokens in the Authorization header.",
+        "url": "https://help.gohighlevel.com/support/solutions/articles/155000007515-how-to-use-public-apis-in-agent-studio",
+        "source_type": "official_help",
+        "quote_or_excerpt": "Public APIs use OAuth 2.0 bearer tokens."
+      },
+      {
+        "claim": "GoHighLevel provides REST endpoints across CRM and marketing resources.",
+        "url": "https://help.gohighlevel.com/support/solutions/articles/48001060529-highlevel-api-documentation",
+        "source_type": "official_help",
+        "quote_or_excerpt": "Our API includes REST endpoints for contacts, messaging, workflows, calendars, payments, webhooks, and more."
+      },
+      {
+        "claim": "GoHighLevel hosts an official MCP server for connecting AI agents to its services.",
+        "url": "https://help.gohighlevel.com/support/solutions/articles/155000005741-how-to-setup-and-use-the-highlevel-mcp-server",
+        "source_type": "official_help",
+        "quote_or_excerpt": "The HighLevel MCP Server lets AI agents and MCP-compatible clients connect securely to HighLevel tools and services."
+      },
+      {
+        "claim": "API access level depends on HighLevel subscription plans.",
+        "url": "https://help.gohighlevel.com/support/solutions/articles/48001060529-highlevel-api-documentation",
+        "source_type": "official_help",
+        "quote_or_excerpt": "Basic API access is included with our Starter and Unlimited plans, while Advanced API access is available on our Agency Pro plan."
+      }
+    ],
+    "confidence": "high"
+  }
+}

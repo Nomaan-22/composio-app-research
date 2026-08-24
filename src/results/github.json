@@ -1,0 +1,75 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "GitHub",
+  "website": "https://docs.github.com/rest",
+  "category": "Developer, Infra and Data platforms",
+  "completed_at": "2026-08-23T08:16:25.464277+00:00",
+  "elapsed_seconds": 112.17,
+  "repair_attempts": 2,
+  "research_result": {
+    "app": "GitHub",
+    "website": "https://docs.github.com/rest",
+    "category": "Developer, Infra and Data platforms",
+    "description": "GitHub is a developer platform offering REST and GraphQL APIs as well as official Model Context Protocol (MCP) servers to read repositories, manage issues and pull requests, analyze code, and automate workflows.",
+    "auth_methods": [
+      "Personal access token",
+      "Bearer token",
+      "Basic authentication",
+      "JWT"
+    ],
+    "credential_requirements": "Developers can obtain credentials self-serve by creating Personal Access Tokens (classic or fine-grained) or by creating GitHub Apps / OAuth Apps directly within their GitHub settings for free.",
+    "self_serve": "free",
+    "rest_api": "yes",
+    "graphql_api": "yes",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "GitHub offers REST and GraphQL APIs.",
+        "url": "https://docs.github.com/en/graphql/guides/migrating-from-rest-to-graphql",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "GitHub provides two APIs: a REST API and a GraphQL API."
+      },
+      {
+        "claim": "GitHub REST API supports Personal Access Tokens and App tokens.",
+        "url": "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "To authenticate your request, you will need to provide an authentication token with the required scopes or permissions. There a few different ways to get a token: You can create a personal access token, generate a token with a GitHub App, or use the built-in `GITHUB_TOKEN` in a GitHub Actions workflow."
+      },
+      {
+        "claim": "GitHub REST API supports Bearer tokens and JSON web tokens (JWT).",
+        "url": "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "In most cases, you can use `Authorization: Bearer` or `Authorization: token` to pass a token. However, if you are passing a JSON web token (JWT), you must use `Authorization: Bearer`."
+      },
+      {
+        "claim": "GitHub REST API supports Basic authentication for certain app endpoints.",
+        "url": "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Some REST API endpoints for GitHub Apps and OAuth apps require you to use basic authentication to access the endpoint. You will use the app's client ID as the username and the app's client secret as the password."
+      },
+      {
+        "claim": "GitHub offers free plans for personal accounts and organizations.",
+        "url": "https://docs.github.com/en/get-started/learning-about-github/githubs-plans",
+        "source_type": "official_pricing",
+        "quote_or_excerpt": "GitHub offers free and paid plans for storing and collaborating on code."
+      },
+      {
+        "claim": "Official GitHub MCP Server is available.",
+        "url": "https://github.com/github/github-mcp-server",
+        "source_type": "official_github",
+        "quote_or_excerpt": "The GitHub MCP Server connects AI tools directly to GitHub's platform."
+      },
+      {
+        "claim": "GitHub documentation compares its REST API and GraphQL API.",
+        "url": "https://github.com/github/docs/blob/main/content/rest/about-the-rest-api/comparing-githubs-rest-api-and-graphql-api.md",
+        "source_type": "official_github",
+        "quote_or_excerpt": "This article discusses the benefits of each API. For more information about the GraphQL API, see [AUTOTITLE](/graphql/overview/about-the-graphql-api). For more information about the REST API, see [AUTOTITLE](/rest/about-the-rest-api/about-the-rest-api)."
+      }
+    ],
+    "confidence": "high"
+  }
+}

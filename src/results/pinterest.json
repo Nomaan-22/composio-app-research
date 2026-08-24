@@ -1,0 +1,54 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "Pinterest",
+  "website": "https://developers.pinterest.com/",
+  "category": "Marketing, Ads, Email and Social",
+  "completed_at": "2026-08-24T07:28:03.196415+00:00",
+  "elapsed_seconds": 44.3,
+  "repair_attempts": 0,
+  "research_result": {
+    "app": "Pinterest",
+    "website": "https://developers.pinterest.com/",
+    "category": "Marketing, Ads, Email and Social",
+    "description": "Pinterest provides a REST API (v5) allowing developers to manage organic content (Pins and Boards), ad accounts, campaigns, ad groups, ads, targeting, shopping product catalogs, conversion events, and analytics.",
+    "auth_methods": [
+      "OAuth 2.0"
+    ],
+    "credential_requirements": "To obtain credentials, developers must log in with a Pinterest business account, verify their email, accept the Developer Terms of Service, and submit an application request for Trial access. Pinterest reviews requests manually each business day. Once approved, developers receive an App ID and App Secret. To serve broader production traffic, developers must submit an upgrade request for Standard access accompanied by a video demo of the OAuth authorization flow.",
+    "self_serve": "gated",
+    "rest_api": "yes",
+    "graphql_api": "no",
+    "api_breadth": "broad",
+    "mcp_available": "no",
+    "buildability": "conditional",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Pinterest API application requests require manual review and approval before obtaining trial access credentials.",
+        "url": "https://developers.pinterest.com/docs/getting-started/authentication/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Submit your request for trial access. Application requests are reviewed each business day. As soon as your app has been reviewed you will receive an email notification letting you know if your app has been approved or denied access."
+      },
+      {
+        "claim": "Pinterest utilizes OAuth 2.0 for API authentication and authorization.",
+        "url": "https://github.com/pinterest/api-quickstart/",
+        "source_type": "official_github",
+        "quote_or_excerpt": "Access to Pinterest APIs via User Authorization requires following a flow based on OAuth 2.0."
+      },
+      {
+        "claim": "Pinterest provides an OpenAPI spec for its REST API.",
+        "url": "https://raw.githubusercontent.com/pinterest/api-description/v5.12.0/v5/openapi.yaml",
+        "source_type": "official_github",
+        "quote_or_excerpt": "title: Pinterest REST API"
+      },
+      {
+        "claim": "Upgrading an app to Standard access requires submitting a video demo of the OAuth flow.",
+        "url": "https://developers.pinterest.com/docs/key-concepts/access-tiers/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Prepare a video recording of your app completing an action using the Pinterest API. We will review to verify that you are sending users through the OAuth flow appropriately and not storing any sensitive information."
+      }
+    ],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "MongoDB Atlas",
+  "website": "https://mongodb.com/docs/atlas/api",
+  "category": "Developer, Infra and Data platforms",
+  "completed_at": "2026-08-24T09:44:57.128166+00:00",
+  "elapsed_seconds": 104.29,
+  "repair_attempts": 1,
+  "research_result": {
+    "app": "MongoDB Atlas",
+    "website": "https://mongodb.com/docs/atlas/api",
+    "category": "Developer, Infra and Data platforms",
+    "description": "MongoDB Atlas is a fully managed cloud database and data platform providing database management, vector search, stream processing, and programmatic control via administrative REST APIs and an official MCP server.",
+    "auth_methods": [
+      "OAuth 2.0",
+      "HTTP Digest Authentication"
+    ],
+    "credential_requirements": "Developers can sign up self-serve for a free Atlas account and generate OAuth 2.0 service account credentials (client ID and secret) or legacy API keys with HTTP Digest Authentication for administrative API access. Data-plane operations require database user credentials or connection strings.",
+    "self_serve": "free",
+    "rest_api": "yes",
+    "graphql_api": "no",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "MongoDB Atlas supports OAuth 2.0 service account authentication for the Atlas Administration API.",
+        "url": "https://www.mongodb.com/docs/atlas/architecture/current/auth/authentication/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Service accounts use industry-standard OAuth2.0 to securely authenticate with Atlas through the Atlas Administration API."
+      },
+      {
+        "claim": "MongoDB Atlas supports HTTP Digest Authentication for legacy API keys.",
+        "url": "https://www.mongodb.com/docs/atlas/architecture/current/auth/authentication/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "API key-based authentication uses HTTP (HyperText Transport Protocol) Digest authentication to protect requests."
+      },
+      {
+        "claim": "MongoDB Atlas offers a free-forever M0 cluster tier.",
+        "url": "https://www.mongodb.com/pricing",
+        "source_type": "official_pricing",
+        "quote_or_excerpt": "Yes, MongoDB Atlas offers a free-forever tier, the M0."
+      },
+      {
+        "claim": "The Atlas Administration API follows REST architectural principles.",
+        "url": "https://www.mongodb.com/docs/atlas/api/atlas-admin-api-ref",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The Atlas Administration API follows the principles of the REST (Representational State Transfer) architectural style to expose a number of internal resources that enable programmatic access to administrative features in Atlas."
+      },
+      {
+        "claim": "An official Model Context Protocol (MCP) server is available for MongoDB Atlas.",
+        "url": "https://www.mongodb.com/docs/mcp-server/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The MongoDB MCP Server lets you connect to MongoDB from your agentic AI tools, assistants, and platforms."
+      }
+    ],
+    "confidence": "high"
+  }
+}

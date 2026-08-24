@@ -1,0 +1,55 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "WhatsApp Business",
+  "website": "https://developers.facebook.com/docs/whatsapp",
+  "category": "Communications and Messaging",
+  "completed_at": "2026-08-24T06:53:36.899051+00:00",
+  "elapsed_seconds": 95.87,
+  "repair_attempts": 1,
+  "research_result": {
+    "app": "WhatsApp Business",
+    "website": "https://developers.facebook.com/docs/whatsapp",
+    "category": "Communications and Messaging",
+    "description": "WhatsApp Business Platform provides APIs including the Cloud API, Business Management API, and Marketing Messages API to programmatically send messages, manage account assets, and receive real-time updates via webhooks.",
+    "auth_methods": [
+      "OAuth",
+      "Bearer token"
+    ],
+    "credential_requirements": "Developers can register for a Meta Developer account, create a Meta app with the WhatsApp use case, and obtain a temporary access token and test phone number from the dashboard. For production, developers create a System User in Meta Business Settings and assign tokens with whatsapp_business_messaging and whatsapp_business_management permissions.",
+    "self_serve": "free",
+    "rest_api": "yes",
+    "graphql_api": "no",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "WhatsApp Business Platform provides enterprise APIs for messaging and calling.",
+        "url": "https://developers.facebook.com/docs/whatsapp/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Drive revenue growth, boost efficiency, and deliver exceptional customer experiences with the WhatsApp Business Platform—our enterprise-grade APIs for messaging and calling."
+      },
+      {
+        "claim": "WhatsApp API uses OAuth access tokens provided in Authorization Bearer headers for API requests.",
+        "url": "https://developers.facebook.com/docs/whatsapp/overview/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Authentication uses OAuth (not 2.0) access tokens, while permissions restrict access to specific resources."
+      },
+      {
+        "claim": "Developers can quickly get started for free by registering as a developer, creating a Meta app, and obtaining test tokens.",
+        "url": "https://developers.facebook.com/docs/whatsapp/cloud-api/get-started/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "This guide helps developers quickly get started with the WhatsApp Cloud API. It covers the basic setup steps, including registering as a developer, creating a Meta app, sending your first message, and setting up a test webhook endpoint."
+      },
+      {
+        "claim": "Multiple community and open-source MCP servers exist for WhatsApp Business Cloud API.",
+        "url": "https://github.com/saravanaspar/WBMCP",
+        "source_type": "third_party",
+        "quote_or_excerpt": "WBMCP is an MCP server and TypeScript SDK for the official WhatsApp Business Cloud API."
+      }
+    ],
+    "confidence": "high"
+  }
+}

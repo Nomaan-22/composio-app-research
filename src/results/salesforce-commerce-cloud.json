@@ -1,0 +1,62 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "Salesforce Commerce Cloud",
+  "website": "https://developer.salesforce.com/docs/commerce",
+  "category": "Ecommerce",
+  "completed_at": "2026-08-24T07:47:06.890640+00:00",
+  "elapsed_seconds": 49.67,
+  "repair_attempts": 0,
+  "research_result": {
+    "app": "Salesforce Commerce Cloud",
+    "website": "https://developer.salesforce.com/docs/commerce",
+    "category": "Ecommerce",
+    "description": "Salesforce Commerce Cloud provides RESTful B2C Commerce APIs (SCAPI) covering storefront shopping, merchant administration, custom endpoints, and developer tooling including a dedicated MCP server.",
+    "auth_methods": [
+      "OAuth 2.1",
+      "JWT",
+      "Bearer Token"
+    ],
+    "credential_requirements": "API Client credentials (Client ID and Secret) are configured in Account Manager for Admin APIs or through SLAS for Shopper APIs. Developer environments require purchasing sandbox credits through an Account Executive and having appropriate roles assigned in Account Manager.",
+    "self_serve": "trial_or_paid",
+    "rest_api": "yes",
+    "graphql_api": "unknown",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "conditional",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Salesforce Commerce Cloud provides a set of RESTful APIs (SCAPI) for storefronts and merchant tools.",
+        "url": "https://developer.salesforce.com/docs/commerce/commerce-solutions/guide/scapi-get-started.html",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The B2C Commerce API (SCAPI) is a set of RESTful APIs for building storefronts, merchant tools, and integrations on the B2C Commerce platform."
+      },
+      {
+        "claim": "Authorization for the B2C Commerce API uses OAuth 2.1 scopes.",
+        "url": "https://developer.salesforce.com/docs/commerce/commerce-api/guide/authorization.html",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "To authorize this wide range of client types, we’ve defined a set of scopes based on the OAuth 2.1 standard."
+      },
+      {
+        "claim": "Both Admin and Shopper APIs are authorized using JWT Bearer tokens.",
+        "url": "https://developer.salesforce.com/docs/commerce/commerce-api/guide/authorization.html",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Both the Admin and Shopper APIs are authorized using an access token in the form of a JSON Web Token(JWT)."
+      },
+      {
+        "claim": "A Model Context Protocol (MCP) server is available for B2C Commerce development.",
+        "url": "https://developer.salesforce.com/docs/commerce/commerce-solutions/guide/mcp-dx-intro.html",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Use the B2C DX Model Context Protocol (MCP), which is part of the B2C Developer Toolkit, to enhance your development workflow by connecting an AI assistant, such as Claude, Cursor, or GitHub Copilot, to your B2C Commerce environment."
+      },
+      {
+        "claim": "On-demand sandboxes require purchasing credits through an Account Executive.",
+        "url": "https://developer.salesforce.com/docs/commerce/commerce-api/guide/b2c-get-started-sandboxes.html",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "To use on-demand sandboxes, you must purchase sandbox credits. Contact your Account Executive for more information."
+      }
+    ],
+    "confidence": "high"
+  }
+}

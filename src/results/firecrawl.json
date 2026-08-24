@@ -1,0 +1,62 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "Firecrawl",
+  "website": "https://firecrawl.dev/",
+  "category": "Data, SEO and Scraping",
+  "completed_at": "2026-08-24T12:26:40.536602+00:00",
+  "elapsed_seconds": 85.82,
+  "repair_attempts": 0,
+  "research_result": {
+    "app": "Firecrawl",
+    "website": "https://firecrawl.dev/",
+    "category": "Data, SEO and Scraping",
+    "description": "Firecrawl is an API and toolset for web scraping, searching, crawling, and page interaction designed to deliver LLM-ready markdown and structured JSON to AI agents.",
+    "auth_methods": [
+      "API key",
+      "Bearer token",
+      "OAuth 2.0"
+    ],
+    "credential_requirements": "Developers can start using Firecrawl immediately via rate-limited keyless access or sign up for a free account to receive an API key with 1,000 credits through the dashboard or CLI. OAuth authentication is also supported for hosted MCP and ID-JAG integration.",
+    "self_serve": "free",
+    "rest_api": "yes",
+    "graphql_api": "no",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Firecrawl authenticates API requests via an Authorization Bearer header using an API key.",
+        "url": "https://docs.firecrawl.dev/api-reference/introduction",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "For authentication, it's required to include an Authorization header. The header should contain `Bearer fc-123456789`, where `fc-123456789` represents your API Key."
+      },
+      {
+        "claim": "Hosted Firecrawl supports OAuth bearer access tokens.",
+        "url": "https://github.com/firecrawl/firecrawl-mcp-server/",
+        "source_type": "official_github",
+        "quote_or_excerpt": "Hosted Firecrawl can issue OAuth access tokens (`fco_…`) via the authorization server on firecrawl.dev."
+      },
+      {
+        "claim": "Firecrawl offers free API keys with 1,000 free credits upon signup.",
+        "url": "https://docs.firecrawl.dev/rate-limits",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Sign up for a free API key to get 1,000 credits and higher rate limits at no cost — official clients automatically use your key once it's configured."
+      },
+      {
+        "claim": "Firecrawl provides a comprehensive REST API with v2 endpoints.",
+        "url": "https://docs.firecrawl.dev/agent-source-of-truth/curl",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Canonical Firecrawl curl source of truth for agents. Aligned with `api-reference/v2-openapi.json` (server base URL `https://api.firecrawl.dev/v2`)."
+      },
+      {
+        "claim": "Firecrawl provides an official MCP server for AI integration.",
+        "url": "https://docs.firecrawl.dev/mcp-server",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Set up Firecrawl MCP with keyless access, account sign-in, or an API key."
+      }
+    ],
+    "confidence": "high"
+  }
+}

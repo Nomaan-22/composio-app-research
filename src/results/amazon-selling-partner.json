@@ -1,0 +1,67 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "Amazon Selling Partner",
+  "website": "https://developer-docs.amazon.com/sp-api",
+  "category": "Ecommerce",
+  "completed_at": "2026-08-24T12:20:34.678238+00:00",
+  "elapsed_seconds": 70.06,
+  "repair_attempts": 1,
+  "research_result": {
+    "app": "Amazon Selling Partner",
+    "website": "https://developer-docs.amazon.com/sp-api",
+    "category": "Ecommerce",
+    "description": "Amazon Selling Partner API (SP-API) provides REST-based APIs and GraphQL querying capabilities for sellers and vendors to automate selling operations including listing management, order processing, inventory tracking, and pricing updates.",
+    "auth_methods": [
+      "OAuth 2.0",
+      "Bearer Token"
+    ],
+    "credential_requirements": "Developers must register via the Solution Provider Portal, complete identity verification, and submit a developer profile selecting required API roles. Amazon evaluates profile information before granting access to production credentials (client ID, client secret, and refresh tokens).",
+    "self_serve": "gated",
+    "rest_api": "yes",
+    "graphql_api": "yes",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "conditional",
+    "main_blocker": "Developer account registration requires identity verification, developer profile assessment, and Amazon review/approval before production credentials and API access are granted.",
+    "evidence": [
+      {
+        "claim": "Public SP-API applications use OAuth 2.0 through Login with Amazon (LWA) for authorization.",
+        "url": "https://developer-docs.amazon.com/sp-api/docs/authorizing-selling-partner-api-applications",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Authorization method: OAuth 2.0 through Login with Amazon(LWA)."
+      },
+      {
+        "claim": "Access tokens returned by Login with Amazon are bearer tokens.",
+        "url": "https://developer-docs.amazon/sp-api/docs/connecting-to-the-selling-partner-api",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The type of token returned. Must be *bearer*."
+      },
+      {
+        "claim": "The Selling Partner API offers REST-based APIs.",
+        "url": "https://developer-docs.amazon/sp-api/docs/onboarding-overview",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The SP-API offers a collection of REST-based APIs that you can use to automate selling operations such as order processing, shipment tracking, and payment management."
+      },
+      {
+        "claim": "Data Kiosk API enables submitting GraphQL queries.",
+        "url": "https://developer-docs.amazon/sp-api/docs/sp-api-models",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "You use the Data Kiosk API to submit GraphQL queries for data from a variety of schemas to help selling partners manage their businesses."
+      },
+      {
+        "claim": "An official local MCP server package is available for SP-API integration.",
+        "url": "https://github.com/amzn/selling-partner-api-samples/blob/main/use-cases/sp-api-dev-mcp/README.md",
+        "source_type": "official_github",
+        "quote_or_excerpt": "A local MCP server for SP-API that bundles multiple developer tools into a single npm package."
+      },
+      {
+        "claim": "SP-API developer onboarding requires identity verification and Amazon evaluation.",
+        "url": "https://developer.amazonservices.com/register",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Once you complete the Service Provider Profile, Amazon will evaluate your information and create a case with next steps."
+      }
+    ],
+    "confidence": "high"
+  }
+}

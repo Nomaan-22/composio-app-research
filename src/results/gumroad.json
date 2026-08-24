@@ -1,0 +1,67 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "Gumroad",
+  "website": "https://gumroad.com/api",
+  "category": "Ecommerce",
+  "completed_at": "2026-08-24T07:53:05.555512+00:00",
+  "elapsed_seconds": 48.99,
+  "repair_attempts": 0,
+  "research_result": {
+    "app": "Gumroad",
+    "website": "https://gumroad.com/api",
+    "category": "Ecommerce",
+    "description": "Gumroad is a digital commerce platform enabling creators to sell products, memberships, subscriptions, and physical goods directly to consumers with built-in licensing and checkout.",
+    "auth_methods": [
+      "OAuth 2.0",
+      "Bearer Token"
+    ],
+    "credential_requirements": "Developers can sign in to Gumroad, navigate to Advanced Settings, and either generate a personal access token directly or register an OAuth application with an application name and redirect URI to obtain an Application ID and Application Secret.",
+    "self_serve": "free",
+    "rest_api": "yes",
+    "graphql_api": "no",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Gumroad uses OAuth 2.0 for API authentication.",
+        "url": "https://rollout.com/integration-guides/gumroad/api-essentials",
+        "source_type": "third_party",
+        "quote_or_excerpt": "Gumroad uses OAuth 2.0 for API authentication. You need to register an OAuth application to get an application ID and secret."
+      },
+      {
+        "claim": "Gumroad supports Bearer tokens passed in the Authorization header.",
+        "url": "https://mintlify.wiki/antiwork/gumroad/api/overview",
+        "source_type": "third_party",
+        "quote_or_excerpt": "-H \"Authorization: Bearer YOUR_ACCESS_TOKEN\""
+      },
+      {
+        "claim": "Gumroad provides a REST API v2 for managing products, sales, subscribers, offer codes, licenses, and webhooks.",
+        "url": "https://apis.io/apis/gumroad/v2-api/",
+        "source_type": "third_party",
+        "quote_or_excerpt": "REST API for managing products, variants, offer codes, custom fields, sales, subscribers, license keys, resource subscriptions (webhooks), and the authenticated user account on Gumroad."
+      },
+      {
+        "claim": "Gumroad API access and developer account creation are free without usage fees.",
+        "url": "https://akousa.net/api-directory/gumroad",
+        "source_type": "third_party",
+        "quote_or_excerpt": "Yes, Gumroad is completely free to use. There are no usage fees or paid tiers."
+      },
+      {
+        "claim": "Gumroad does not offer a production GraphQL API; references to GraphQL are conceptual.",
+        "url": "https://apis.io/providers/gumroad/",
+        "source_type": "third_party",
+        "quote_or_excerpt": "This document describes a conceptual GraphQL schema for the Gumroad digital commerce and creator economy platform."
+      },
+      {
+        "claim": "Multiple Model Context Protocol (MCP) server implementations exist for Gumroad.",
+        "url": "https://github.com/rmarescu/gumroad-mcp",
+        "source_type": "third_party",
+        "quote_or_excerpt": "A Model Context Protocol (MCP) server implementation for Gumroad, enabling MCP-compatible AI clients like Claude Desktop to interact with Gumroad API."
+      }
+    ],
+    "confidence": "high"
+  }
+}

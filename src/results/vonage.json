@@ -1,0 +1,69 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "Vonage",
+  "website": "https://developer.vonage.com/",
+  "category": "Communications and Messaging",
+  "completed_at": "2026-08-24T06:56:45.738422+00:00",
+  "elapsed_seconds": 86.79,
+  "repair_attempts": 1,
+  "research_result": {
+    "app": "Vonage",
+    "website": "https://developer.vonage.com/",
+    "category": "Communications and Messaging",
+    "description": "Vonage provides a suite of APIs for messaging, voice, video, verification, and unified communications, allowing developers to integrate multi-channel communication capabilities into applications.",
+    "auth_methods": [
+      "API Key and Secret",
+      "Basic Authentication",
+      "JWT",
+      "OAuth 2.0"
+    ],
+    "credential_requirements": "Developers can sign up for a free Vonage account without a credit card to obtain an API key and secret, receive trial credits, and create applications in the Developer Dashboard or CLI to generate private keys for JWT authentication.",
+    "self_serve": "free",
+    "rest_api": "yes",
+    "graphql_api": "no",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Vonage offers REST APIs described using OpenAPI specification version 3.",
+        "url": "https://developer.vonage.com/en/getting-started/concepts/openapi",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "OpenAPI is an industry standard specification for describing APIs. We use OpenAPI to describe all our APIs, and we make those specifications publicly available too."
+      },
+      {
+        "claim": "Vonage Verify v2 API provides REST endpoints for verification workflows.",
+        "url": "https://developer.vonage.com/en/api/verify.v2",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Verify API provides a choice of routes for sending a code to a user."
+      },
+      {
+        "claim": "Vonage APIs support authentication via API Key and Secret, Basic Authentication, and JSON Web Tokens.",
+        "url": "https://developer.vonage.com/en/getting-started/concepts/authentication",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "When you create a Vonage account, an API key and secret will be created for you."
+      },
+      {
+        "claim": "Vonage Business Communications APIs use OAuth for authentication.",
+        "url": "https://developer.vonage.com/en/vonage-business-cloud/getting-started/create-an-access-token",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Vonage Business Communications APIs use OAuth for authentication."
+      },
+      {
+        "claim": "Developers can create a Vonage account for free without requiring a credit card.",
+        "url": "https://developer.vonage.com/en/dashboard/getting-started",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "1. A Vonage account - Sign up for free if you don't have one yet"
+      },
+      {
+        "claim": "Vonage provides official MCP servers including a Documentation MCP Server and a Server API Bindings MCP Server.",
+        "url": "https://developer.vonage.com/en/mcp-server/conceptual-guides/introduction-to-vonage-mcp",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Vonage provides a few different individual MCP implementations, based on your needs."
+      }
+    ],
+    "confidence": "high"
+  }
+}

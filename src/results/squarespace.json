@@ -1,0 +1,61 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "Squarespace",
+  "website": "https://developers.squarespace.com/",
+  "category": "Ecommerce",
+  "completed_at": "2026-08-24T07:50:22.865014+00:00",
+  "elapsed_seconds": 82.04,
+  "repair_attempts": 1,
+  "research_result": {
+    "app": "Squarespace",
+    "website": "https://developers.squarespace.com/",
+    "category": "Ecommerce",
+    "description": "Squarespace provides Commerce REST APIs for managing inventory, orders, products, contacts, discounts, transactions, and webhooks, alongside an official MCP server for domain search and generation.",
+    "auth_methods": [
+      "API key",
+      "OAuth 2.0"
+    ],
+    "credential_requirements": "API keys can be generated from the Squarespace site settings under Advanced > Developer API Keys for sites on a Commerce Advanced plan. OAuth 2.0 credentials can be created via self-service in the Developer Account Dashboard or by submitting an OAuth client application.",
+    "self_serve": "trial_or_paid",
+    "rest_api": "yes",
+    "graphql_api": "no",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "conditional",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Squarespace supports API key and OAuth access tokens for API request authentication.",
+        "url": "https://developers.squarespace.com/commerce-apis/authentication-and-permissions",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Then, depending on your development needs, authenticate requests by using an API key or OAuth access token."
+      },
+      {
+        "claim": "Squarespace uses OAuth 2.0 to authorize third-party applications to consume Squarespace APIs.",
+        "url": "https://developers.squarespace.com/commerce-apis/oauth",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Squarespace uses OAuth 2.0 to authorize third-party applications to integrate with Squarespace and consume Squarespace APIs."
+      },
+      {
+        "claim": "Developing custom applications using API keys requires a Commerce Advanced plan.",
+        "url": "https://developers.squarespace.com/commerce-apis/authentication-and-permissions",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "With Squarespace's Commerce Advanced plan, you can develop a custom application for a Squarespace merchant site."
+      },
+      {
+        "claim": "Squarespace operates an official Model Context Protocol (MCP) server for domain tools.",
+        "url": "https://developers-preview.squarespace.com/mcp/overview",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The Squarespace MCP server connects AI assistants and agents to Squarespace. Built on the Model Context Protocol, an open standard for connecting AI applications to external tools, it lets clients like Claude, ChatGPT, and Gemini call Squarespace tools mid-conversation and return live results."
+      },
+      {
+        "claim": "Commerce APIs are accessible via HTTP REST endpoints returning JSON responses.",
+        "url": "https://developers.squarespace.com/commerce-apis/making-requests",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "In three steps, you can send a successful request to any Commerce API to manage numerous commerce features of any Squarespace merchant site."
+      }
+    ],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "Clay",
+  "website": "https://clay.com/",
+  "category": "Data, SEO and Scraping",
+  "completed_at": "2026-08-24T08:30:21.121389+00:00",
+  "elapsed_seconds": 47.98,
+  "repair_attempts": 0,
+  "research_result": {
+    "app": "Clay",
+    "website": "https://clay.com/",
+    "category": "Data, SEO and Scraping",
+    "description": "Clay is a data enrichment and GTM platform that provides REST APIs, an agent CLI plugin, and an MCP server to search databases, execute routines, and run AI research workflows.",
+    "auth_methods": [
+      "API Key",
+      "OAuth 2.0",
+      "PKCE"
+    ],
+    "credential_requirements": "API keys can be created under Settings -> Account -> API keys (beta) or via the agent plugin. OAuth 2.0 credentials for MCP can be obtained via Dynamic Client Registration (DCR) at https://api.clay.com/oauth/register. Access requires a free trial or paid plan.",
+    "self_serve": "trial_or_paid",
+    "rest_api": "yes",
+    "graphql_api": "unknown",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Clay supports API key authentication for its Public API via the clay-api-key header.",
+        "url": "https://developers.clay.com/public-api/authentication",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Every request to the Clay Public API must include a Clay API key in the `clay-api-key` header."
+      },
+      {
+        "claim": "Clay supports OAuth 2.0 authentication with mandatory PKCE for connecting platforms to its MCP server.",
+        "url": "https://university.clay.com/docs/connect-to-clay-mcp",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Pick the type by whether your client can keep a secret. PKCE is mandatory either way."
+      },
+      {
+        "claim": "Clay access requires a 14-day free trial or paid subscription plan.",
+        "url": "https://university.clay.com/docs/plans-and-billing",
+        "source_type": "official_pricing",
+        "quote_or_excerpt": "Clay offers a 14-day free trial with 1,000 data credits, giving you access to webhooks, CRM integrations, email sequencers, and HTTP API capabilities."
+      },
+      {
+        "claim": "Clay provides a REST API for programmatic search, enrichment routines, and table queries.",
+        "url": "https://apis.io/apis/clay-com/public-api/",
+        "source_type": "third_party",
+        "quote_or_excerpt": "Clay's REST API for programmatic access to the GTM platform — search Clay's proprietary database of companies and people, run Clay-managed functions, custom functions and Workflows as routines"
+      },
+      {
+        "claim": "Clay provides an official hosted MCP server for AI tools and agent integration.",
+        "url": "https://university.clay.com/docs/connect-to-clay-mcp",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Clay exposes a Model Context Protocol(MCP) server that lets an external platform — an AI assistant, IDE, agent host, or partner product — run Clay's find-and-enrich tools and custom functions on behalf of a signed-in Clay user."
+      }
+    ],
+    "confidence": "high"
+  }
+}

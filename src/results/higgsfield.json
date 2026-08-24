@@ -1,0 +1,55 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "higgsfield",
+  "website": "https://higgsfield.ai/cli",
+  "category": "AI, Research and Media-native",
+  "completed_at": "2026-08-24T12:05:10.738474+00:00",
+  "elapsed_seconds": 44.76,
+  "repair_attempts": 0,
+  "research_result": {
+    "app": "higgsfield",
+    "website": "https://higgsfield.ai/cli",
+    "category": "AI, Research and Media-native",
+    "description": "Higgsfield is a multi-model generative AI platform for creating images, video, audio, and 3D media through a unified asynchronous API, SDKs, CLI, and hosted MCP server.",
+    "auth_methods": [
+      "API Key",
+      "OAuth 2.0"
+    ],
+    "credential_requirements": "Users can sign up at cloud.higgsfield.ai and generate API credentials (API Key and Secret) via the developer dashboard. Alternatively, Higgsfield MCP connects directly using OAuth authorization without an API key. A limited free tier is available, while programmatic and full model access deducts plan credits or requires paid subscriptions.",
+    "self_serve": "free",
+    "rest_api": "yes",
+    "graphql_api": "no",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Higgsfield provides a REST API authenticated using an API Key and Secret via the Authorization header.",
+        "url": "https://docs.higgsfield.ai/docs",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "--header \"Authorization: Key ${HF_API_KEY_ID}:${HF_API_KEY_SECRET}\""
+      },
+      {
+        "claim": "Higgsfield offers direct REST API access as well as official Python and Node.js/TypeScript SDKs.",
+        "url": "https://docs.higgsfield.ai/docs/help/faq",
+        "source_type": "official_help",
+        "quote_or_excerpt": "We provide official Python and Node.js/TypeScript SDKs. You can also integrate directly through the REST API from any language with an HTTP client."
+      },
+      {
+        "claim": "Higgsfield provides a hosted MCP server for AI agents that connects via OAuth authorization.",
+        "url": "https://higgsfield.ai/creator-hub/help-center/integrations/what-is-higgsfield-mcp",
+        "source_type": "official_help",
+        "quote_or_excerpt": "No. MCP connects through OAuth authorization, no API key is needed."
+      },
+      {
+        "claim": "Developers can explore the Higgsfield platform on a free tier without purchasing a subscription.",
+        "url": "https://higgsfield.ai/creator-hub/help-center/plans/how-do-higgsfield-plans-work",
+        "source_type": "official_help",
+        "quote_or_excerpt": "You can explore the platform on the free tier with a limited set of models, and upgrade when you're ready."
+      }
+    ],
+    "confidence": "high"
+  }
+}

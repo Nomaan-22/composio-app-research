@@ -1,0 +1,68 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "SE Ranking",
+  "website": "https://seranking.com/api",
+  "category": "Data, SEO and Scraping",
+  "completed_at": "2026-08-24T08:03:12.276545+00:00",
+  "elapsed_seconds": 152.84,
+  "repair_attempts": 2,
+  "research_result": {
+    "app": "SE Ranking",
+    "website": "https://seranking.com/api",
+    "category": "Data, SEO and Scraping",
+    "description": "SE Ranking provides comprehensive SEO, AI search visibility, and SERP data through REST APIs and a hosted Model Context Protocol (MCP) server.",
+    "auth_methods": [
+      "API key",
+      "OAuth 2.1",
+      "PKCE"
+    ],
+    "credential_requirements": "Developers can obtain an API key directly from the account dashboard under the API Dashboard section. A single API key grants access to both Data and Project API endpoints. A 14-day free trial offering 100,000 API credits is available self-serve without requiring a credit card, after which usage requires a paid plan or pay-as-you-go credit purchase.",
+    "self_serve": "trial_or_paid",
+    "rest_api": "yes",
+    "graphql_api": "unknown",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "SE Ranking provides a REST API for integration and programmatic data access.",
+        "url": "https://seranking.com/api.html",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "SE Ranking doesn’t currently offer first-party SDKs and integration is done via the REST API reference and a Postman collection for endpoint testing."
+      },
+      {
+        "claim": "Data API endpoints are authenticated using an API key via an Authorization header or query parameter.",
+        "url": "https://seranking.com/api/data/getting-started/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "First, you’ll need to generate a unique API key from your account dashboard."
+      },
+      {
+        "claim": "A single API key authorizes access across both Project API and Data API endpoints.",
+        "url": "https://seranking.com/api/project/getting-started/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "A single API key authorizes every endpoint across the Project API and the Data API."
+      },
+      {
+        "claim": "SE Ranking offers an MCP server providing tools across SEO, backlinks, domain research, and AI visibility.",
+        "url": "https://seranking.com/mcp.html",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "SE Ranking MCP gives Claude, Cursor, and any compatible AI tool direct access to 180+ research tools with keyword data, backlinks, domain analysis, AI search visibility, and competitor analysis."
+      },
+      {
+        "claim": "The MCP server supports OAuth 2.1 with PKCE and API key authentication.",
+        "url": "https://apis.io/apis/se-ranking/mcp-server/",
+        "source_type": "third_party",
+        "quote_or_excerpt": "Streamable HTTP transport with OAuth 2.1 + PKCE and dynamic client registration, or an X-Api-Key header for headless use."
+      },
+      {
+        "claim": "A self-serve 14-day free trial with 100,000 credits and MCP access is available.",
+        "url": "https://seranking.com/api-pricing.html",
+        "source_type": "official_pricing",
+        "quote_or_excerpt": "The 14-day free trial gives you 100K API credits across all six API endpoints, as well as MCP server access."
+      }
+    ],
+    "confidence": "high"
+  }
+}

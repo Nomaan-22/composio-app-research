@@ -1,0 +1,62 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "Close",
+  "website": "https://close.com/",
+  "category": "CRM and Sales",
+  "completed_at": "2026-08-24T05:58:31.962546+00:00",
+  "elapsed_seconds": 67.04,
+  "repair_attempts": 1,
+  "research_result": {
+    "app": "Close",
+    "website": "https://close.com/",
+    "category": "CRM and Sales",
+    "description": "Close is a CRM platform designed for sales teams that offers REST APIs, webhooks, advanced filtering capabilities, and an MCP server for managing leads, contacts, opportunities, and sales activities.",
+    "auth_methods": [
+      "API Key",
+      "Basic Authentication",
+      "OAuth 2.0"
+    ],
+    "credential_requirements": "API keys can be created directly by users within the Close account under Settings > Developer > API Keys and used via HTTP Basic client-side authentication. OAuth 2.0 is also supported for user-facing integrations. Access requires a Close account and active subscription or trial.",
+    "self_serve": "trial_or_paid",
+    "rest_api": "yes",
+    "graphql_api": "unknown",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "conditional",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "API keys can be generated and managed directly inside Close account developer settings.",
+        "url": "https://developer.close.com/topics/authentication",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "API keys can be created and managed in your Close account under **Settings** → **Developer** → **API Keys**."
+      },
+      {
+        "claim": "Close supports authentication using API keys via HTTP Basic Auth and OAuth 2.0.",
+        "url": "https://developer.close.com/api/overview",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "All API requests require authentication. Two methods are supported:\n\n- **[API Keys](/api/overview/api-key-authentication)** — Best for scripts, internal tools, and server-side integrations. Use HTTP Basic Auth with your API key as the username and an empty password.\n- **[OAuth 2.0](/api/overview/oauth-authentication)** — Best for user-facing integrations."
+      },
+      {
+        "claim": "Close provides a REST API with standard HTTP methods and JSON request and response bodies.",
+        "url": "https://developer.close.com/api/overview",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Close uses industry-standard REST conventions with predictable URL structures, standard HTTP methods, and JSON request/response bodies."
+      },
+      {
+        "claim": "Close provides an MCP server for AI client integrations.",
+        "url": "https://help.close.com/docs/api-keys-oauth",
+        "source_type": "official_help",
+        "quote_or_excerpt": "For AI client integration (Claude Code, Cursor, etc.), connect to the MCP server at https://help.close.com/_mcp/server."
+      },
+      {
+        "claim": "API requests are subject to plan limits which return HTTP status code 402 when reached.",
+        "url": "https://developer.close.com/api/overview/http-response-codes",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "- `402` when the request could not be completed, because a limit of your current plan was reached."
+      }
+    ],
+    "confidence": "high"
+  }
+}

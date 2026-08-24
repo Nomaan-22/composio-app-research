@@ -1,0 +1,62 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "Xero",
+  "website": "https://developer.xero.com/",
+  "category": "Finance and Fintech",
+  "completed_at": "2026-08-24T11:31:28.944583+00:00",
+  "elapsed_seconds": 58.35,
+  "repair_attempts": 0,
+  "research_result": {
+    "app": "Xero",
+    "website": "https://developer.xero.com/",
+    "category": "Finance and Fintech",
+    "description": "Xero is a cloud financial and accounting software platform providing broad REST APIs, an official open-source Model Context Protocol (MCP) server, and developer toolkits for interacting with accounting, invoicing, contacts, payroll, bank feeds, and assets.",
+    "auth_methods": [
+      "OAuth 2.0",
+      "OAuth 1.0a",
+      "Client Credentials"
+    ],
+    "credential_requirements": "Developers can sign up for a free Xero developer account and create apps on developer.xero.com to obtain a Client ID and Client Secret for OAuth 2.0 authorization. Testing can be done at no cost using Xero's Demo Company or under a free Developer Starter tier (up to 5 connections). Machine-to-machine custom connections use the Client Credentials grant type. Note that Xero Developer Terms prohibit using API data to train AI/ML models.",
+    "self_serve": "free",
+    "rest_api": "yes",
+    "graphql_api": "no",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Xero offers a REST API covering accounting, assets, bank feeds, finance, identity, payroll, projects, and files, but does not offer a public GraphQL API.",
+        "url": "https://apis.io/graphqls/xero/xero-graphql/",
+        "source_type": "third_party",
+        "quote_or_excerpt": "Xero does not currently offer a public GraphQL API. The Xero developer platform is built entirely on REST, with separate API surface areas for Accounting, Assets, Bank Feeds, Finance, Identity, Payroll (AU/NZ/UK), Projects, and Files."
+      },
+      {
+        "claim": "Xero supports OAuth 2.0 and OAuth 1.0a (in process of deprecation), and does not support basic API keys.",
+        "url": "https://developer.xero.com/faq/getting-started",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "We currently support OAuth 1.0a and OAuth 2.0. However, OAuth 1.0a is in the process of being deprecated and OAuth 2.0 is required for all new integrations."
+      },
+      {
+        "claim": "Xero supports the Client Credentials grant type for custom machine-to-machine connections.",
+        "url": "https://developer.xero.com/faq/custom-integration",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Yes, using the Client Credentials grant type provides an alternative way to retrieve information about your connections and users' subscriptions, without requiring the user's access or refresh tokens. You will however need a ClientID and a Client Secret."
+      },
+      {
+        "claim": "Xero provides an official Model Context Protocol (MCP) server for connecting AI agents to Xero data.",
+        "url": "https://developer.xero.com/faq",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Xero's MCP Server will work with any MCP client that supports local/STDIO MCP servers."
+      },
+      {
+        "claim": "Developers can sign up for a free Xero account to start developing using a demo company or free account tier.",
+        "url": "https://developer.xero.com/faq",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The first step is to sign up for a free Xero account. Once you have done that, you have two options as to how you can begin development without incurring any cost:"
+      }
+    ],
+    "confidence": "high"
+  }
+}

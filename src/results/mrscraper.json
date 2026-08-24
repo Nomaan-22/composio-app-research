@@ -1,0 +1,61 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "MrScraper",
+  "website": "https://docs.mrscraper.com/",
+  "category": "Data, SEO and Scraping",
+  "completed_at": "2026-08-24T08:16:35.194901+00:00",
+  "elapsed_seconds": 184.38,
+  "repair_attempts": 1,
+  "research_result": {
+    "app": "MrScraper",
+    "website": "https://docs.mrscraper.com/",
+    "category": "Data, SEO and Scraping",
+    "description": "MrScraper is an AI-powered web scraping platform offering REST APIs, Web Unblocker, Google SERP scraping, and an official Model Context Protocol (MCP) server for seamless AI-agent integration.",
+    "auth_methods": [
+      "API key",
+      "Bearer token"
+    ],
+    "credential_requirements": "Developers can sign up for a free account with no credit card required and generate API keys/tokens directly from the dashboard under API Tokens.",
+    "self_serve": "free",
+    "rest_api": "yes",
+    "graphql_api": "no",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "MrScraper provides an official MCP server with seven tools for web fetching, extraction, SERP, and result retrieval.",
+        "url": "https://docs.mrscraper.com/docs/getting-started/mcp-server",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "MrScraper MCP connects Model Context Protocol clients to the MrScraper web-data service. It exposes seven tools"
+      },
+      {
+        "claim": "MrScraper API is built on REST principles and uses JSON for requests and responses.",
+        "url": "https://docs.mrscraper.com/docs/api/overview",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Built on REST principles, our API offers predictable resource-oriented URLs, accepts JSON-encoded request bodies, returns JSON-encoded responses, and uses standard HTTP response codes."
+      },
+      {
+        "claim": "MrScraper supports API key generation and authentication.",
+        "url": "https://docs.mrscraper.com/docs/getting-started/mcp-server",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Open MrScraper API Tokens, create a key, and place it in the secret-storage or environment-variable mechanism provided by your MCP client."
+      },
+      {
+        "claim": "MrScraper supports Bearer token authentication for HTTP endpoints.",
+        "url": "https://docs.mrscraper.com/docs/getting-started/mcp-server",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "HTTP bearer tokens are validated against the MrScraper account endpoint before tool execution."
+      },
+      {
+        "claim": "MrScraper offers a free tier requiring no credit card to obtain tokens and access features.",
+        "url": "https://docs.mrscraper.com/docs/getting-started/billing",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The Free plan includes 100 tokens per month with no credit card required."
+      }
+    ],
+    "confidence": "high"
+  }
+}

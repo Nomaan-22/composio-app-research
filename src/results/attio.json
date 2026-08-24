@@ -1,0 +1,69 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "Attio",
+  "website": "https://attio.com/",
+  "category": "CRM and Sales",
+  "completed_at": "2026-08-24T05:56:51.099465+00:00",
+  "elapsed_seconds": 55.48,
+  "repair_attempts": 0,
+  "research_result": {
+    "app": "Attio",
+    "website": "https://attio.com/",
+    "category": "CRM and Sales",
+    "description": "Attio is a customizable CRM platform offering a public REST API, a GraphQL API via its App SDK, and a hosted MCP server for AI agent integrations.",
+    "auth_methods": [
+      "OAuth 2.0",
+      "API key",
+      "Bearer token",
+      "HTTP Basic Authentication"
+    ],
+    "credential_requirements": "Developers can obtain credentials by implementing an OAuth 2.0 flow for multi-workspace applications or manually generating workspace API keys in developer settings. Workspace admin privileges are required to generate API keys.",
+    "self_serve": "unknown",
+    "rest_api": "yes",
+    "graphql_api": "yes",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Attio provides a public REST API.",
+        "url": "https://docs.attio.com/rest-api/overview",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Attio provides a public REST API which exchanges JSON over HTTPS."
+      },
+      {
+        "claim": "Attio provides a GraphQL API through its App SDK.",
+        "url": "https://docs.attio.com/sdk/graphql/graphql",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The Attio App SDK exposes record and workspace data through a GraphQL API."
+      },
+      {
+        "claim": "Attio offers a hosted MCP server for AI tool access.",
+        "url": "https://docs.attio.com/mcp/overview",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Attio MCP is Attio's hosted MCP server that gives AI tools secure access to your Attio workspace."
+      },
+      {
+        "claim": "Attio supports OAuth 2.0 and single-workspace API keys.",
+        "url": "https://attio.mintlify.app/rest-api/guides/authentication",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "You should prefer the OAuth 2.0 flow if building an app for multiple workspaces. If you are building an app for a single workspace, you can manually generate an API key to make requests on behalf of that workspace only."
+      },
+      {
+        "claim": "Attio supports Bearer tokens and HTTP Basic Authentication.",
+        "url": "https://attio.mintlify.app/rest-api/guides/authentication",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "We also support HTTP Basic Authentication, where the username is the token and the password is left blank. However, we recommend using Bearer authentication where possible."
+      },
+      {
+        "claim": "API keys are available on all plans but require admin privileges.",
+        "url": "https://attio.com/help/reference/apps/generating-an-api-key",
+        "source_type": "official_help",
+        "quote_or_excerpt": "Available on all plans. Admins can create and manage API keys."
+      }
+    ],
+    "confidence": "high"
+  }
+}

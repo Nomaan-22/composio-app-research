@@ -1,0 +1,75 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "Mailchimp",
+  "website": "https://mailchimp.com/developer",
+  "category": "Marketing, Ads, Email and Social",
+  "completed_at": "2026-08-24T07:15:04.770549+00:00",
+  "elapsed_seconds": 128.58,
+  "repair_attempts": 1,
+  "research_result": {
+    "app": "Mailchimp",
+    "website": "https://mailchimp.com/developer",
+    "category": "Marketing, Ads, Email and Social",
+    "description": "Mailchimp provides a Marketing API to programmatically manage email campaigns, audiences, contacts, automations, e-commerce data, and analytics.",
+    "auth_methods": [
+      "API Key",
+      "OAuth 2.0",
+      "HTTP Basic Authentication",
+      "Bearer Authentication"
+    ],
+    "credential_requirements": "Developers can obtain credentials by creating a free Mailchimp account, generating an API key in account settings, or registering an OAuth 2 application to obtain a client ID and secret.",
+    "self_serve": "free",
+    "rest_api": "yes",
+    "graphql_api": "unknown",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Mailchimp supports API key authentication for API access.",
+        "url": "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "You can authenticate requests using either your API key or an OAuth access token, depending on your use case."
+      },
+      {
+        "claim": "Mailchimp supports OAuth 2.0 authentication for accessing user data.",
+        "url": "https://mailchimp.com/developer/marketing/guides/access-user-data-oauth-2/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "OAuth 2 authentication provides developers with a secure way to access Mailchimp Marketing API data on behalf of other Mailchimp users."
+      },
+      {
+        "claim": "Mailchimp explicitly supports HTTP Basic Authentication for API requests.",
+        "url": "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "You can either use HTTP Basic Authentication or Bearer Authentication."
+      },
+      {
+        "claim": "Mailchimp explicitly supports Bearer Authentication for API requests.",
+        "url": "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "You can either use HTTP Basic Authentication or Bearer Authentication."
+      },
+      {
+        "claim": "Mailchimp provides a free self-serve account sign up path.",
+        "url": "https://login.mailchimp.com/signup/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Create a free account or log in."
+      },
+      {
+        "claim": "The Marketing API follows REST conventions.",
+        "url": "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The Marketing API generally follows REST conventions, with some deviations."
+      },
+      {
+        "claim": "A community-maintained Model Context Protocol (MCP) server is available for Mailchimp.",
+        "url": "https://github.com/damientilman/mailchimp-mcp-server",
+        "source_type": "third_party",
+        "quote_or_excerpt": "The most complete Mailchimp Marketing API MCP server: 227 tools across campaigns, audiences, reports, segments, automations and full e-commerce, with multi-account support and runtime-security guardrails (read-only, dry-run, audit, per-tool risk metadata)."
+      }
+    ],
+    "confidence": "high"
+  }
+}

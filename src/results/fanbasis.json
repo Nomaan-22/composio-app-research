@@ -1,0 +1,54 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "fanbasis",
+  "website": "https://fanbasis.com/",
+  "category": "Ecommerce",
+  "completed_at": "2026-08-24T12:25:14.718390+00:00",
+  "elapsed_seconds": 53.03,
+  "repair_attempts": 0,
+  "research_result": {
+    "app": "fanbasis",
+    "website": "https://fanbasis.com/",
+    "category": "Ecommerce",
+    "description": "Fanbasis (also known as Commas) is a digital-commerce and payment platform for creators and businesses, offering APIs and SDKs for checkout sessions, subscriptions, customer billing, discount codes, transaction tracking, and webhooks.",
+    "auth_methods": [
+      "API key"
+    ],
+    "credential_requirements": "API keys can be generated directly by logging into the Commas dashboard under the API Keys section. Separate API keys are used for the production environment and the sandbox (QA) test environment. Requests must include the key in the x-api-key header.",
+    "self_serve": "free",
+    "rest_api": "yes",
+    "graphql_api": "no",
+    "api_breadth": "moderate",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Fanbasis uses API key authentication via the x-api-key HTTP header.",
+        "url": "https://commasdocs.com/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Every API request must include your API key in the`x-api-key` header. There are no usernames or passwords — just your key."
+      },
+      {
+        "claim": "Fanbasis provides a REST API and official TypeScript SDK for server-side integration.",
+        "url": "https://registry.npmjs.org/@fanbasis/checkout-sdk",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "This library provides convenient access to the Fanbasis Checkout REST API from server-side TypeScript or JavaScript."
+      },
+      {
+        "claim": "Fanbasis has a beta MCP (Model Context Protocol) capability for running operations via AI assistants.",
+        "url": "https://www.fanbasis.com/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "MCPbeta Run Commas from your AI assistant. Create checkout links, issue refunds and pull your numbers in plain English."
+      },
+      {
+        "claim": "Developer credentials can be obtained freely from the dashboard API Keys section, supporting both live and sandbox environments.",
+        "url": "https://commasdocs.com/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Log into your Commas dashboard and go to the API Keys section. Copy your API key. You'll use it in every request you make."
+      }
+    ],
+    "confidence": "high"
+  }
+}

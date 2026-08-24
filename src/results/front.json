@@ -1,0 +1,62 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "Front",
+  "website": "https://front.com/",
+  "category": "Support and Helpdesk",
+  "completed_at": "2026-08-24T05:44:29.840226+00:00",
+  "elapsed_seconds": 81.76,
+  "repair_attempts": 1,
+  "research_result": {
+    "app": "Front",
+    "website": "https://front.com/",
+    "category": "Support and Helpdesk",
+    "description": "Front is a customer communication platform and shared inbox solution. It provides a Core REST API, Webhooks, Plugin SDK, Channel API, and a native Model Context Protocol (MCP) server that allow developers and AI agents to manage conversations, contacts, channels, comments, tags, and inboxes.",
+    "auth_methods": [
+      "OAuth 2.0",
+      "API Token",
+      "Bearer Token"
+    ],
+    "credential_requirements": "Developers can register for a free developer account to obtain a sandbox testing environment. API credentials can be generated directly as company-level API Tokens via Settings > Developers or created via OAuth credentials within a developer app.",
+    "self_serve": "free",
+    "rest_api": "yes",
+    "graphql_api": "no",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Front supports OAuth 2.0 and API Tokens for authentication.",
+        "url": "https://dev.frontapp.com/reference/introduction",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Front supports OAuth2.0 as well as API Tokens."
+      },
+      {
+        "claim": "Front Core API uses Bearer tokens passed in the Authorization header.",
+        "url": "https://dev.frontapp.com/docs/authentication",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The Core API uses Bearer tokens to authenticate its user."
+      },
+      {
+        "claim": "Front offers a REST Core API providing endpoints for managing conversations, contacts, custom fields, and attachments.",
+        "url": "https://dev.frontapp.com/docs/core-api-getting-started",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "After completing this tutorial, you will be ready to build your own integration using the Core API endpoints."
+      },
+      {
+        "claim": "Free developer environments are self-serve and accessible by signing up.",
+        "url": "https://dev.frontapp.com/docs/welcome",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "You’ll get access to a free developer environment that will provide everything you need to begin building with our APIs."
+      },
+      {
+        "claim": "Front offers an official MCP server for AI agents to interact with Front data.",
+        "url": "https://help.front.com/en/articles/4883136",
+        "source_type": "official_help",
+        "quote_or_excerpt": "Front's MCP server lets you and your teammates connect Front to AI assistants like Claude, ChatGPT, Gemini, and Microsoft Copilot."
+      }
+    ],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "Klaviyo",
+  "website": "https://developers.klaviyo.com/",
+  "category": "Marketing, Ads, Email and Social",
+  "completed_at": "2026-08-24T07:17:55.481211+00:00",
+  "elapsed_seconds": 170.71,
+  "repair_attempts": 0,
+  "research_result": {
+    "app": "Klaviyo",
+    "website": "https://developers.klaviyo.com/",
+    "category": "Marketing, Ads, Email and Social",
+    "description": "Klaviyo is a marketing automation platform for email and SMS that provides extensive REST APIs, client/server tracking, and official MCP server integrations for AI agents.",
+    "auth_methods": [
+      "API Key",
+      "OAuth",
+      "Public Key"
+    ],
+    "credential_requirements": "Developers can get started for free and create test accounts to generate private API keys from their account Settings page. Tech partners building integrations can also authenticate using OAuth.",
+    "self_serve": "free",
+    "rest_api": "yes",
+    "graphql_api": "no",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Klaviyo supports API key, OAuth, and public key authentication.",
+        "url": "https://developers.klaviyo.com/en/docs/authenticate_",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Klaviyo provides 3 methods of authentication including private key authentication and OAuth (used to call server-side APIs) and public key authentication (used to call client-side APIs)."
+      },
+      {
+        "claim": "Klaviyo provides a free self-serve path for developer access and API development.",
+        "url": "https://developers.klaviyo.com/en/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Create apps and integrations using Klaviyo's API that help your business grow. Get started for free."
+      },
+      {
+        "claim": "Klaviyo uses a REST API following the JSON:API standard.",
+        "url": "https://klaviyo.tech/api-development-what-companies-need-to-know-about-rest-json-api-and-graphql-part-1-aaf77c5e04ad",
+        "source_type": "official_blog",
+        "quote_or_excerpt": "I will then spend the rest of the article discussing JSON:API, the flavor of REST that Klaviyo adopted."
+      },
+      {
+        "claim": "Klaviyo chose not to adopt GraphQL.",
+        "url": "https://klaviyo.tech/api-development-what-companies-need-to-know-about-rest-json-api-and-graphql-part-1-aaf77c5e04ad",
+        "source_type": "official_blog",
+        "quote_or_excerpt": "Ultimately, we decided that taking on a GraphQL API without first having a solid foundation in REST was not a wise path for Klaviyo."
+      },
+      {
+        "claim": "Klaviyo provides an official Model Context Protocol (MCP) server.",
+        "url": "https://developers.klaviyo.com/en/docs/klaviyo_mcp_server",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The Klaviyo Model Context Protocol (MCP) server seamlessly integrates with Klaviyo’s APIs, enabling AI clients to interact with your Klaviyo data."
+      }
+    ],
+    "confidence": "high"
+  }
+}

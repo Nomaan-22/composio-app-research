@@ -1,0 +1,61 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "Podio",
+  "website": "https://podio.com/",
+  "category": "CRM and Sales",
+  "completed_at": "2026-08-24T05:57:24.920536+00:00",
+  "elapsed_seconds": 33.82,
+  "repair_attempts": 0,
+  "research_result": {
+    "app": "Podio",
+    "website": "https://podio.com/",
+    "category": "CRM and Sales",
+    "description": "Podio is a flexible work management and collaboration platform that provides programmatic access to custom apps, items, tasks, workspaces, files, webhooks, and internal workflows.",
+    "auth_methods": [
+      "OAuth 2.0",
+      "Bearer token"
+    ],
+    "credential_requirements": "Developers must create a free or paid Podio account and generate API credentials (client_id and client_secret) via the API Keys tab in their account settings.",
+    "self_serve": "free",
+    "rest_api": "yes",
+    "graphql_api": "unknown",
+    "api_breadth": "broad",
+    "mcp_available": "no",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Podio API is free to use for both premium and free Podio accounts.",
+        "url": "https://rollout.com/integration-guides/podio/api-essentials",
+        "source_type": "third_party",
+        "quote_or_excerpt": "The Podio API is free to use for both premium and free Podio accounts."
+      },
+      {
+        "claim": "Podio provides a RESTful API using JSON as its exchange format.",
+        "url": "https://rollout.com/integration-guides/podio/api-essentials",
+        "source_type": "third_party",
+        "quote_or_excerpt": "Podio has a RESTful API. Specifically: It is described as \"RESTful\" and uses JSON as the exchange format."
+      },
+      {
+        "claim": "Podio uses OAuth 2.0 for API authentication and accepts bearer-style access tokens.",
+        "url": "https://apis.io/apis/podio/podio-oauth-api/",
+        "source_type": "third_party",
+        "quote_or_excerpt": "Authentication is OAuth 2.0; pass the access token in the `Authorization: OAuth2 <access_token>` header on API requests."
+      },
+      {
+        "claim": "Podio provides complete programmatic API coverage across platform entities like apps, items, workspaces, users, files, and webhooks.",
+        "url": "https://apis.io/providers/podio/",
+        "source_type": "third_party",
+        "quote_or_excerpt": "The Podio API offers a complete programmable interface to all Podio functionality including apps, items, tasks, workspaces, users, files, and webhooks"
+      },
+      {
+        "claim": "No official MCP server implementation is available for Podio.",
+        "url": "https://apis.io/providers/podio/",
+        "source_type": "third_party",
+        "quote_or_excerpt": "MCP Server 0 / 12"
+      }
+    ],
+    "confidence": "high"
+  }
+}

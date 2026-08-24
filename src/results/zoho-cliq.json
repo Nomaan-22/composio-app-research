@@ -1,0 +1,60 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "Zoho Cliq",
+  "website": "https://zoho.com/cliq",
+  "category": "Communications and Messaging",
+  "completed_at": "2026-08-24T06:35:37.006107+00:00",
+  "elapsed_seconds": 61.6,
+  "repair_attempts": 0,
+  "research_result": {
+    "app": "Zoho Cliq",
+    "website": "https://zoho.com/cliq",
+    "category": "Communications and Messaging",
+    "description": "Zoho Cliq provides REST APIs (v2 and v3) covering channels, messages, bots, datastores, and admin capabilities, along with an official Model Context Protocol (MCP) server for AI agent integration.",
+    "auth_methods": [
+      "OAuth 2.0"
+    ],
+    "credential_requirements": "Developers can create a free Zoho account and register an application in the Zoho API Console to obtain a Client ID and Client Secret, or create a Self Client for automated testing without redirect URIs.",
+    "self_serve": "free",
+    "rest_api": "yes",
+    "graphql_api": "unknown",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Zoho Cliq provides a REST API (v3) based on RESTful architecture principles.",
+        "url": "https://www.zoho.com/cliq/help/restapi/v3/introduction/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Zoho Cliq's REST API is designed based on RESTful architecture principles, enabling seamless communication between your applications and Zoho Cliq."
+      },
+      {
+        "claim": "Zoho Cliq API uses OAuth 2.0 protocol for authentication.",
+        "url": "https://www.zoho.com/cliq/help/restapi/v3/oauth/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The first step in using OAuth authentication is registering your app with the Zoho API console."
+      },
+      {
+        "claim": "Developers can create a free Zoho account to access Zoho REST APIs.",
+        "url": "https://www.zoho.com/developer/rest-api.html",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "You can create a free account to get started."
+      },
+      {
+        "claim": "Registering an application yields a Client ID and Client Secret used to obtain OAuth tokens.",
+        "url": "https://www.zoho.com/cliq/help/restapi/v3/registerclient/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Upon successful registration of your application, you will receive a Client ID and Client Secret."
+      },
+      {
+        "claim": "Zoho Cliq offers an official MCP Server for AI model and agent integration.",
+        "url": "https://www.zoho.com/cliq/help/platform/zoho-cliq-mcp.html",
+        "source_type": "official_help",
+        "quote_or_excerpt": "The Zoho Cliq MCP Server brings your chats into the world of AI using the Model Context Protocol (MCP)."
+      }
+    ],
+    "confidence": "high"
+  }
+}

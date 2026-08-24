@@ -1,0 +1,55 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "Smartsheet",
+  "website": "https://smartsheet.com/developers",
+  "category": "Productivity and Project Management",
+  "completed_at": "2026-08-24T10:25:11.062157+00:00",
+  "elapsed_seconds": 46.8,
+  "repair_attempts": 0,
+  "research_result": {
+    "app": "Smartsheet",
+    "website": "https://developers.smartsheet.com",
+    "category": "Productivity and Project Management",
+    "description": "Smartsheet is a work management and productivity platform that provides REST APIs, SDKs, and an MCP server for managing sheets, rows, columns, reports, and automated workflows.",
+    "auth_methods": [
+      "OAuth 2.0",
+      "Bearer Token"
+    ],
+    "credential_requirements": "Generating API access tokens requires a Business, Enterprise, or Advanced Work Management plan. Access tokens can be generated directly in the Smartsheet UI under Personal Settings > API Access. Applications requiring user authorization via OAuth 2.0 must register for Developer Tools using a licensed Smartsheet account on a Business plan or higher.",
+    "self_serve": "trial_or_paid",
+    "rest_api": "yes",
+    "graphql_api": "unknown",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "conditional",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "The Smartsheet API is restricted to paid plans including Business and Enterprise.",
+        "url": "https://developers.smartsheet.com/api/smartsheet/openapi",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The Smartsheet API is restricted to users on Business and Enterprise plans"
+      },
+      {
+        "claim": "Smartsheet supports OAuth 2.0 and HTTP Bearer tokens for API authorization.",
+        "url": "https://developers.smartsheet.com/api/smartsheet/guides/basics/authentication",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Each API request requires passing in an access token as the `Bearer` value in your authorization header."
+      },
+      {
+        "claim": "Smartsheet provides a REST API following standard resource-oriented conventions and HTTP verbs.",
+        "url": "https://developers.smartsheet.com/api/smartsheet/guides/basics/http-and-rest",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The REST URL structure follows typical resource-oriented conventions."
+      },
+      {
+        "claim": "Smartsheet provides an official MCP server for connecting AI tools to Smartsheet data.",
+        "url": "https://developers.smartsheet.com/ai-mcp/smartsheet/mcp-server",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Unlock the power of AI by connecting Smartsheet with Claude, ChatGPT, and other AI clients through the Smartsheet MCP (Model Context Protocol) server."
+      }
+    ],
+    "confidence": "high"
+  }
+}

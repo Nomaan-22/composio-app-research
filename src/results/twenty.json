@@ -1,0 +1,75 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "Twenty",
+  "website": "https://twenty.com/",
+  "category": "CRM and Sales",
+  "completed_at": "2026-08-23T15:48:56.674678+00:00",
+  "elapsed_seconds": 108.64,
+  "repair_attempts": 1,
+  "research_result": {
+    "app": "Twenty",
+    "website": "https://twenty.com/",
+    "category": "CRM and Sales",
+    "description": "Twenty is an open-source CRM platform offering auto-generated REST and GraphQL APIs, custom data objects, native MCP server integration, and developer extensibility.",
+    "auth_methods": [
+      "OAuth 2.0",
+      "API Key",
+      "JWT",
+      "Bearer Token"
+    ],
+    "credential_requirements": "Developers can self-host the open-source core for free or sign up for a Cloud trial (7 days without a card or 30 days with a card). API keys can be generated directly under Settings -> API & Webhooks, and OAuth applications can register programmatically via dynamic registration.",
+    "self_serve": "free",
+    "rest_api": "yes",
+    "graphql_api": "yes",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Twenty supports OAuth 2.0 with authorization code + PKCE and client credentials flows.",
+        "url": "https://docs.twenty.com/developers/extend/oauth",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Twenty implements OAuth 2.0 with authorization code + PKCE for user-facing apps and client credentials for server-to-server access."
+      },
+      {
+        "claim": "Twenty explicitly supports API Keys for programmatic access.",
+        "url": "https://twentyhq-twenty.mintlify.app/developers/api/authentication",
+        "source_type": "third_party",
+        "quote_or_excerpt": "API keys provide programmatic access to your workspace."
+      },
+      {
+        "claim": "Twenty explicitly supports JWT tokens for session-based web application authentication.",
+        "url": "https://twentyhq-twenty.mintlify.app/developers/api/authentication",
+        "source_type": "third_party",
+        "quote_or_excerpt": "Secure your API requests with Twenty's authentication system supporting API keys, OAuth tokens, and JWT."
+      },
+      {
+        "claim": "Twenty uses Bearer Token header format for API request authorization.",
+        "url": "https://docs.twenty.com/developers/extend/api",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Authorization: Bearer YOUR_API_KEY"
+      },
+      {
+        "claim": "Twenty offers schema-per-tenant REST and GraphQL APIs.",
+        "url": "https://docs.twenty.com/developers/extend/api",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "REST and GraphQL APIs generated from your workspace schema."
+      },
+      {
+        "claim": "Twenty Cloud workspaces include a native MCP server.",
+        "url": "https://twenty.com/pricing",
+        "source_type": "official_pricing",
+        "quote_or_excerpt": "Every Cloud workspace ships with a native MCP server."
+      },
+      {
+        "claim": "Twenty core is free to self-host.",
+        "url": "https://twenty.com/pricing",
+        "source_type": "official_pricing",
+        "quote_or_excerpt": "Self-host the open source core for free, or upgrade to Organization for SSO and row-level permissions."
+      }
+    ],
+    "confidence": "high"
+  }
+}

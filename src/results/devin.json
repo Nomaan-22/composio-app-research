@@ -1,0 +1,55 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "Devin",
+  "website": "https://docs.devin.ai/",
+  "category": "AI, Research and Media-native",
+  "completed_at": "2026-08-24T11:50:31.043907+00:00",
+  "elapsed_seconds": 37.17,
+  "repair_attempts": 0,
+  "research_result": {
+    "app": "Devin",
+    "website": "https://docs.devin.ai/",
+    "category": "AI, Research and Media-native",
+    "description": "Devin is an AI software engineering platform offering REST APIs and an official Model Context Protocol (MCP) server for managing sessions, playbooks, knowledge, schedules, and repository interactions.",
+    "auth_methods": [
+      "API key",
+      "Bearer token"
+    ],
+    "credential_requirements": "Users can generate service user API keys or personal access tokens (prefixed with cog_) within account settings on app.devin.ai under Settings > Service users or the PATs tab.",
+    "self_serve": "free",
+    "rest_api": "yes",
+    "graphql_api": "unknown",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Devin provides REST APIs for programmatic interaction.",
+        "url": "https://docs.devin.ai/api-reference/overview",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Learn how to programmatically interact with Devin using our REST APIs"
+      },
+      {
+        "claim": "Devin uses API keys passed as Bearer tokens in the Authorization header.",
+        "url": "https://docs.devin.ai/api-reference/authentication",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Include your token in the `Authorization` header of every request:"
+      },
+      {
+        "claim": "Devin provides a self-serve Free plan for getting started.",
+        "url": "https://docs.devin.ai/admin/billing/self-serve",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The Free plan lets you try Devin with limited usage."
+      },
+      {
+        "claim": "Devin has an official Model Context Protocol (MCP) server available.",
+        "url": "https://docs.devin.ai/work-with-devin/devin-mcp",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The Devin MCP server provides programmatic access to Devin's platform capabilities for both private and public repositories."
+      }
+    ],
+    "confidence": "high"
+  }
+}

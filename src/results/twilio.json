@@ -1,0 +1,62 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "Twilio",
+  "website": "https://twilio.com/",
+  "category": "Communications and Messaging",
+  "completed_at": "2026-08-24T06:34:35.402364+00:00",
+  "elapsed_seconds": 61.09,
+  "repair_attempts": 0,
+  "research_result": {
+    "app": "Twilio",
+    "website": "https://twilio.com/",
+    "category": "Communications and Messaging",
+    "description": "Twilio is a customer engagement and cloud communications platform that provides REST APIs and SDKs for messaging, voice, email, verification, and conversational interactions.",
+    "auth_methods": [
+      "Basic Authentication",
+      "API Key",
+      "OAuth 2.0"
+    ],
+    "credential_requirements": "Developers can obtain credentials by signing up for a free 30-day trial account without a credit card. Account SID, Auth Token, and API Keys can be accessed and created in the Twilio Console or via the REST API. Full production capabilities require upgrading to a paid account.",
+    "self_serve": "trial_or_paid",
+    "rest_api": "yes",
+    "graphql_api": "unknown",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Twilio provides REST APIs to manage account metadata, make phone calls, send text messages, and handle customer interactions.",
+        "url": "https://www.twilio.com/docs/iam/api",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The Twilio REST API allows you to query metadata about your account, phone numbers, calls, text messages, and recordings."
+      },
+      {
+        "claim": "Twilio supports HTTP Basic authentication using API key SID and API key secret or Account SID and Auth Token.",
+        "url": "https://www.twilio.com/docs/usage/requests-to-twilio",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "To authenticate requests to the Twilio APIs, use HTTP Basic authentication. Use your API key SID as the username and your API key secret as the password."
+      },
+      {
+        "claim": "Twilio supports OAuth 2.0 apps using Client Credentials and Authorization Code grant types for API access.",
+        "url": "https://www.twilio.com/docs/iam/oauth-apps/overview",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "OAuth 2.0 is an industry-standard authorization protocol that lets applications securely access Twilio APIs on your behalf, without sharing your Account SID and Auth Token or other long-lived API keys."
+      },
+      {
+        "claim": "Twilio offers a self-serve free 30-day trial that does not require a credit card, which can be upgraded to a paid account.",
+        "url": "https://www.twilio.com/docs/usage/trials",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "When you create a Twilio account, you start with a free 30-day trial that lets you explore Twilio products before upgrading."
+      },
+      {
+        "claim": "Twilio provides an official Model Context Protocol (MCP) server giving AI agents search and schema retrieval access over 1,800+ API endpoints.",
+        "url": "https://www.twilio.com/docs/ai/mcp",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The Twilio Model Context Protocol (MCP) server gives AI coding agents direct, structured access to Twilio's full API surface—over 1,800 endpoints across 30+ products—without leaving your IDE."
+      }
+    ],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "Gorgias",
+  "website": "https://gorgias.com/",
+  "category": "Support and Helpdesk",
+  "completed_at": "2026-08-24T06:17:05.252732+00:00",
+  "elapsed_seconds": 97.21,
+  "repair_attempts": 1,
+  "research_result": {
+    "app": "Gorgias",
+    "website": "https://gorgias.com/",
+    "category": "Support and Helpdesk",
+    "description": "Gorgias is an e-commerce support and helpdesk platform that offers a broad REST API and an official Model Context Protocol (MCP) server to read and manage tickets, messages, customers, macros, rules, and account settings.",
+    "auth_methods": [
+      "API Key",
+      "OAuth2",
+      "Basic Authentication"
+    ],
+    "credential_requirements": "Account admins can generate API keys directly in Gorgias Helpdesk settings under REST API for private app access. Public apps require registering on the Developer Portal and using OAuth2 authentication. Credentials are available across all Helpdesk plans.",
+    "self_serve": "trial_or_paid",
+    "rest_api": "yes",
+    "graphql_api": "unknown",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Gorgias supports API Key and OAuth2 authentication methods.",
+        "url": "https://developers.gorgias.com/reference/authentication",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The Gorgias API supports two authentication methods:"
+      },
+      {
+        "claim": "Gorgias uses HTTP Basic Authentication with USERNAME:API_KEY credentials for private apps.",
+        "url": "https://developers.gorgias.com/docs/access-tokens-api-keys",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Since we're using HTTP Basic Authentication, the USERNAME:API_KEY pair has to be a base64 encoded string."
+      },
+      {
+        "claim": "Gorgias provides a REST API.",
+        "url": "https://developers.gorgias.com/reference/introduction",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The Gorgias API is structured with REST in mind."
+      },
+      {
+        "claim": "Gorgias provides an official Model Context Protocol (MCP) integration.",
+        "url": "https://docs.gorgias.com/en-US/connect-your-ai-assistant-to-the-gorgias-mcp-6310546",
+        "source_type": "official_help",
+        "quote_or_excerpt": "The Gorgias Model Context Protocol (MCP) app allows your third-party AI assistant to access your Gorgias data and account, so it can read and analyze your helpdesk tickets, and audit and update your Gorgias settings."
+      },
+      {
+        "claim": "REST API access is available on all Helpdesk plans.",
+        "url": "https://docs.gorgias.com/en-US/rest-api-208286",
+        "source_type": "official_help",
+        "quote_or_excerpt": "Available on all Helpdesk plans"
+      }
+    ],
+    "confidence": "high"
+  }
+}

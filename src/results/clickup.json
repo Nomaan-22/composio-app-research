@@ -1,0 +1,67 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "ClickUp",
+  "website": "https://clickup.com/api",
+  "category": "Productivity and Project Management",
+  "completed_at": "2026-08-24T10:18:50.748982+00:00",
+  "elapsed_seconds": 549.17,
+  "repair_attempts": 1,
+  "research_result": {
+    "app": "ClickUp",
+    "website": "https://clickup.com/api",
+    "category": "Productivity and Project Management",
+    "description": "ClickUp is a productivity and project management platform providing a Public REST API and an official Model Context Protocol (MCP) server for AI assistants.",
+    "auth_methods": [
+      "OAuth 2.0",
+      "Personal API Token"
+    ],
+    "credential_requirements": "Users can generate a Personal API Token directly in ClickUp account settings under Apps. To create OAuth apps and retrieve client_id and client_secret, Workspace owner or admin privileges are required.",
+    "self_serve": "free",
+    "rest_api": "yes",
+    "graphql_api": "no",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "ClickUp supports OAuth 2.0 authentication.",
+        "url": "https://developer.clickup.com/docs/authentication",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "- Authentication: OAuth 2.0"
+      },
+      {
+        "claim": "ClickUp supports Personal API Tokens for authentication.",
+        "url": "https://developer.clickup.com/docs/authentication",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "For personal use, authenticate with your personal API token."
+      },
+      {
+        "claim": "Personal tokens are generated in account settings, while OAuth apps require owner or admin permissions.",
+        "url": "https://developer.clickup.com/docs/authentication",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Only Workspace owners or admins can create OAuth apps."
+      },
+      {
+        "claim": "ClickUp's public API is available across all plans, including Free Forever.",
+        "url": "https://developer.clickup.com/docs/apis-available-by-plan",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Our Public API is available on all ClickUp Plans ."
+      },
+      {
+        "claim": "ClickUp provides a public REST API.",
+        "url": "https://developer.clickup.com/docs/Getting%20Started",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Build your own custom integrations and ClickUp apps with our public Application Programming Interface (API)."
+      },
+      {
+        "claim": "ClickUp provides an official MCP Server for AI assistants.",
+        "url": "https://developer.clickup.com/docs/connect-an-ai-assistant-to-clickups-mcp-server",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The Model Context Protocol (MCP) is a secure, standardized framework that lets external AI agents interact with ClickUp Workspace data—like tasks, lists, folders, and docs—using natural language."
+      }
+    ],
+    "confidence": "high"
+  }
+}

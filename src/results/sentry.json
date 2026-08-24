@@ -1,0 +1,75 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "Sentry",
+  "website": "https://docs.sentry.io/api",
+  "category": "Developer, Infra and Data platforms",
+  "completed_at": "2026-08-24T09:47:48.903055+00:00",
+  "elapsed_seconds": 81.82,
+  "repair_attempts": 1,
+  "research_result": {
+    "app": "Sentry",
+    "website": "https://docs.sentry.io/api",
+    "category": "Developer, Infra and Data platforms",
+    "description": "Sentry is a developer-first application monitoring platform that provides error tracking, performance monitoring, session replay, profiling, logging, and metrics across various platforms and frameworks.",
+    "auth_methods": [
+      "OAuth 2.0",
+      "Bearer token",
+      "API key",
+      "Basic authentication"
+    ],
+    "credential_requirements": "Users can generate user authentication tokens under User Settings > Personal Tokens or create internal integration tokens in Sentry. OAuth 2.0 applications use client credentials and authorization code or device authorization flows. Legacy API keys use HTTP Basic authentication.",
+    "self_serve": "free",
+    "rest_api": "yes",
+    "graphql_api": "no",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Sentry supports OAuth 2.0 for API access.",
+        "url": "https://docs.sentry.io/api/auth/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "For third-party applications that need to access Sentry on behalf of users, Sentry supports OAuth2 with the authorization code grant type."
+      },
+      {
+        "claim": "Sentry supports Bearer token authentication.",
+        "url": "https://docs.sentry.io/api/auth/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Authentication tokens are passed using an auth header, and are used to authenticate as a user or organization account with the API."
+      },
+      {
+        "claim": "Sentry supports legacy API Key authentication.",
+        "url": "https://docs.sentry.io/api/auth/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "API keys are passed using HTTP Basic auth where the username is your api key, and the password is an empty value."
+      },
+      {
+        "claim": "Sentry supports HTTP Basic authentication for legacy API keys.",
+        "url": "https://docs.sentry.io/api/auth/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "API keys are passed using HTTP Basic auth where the username is your api key, and the password is an empty value."
+      },
+      {
+        "claim": "Sentry provides a REST API under the /api/0/ path prefix.",
+        "url": "https://docs.sentry.io/api/requests/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "All API requests should be made to the`/api/0/` prefix, and will return JSON as the response:"
+      },
+      {
+        "claim": "Sentry provides a hosted Model Context Protocol (MCP) server.",
+        "url": "https://mcp.sentry.dev/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Connects AI assistants to Sentry for searching errors, analyzing performance, triaging issues, reading documentation, and managing projects — all via the Model Context Protocol."
+      },
+      {
+        "claim": "Sentry offers a free self-serve account.",
+        "url": "https://sentry.io/signup/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "14 days of unlimited volume, every feature unlocked. Then you're moved to free, automatically. No forced upgrades."
+      }
+    ],
+    "confidence": "high"
+  }
+}

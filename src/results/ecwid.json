@@ -1,0 +1,61 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "Ecwid",
+  "website": "https://api-docs.ecwid.com/",
+  "category": "Ecommerce",
+  "completed_at": "2026-08-24T07:52:16.563064+00:00",
+  "elapsed_seconds": 113.69,
+  "repair_attempts": 1,
+  "research_result": {
+    "app": "Ecwid",
+    "website": "https://api-docs.ecwid.com/",
+    "category": "Ecommerce",
+    "description": "Ecwid by Lightspeed is an e-commerce platform that provides REST APIs to manage store data, including products, categories, orders, customers, abandoned carts, recurring subscriptions, and store profile settings.",
+    "auth_methods": [
+      "OAuth 2.0",
+      "Bearer Token"
+    ],
+    "credential_requirements": "API access is available for stores on paid plans (Venture, Business, or Unlimited) or by emailing support to receive a free developer upgrade for a test store. Credentials (public and secret access tokens) are created via custom applications in the Ecwid admin app dashboard.",
+    "self_serve": "trial_or_paid",
+    "rest_api": "yes",
+    "graphql_api": "unknown",
+    "api_breadth": "broad",
+    "mcp_available": "no",
+    "buildability": "conditional",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Ecwid REST API requires access tokens and uses OAuth 2.0 for public apps.",
+        "url": "https://docs.ecwid.com/get-started/make-your-first-api-request",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "API access to the store data is locked behind app authentication and request authorization based on the OAuth 2.0 standard."
+      },
+      {
+        "claim": "REST API requests are executed using the secret access token as a Bearer Token.",
+        "url": "https://docs.ecwid.com/get-started/make-your-first-api-request",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Add **store ID** to the *request path*, your **secret access token** as a *Bearer Token on the Authorization tab*, and click *Send*:"
+      },
+      {
+        "claim": "API access is restricted to stores on paid plans.",
+        "url": "https://docs.ecwid.com/get-started/set-up-your-dev-environment-in-ecwid",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Only stores on paid plans can access API."
+      },
+      {
+        "claim": "Developers can request a free plan upgrade for a test store by emailing support.",
+        "url": "https://docs.ecwid.com/get-started/set-up-your-dev-environment-in-ecwid",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "[Email us](/contact-ecwid-api-support-team.md#email-support) to get a free plan upgrade for your test store."
+      },
+      {
+        "claim": "Ecwid REST API provides broad management capabilities across store resources.",
+        "url": "https://docs.ecwid.com/api-reference",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Ecwid REST API allows you to access and manage any store data, payment and shipping methods, and storefront settings."
+      }
+    ],
+    "confidence": "high"
+  }
+}

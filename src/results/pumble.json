@@ -1,0 +1,62 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "Pumble",
+  "website": "https://pumble.com/",
+  "category": "Communications and Messaging",
+  "completed_at": "2026-08-24T06:38:49.859561+00:00",
+  "elapsed_seconds": 149.12,
+  "repair_attempts": 1,
+  "research_result": {
+    "app": "Pumble",
+    "website": "https://pumble.com/",
+    "category": "Communications and Messaging",
+    "description": "Pumble is a workplace communication platform by CAKE.com that provides HTTP REST API endpoints, a Node.js SDK, and a native Model Context Protocol (MCP) server for integrating custom code and AI agents.",
+    "auth_methods": [
+      "OAuth 2.0",
+      "API Key",
+      "Bearer Token"
+    ],
+    "credential_requirements": "Developers can generate API keys directly inside Pumble workspace settings by installing the API addon, or create custom integration apps to obtain an App key, User token, and Bot token. App authorization via OAuth 2.0 uses client ID and client secret credentials.",
+    "self_serve": "free",
+    "rest_api": "yes",
+    "graphql_api": "unknown",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Pumble provides simple HTTP/REST API endpoints to handle workspace actions such as sending messages, deleting messages, creating channels, and handling reactions.",
+        "url": "https://pumble.com/learn/pumble/ai-automation-guide/",
+        "source_type": "official_blog",
+        "quote_or_excerpt": "The Pumble API addon provides simple HTTP endpoints to handle messaging actions inside your workspace."
+      },
+      {
+        "claim": "Pumble supports OAuth 2.0 for authorization and token exchange in app integrations.",
+        "url": "https://cake-com.github.io/pumble-node-sdk/authorization.html",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Pumble uses OAuth2 in order to allow your app to access the API."
+      },
+      {
+        "claim": "Pumble supports API Key and Bearer token authentication via HTTP headers.",
+        "url": "https://pumble.com/help/integrations/automation-workflow-integrations/api-keys-integration/",
+        "source_type": "official_help",
+        "quote_or_excerpt": "This addon lets you generate an API key that allows you to send messages, reactions, and more via simple HTTP requests."
+      },
+      {
+        "claim": "Pumble hosts a native MCP server at mcp.pumble.com allowing third-party AI agents (Claude, Gemini, Codex) to perform workspace operations.",
+        "url": "https://pumble.com/help/integrations/automation-workflow-integrations/how-to-use-the-pumble-mcp-server/",
+        "source_type": "official_help",
+        "quote_or_excerpt": "With the Pumble Model Context Protocol (MCP) server, you can connect third-party AI agents (e.g., Claude, Gemini, Codex) to Pumble and let them access content so they can search messages, find information, and take actions on your behalf."
+      },
+      {
+        "claim": "API access and integration capabilities are available on any Pumble subscription plan.",
+        "url": "https://pumble.com/integrations",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "You can access the API and install integrations on any Pumble subscription."
+      }
+    ],
+    "confidence": "high"
+  }
+}

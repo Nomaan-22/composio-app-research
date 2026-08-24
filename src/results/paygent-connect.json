@@ -1,0 +1,49 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "Paygent Connect",
+  "website": "https://www.paygent.co.jp/",
+  "category": "Finance and Fintech",
+  "completed_at": "2026-08-24T10:44:09.545343+00:00",
+  "elapsed_seconds": 96.15,
+  "repair_attempts": 0,
+  "research_result": {
+    "app": "Paygent Connect",
+    "website": "https://docs.paygent.to/",
+    "category": "Finance and Fintech",
+    "description": "Paygent is a cost-control SDK and backend service for Python and TypeScript that tracks per-user LLM costs, enforces spending limits, and provides real-time usage analytics.",
+    "auth_methods": [
+      "Bearer token",
+      "API key"
+    ],
+    "credential_requirements": "Developers can mint an API key with no initial authentication by making a POST request to /products, or by registering an account at paygent.to.",
+    "self_serve": "free",
+    "rest_api": "yes",
+    "graphql_api": "no",
+    "api_breadth": "moderate",
+    "mcp_available": "no",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Paygent provides a REST API to manage products, plan configurations, users, subscriptions, usage, and webhooks.",
+        "url": "https://docs.paygent.to/reference/api-reference/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The Paygent backend exposes a small REST API. The SDK uses it. You also call it directly to manage plans, users, and subscriptions."
+      },
+      {
+        "claim": "API endpoints are authenticated using a Bearer token header.",
+        "url": "https://docs.paygent.to/reference/api-reference/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Authentication: Bearer token in`Authorization: Bearer pg_live_...` header."
+      },
+      {
+        "claim": "Developers can self-serve and generate an API key without existing authentication via the POST /products endpoint.",
+        "url": "https://docs.paygent.to/reference/api-reference/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Create a new product (tenant). Returns the API key — exactly once. No authentication required."
+      }
+    ],
+    "confidence": "high"
+  }
+}

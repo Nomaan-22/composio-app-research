@@ -1,0 +1,67 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "BigCommerce",
+  "website": "https://developer.bigcommerce.com/",
+  "category": "Ecommerce",
+  "completed_at": "2026-08-24T07:33:48.132938+00:00",
+  "elapsed_seconds": 135.46,
+  "repair_attempts": 2,
+  "research_result": {
+    "app": "BigCommerce",
+    "website": "https://developer.bigcommerce.com/",
+    "category": "Ecommerce",
+    "description": "BigCommerce is an ecommerce platform offering REST APIs, GraphQL APIs, and Model Context Protocol (MCP) servers for building storefronts, integrations, and AI agent toolkits.",
+    "auth_methods": [
+      "OAuth 2.0",
+      "Bearer Token"
+    ],
+    "credential_requirements": "Developers can sign up for a free trial or create a partner sandbox store. Store-level API credentials and access tokens are created in the store control panel under Settings > API Accounts, while app-level OAuth credentials are created in the Developer Portal.",
+    "self_serve": "free",
+    "rest_api": "yes",
+    "graphql_api": "yes",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "BigCommerce supports OAuth 2.0 authorization code grant for app integration.",
+        "url": "https://docs.bigcommerce.com/developer/docs/integrations/apps/guide/auth",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "BigCommerce uses a modified version of the OAuth2 authorization code grant (tools.ietf.org)."
+      },
+      {
+        "claim": "BigCommerce supports bearer tokens for authenticating GraphQL Storefront API requests.",
+        "url": "https://docs.bigcommerce.com/developer/learn/courses/graphql-storefront-api/auth/authentication",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The GraphQL API authorizes requests with a bearer token sent via the HTTP Authorization header:"
+      },
+      {
+        "claim": "Free sandbox stores are available for developing and testing applications.",
+        "url": "https://docs.bigcommerce.com/developer/docs/overview/sandboxes",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Sandbox stores are intended for developing and testing apps. They cannot process any live transactions."
+      },
+      {
+        "claim": "BigCommerce provides REST APIs with standard HTTP status codes and filtering parameters.",
+        "url": "https://docs.bigcommerce.com/developer/api-reference/rest/overview",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "This page covers REST API HTTP status codes and common query parameters for BigCommerce REST APIs."
+      },
+      {
+        "claim": "BigCommerce offers GraphQL Admin and Storefront APIs.",
+        "url": "https://docs.bigcommerce.com/developer/learn/courses/intro-to-bc-development/apis/admin-apis",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The GraphQL Admin API is similar in concept to REST admin APIs but handles different domains of operations."
+      },
+      {
+        "claim": "BigCommerce provides dedicated Model Context Protocol (MCP) servers for AI agents.",
+        "url": "https://docs.bigcommerce.com/developer/api-reference/mcp/overview",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The BigCommerce MCP server lets AI agents interact with a BigCommerce storefront using purpose-built commerce tools."
+      }
+    ],
+    "confidence": "high"
+  }
+}

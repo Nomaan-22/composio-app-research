@@ -1,0 +1,67 @@
+{
+  "status": "completed",
+  "validated": false,
+  "app": "Freshdesk",
+  "website": "https://freshdesk.com/",
+  "category": "Support and Helpdesk",
+  "completed_at": "2026-08-24T06:10:18.066180+00:00",
+  "elapsed_seconds": 185.67,
+  "repair_attempts": 1,
+  "research_result": {
+    "app": "Freshdesk",
+    "website": "https://freshdesk.com/",
+    "category": "Support and Helpdesk",
+    "description": "Freshdesk is a cloud-based customer support platform that provides ticketing, contacts, kb solutions, and helpdesk automation capabilities with extensive REST API coverage and MCP server integration.",
+    "auth_methods": [
+      "API Key",
+      "Basic Authentication"
+    ],
+    "credential_requirements": "API keys can be obtained from the Profile Settings page of a Freshdesk account. API access is supported on trial accounts and paid plans (Growth, Pro, Enterprise), but is not available on the free Sprout plan.",
+    "self_serve": "trial_or_paid",
+    "rest_api": "yes",
+    "graphql_api": "no",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Freshdesk provides REST APIs (v2) allowing RESTful operations across tickets, contacts, companies, and helpdesk resources.",
+        "url": "https://developer.freshdesk.com/api/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Freshdesk's APIs belong to the Representational State Transfer (REST) category. They allow you to perform 'RESTful' operations such as reading, modifying, adding or deleting data from your helpdesk."
+      },
+      {
+        "claim": "Freshdesk does not offer a native public GraphQL API endpoint.",
+        "url": "https://apis.io/graphqls/freshdesk/freshdesk-graphql/",
+        "source_type": "third_party",
+        "quote_or_excerpt": "Freshdesk does not offer a native public GraphQL endpoint — all official API access is provided through the versioned REST API."
+      },
+      {
+        "claim": "Freshdesk supports API key authentication for API requests.",
+        "url": "https://developer.freshdesk.com/api/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "You can use your personal API key to authenticate the request. If you use the API key, there is no need for a password."
+      },
+      {
+        "claim": "Freshdesk supports Basic Access Authorization using helpdesk username and password.",
+        "url": "https://developer.freshdesk.com/api/v1/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Freshdesk uses Basic Access Authorization. This means, for authentication, you can use the same username and password you use when logging into your helpdesk."
+      },
+      {
+        "claim": "Freshdesk provides a Model Context Protocol (MCP) server integration to interact with AI tools.",
+        "url": "https://support.freshdesk.com/support/solutions/articles/50000012670-model-context-protocol-mcp-integration-in-freshdesk-eap-",
+        "source_type": "official_help",
+        "quote_or_excerpt": "The Freshworks Model Context Protocol (MCP) server enables AI tools like Cursor and Claude to securely connect and interact with Freshdesk."
+      },
+      {
+        "claim": "API key and API functionality are not available on the free Sprout plan.",
+        "url": "https://support.freshdesk.com/support/solutions/articles/225435-where-can-i-find-my-api-key-",
+        "source_type": "official_help",
+        "quote_or_excerpt": "Note: If your account is on the Sprout plan, the API key and the API functionality will NOT be available."
+      }
+    ],
+    "confidence": "high"
+  }
+}

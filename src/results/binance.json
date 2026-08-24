@@ -1,0 +1,62 @@
+{
+  "status": "completed",
+  "validated": false,
+  "app": "Binance",
+  "website": "https://binance-docs.github.io/",
+  "category": "Finance and Fintech",
+  "completed_at": "2026-08-24T10:42:33.396366+00:00",
+  "elapsed_seconds": 147.66,
+  "repair_attempts": 1,
+  "research_result": {
+    "app": "Binance",
+    "website": "https://binance-docs.github.io/",
+    "category": "Finance and Fintech",
+    "description": "Binance is a global cryptocurrency exchange providing extensive APIs, WebSocket streams, and MCP servers for market data, spot and derivatives trading, wallet management, and automated trading.",
+    "auth_methods": [
+      "API Key",
+      "OAuth 2.0",
+      "JWT"
+    ],
+    "credential_requirements": "Developers must register a Binance account, complete identity verification (KYC), enable 2FA, and make a deposit into their Spot Wallet to generate API keys. OAuth 2.0 application access is gated and restricted to close ecosystem partners.",
+    "self_serve": "gated",
+    "rest_api": "yes",
+    "graphql_api": "no",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "conditional",
+    "main_blocker": "Creating API keys requires identity verification (KYC) and account funding, while OAuth 2.0 authorization is restricted to approved ecosystem partners.",
+    "evidence": [
+      {
+        "claim": "Binance APIs support OAuth 2.0 authentication, but access is currently restricted to close ecosystem partners.",
+        "url": "https://developers.binance.com/docs/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "For now, Binance Login (Oauth2.0), is exclusively offered to close ecosystem partners. Please reach to our business team for further information."
+      },
+      {
+        "claim": "API key creation requires completing identity verification (KYC), enabling 2FA, and depositing funds into the account.",
+        "url": "https://www.binance.info/en/support/faq/detail/360002502072",
+        "source_type": "official_help",
+        "quote_or_excerpt": "Please note that before creating an API Key, you need to make a deposit of any amount to your Spot Wallet to activate your account and complete identity verification."
+      },
+      {
+        "claim": "Binance offers broad REST and WebSocket APIs covering spot trading, futures, margin trading, and wallet management.",
+        "url": "https://github.com/binance/binance-official-api-docs",
+        "source_type": "official_github",
+        "quote_or_excerpt": "Official Documentation for the Binance Spot APIs and Streams"
+      },
+      {
+        "claim": "Binance launched an official Model Context Protocol (MCP) server alongside Binance Agent OS.",
+        "url": "https://crypto.news/binance-launches-agent-os-and-mcp-trading-server/",
+        "source_type": "third_party",
+        "quote_or_excerpt": "Binance launched Binance Agent OS and its Model Context Protocol Server on Aug. 20, giving compatible artificial intelligence applications controlled access to market data and trading functions."
+      },
+      {
+        "claim": "Binance Open Platform supports JWT signature authentication for open API requests.",
+        "url": "https://developers.binance.com/docs/mini-program/openservice/signature",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "When interacting with the API, the generated JWT token should be added to the HTTP header as follows:"
+      }
+    ],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "systeme.io",
+  "website": "https://systeme.io/",
+  "category": "Marketing, Ads, Email and Social",
+  "completed_at": "2026-08-24T07:18:30.959869+00:00",
+  "elapsed_seconds": 35.47,
+  "repair_attempts": 0,
+  "research_result": {
+    "app": "systeme.io",
+    "website": "https://systeme.io/",
+    "category": "Marketing, Ads, Email and Social",
+    "description": "systeme.io is an all-in-one marketing platform for sales funnels, email campaigns, online courses, and digital product management. It provides a RESTful Public API and a native MCP server for interacting with platform resources.",
+    "auth_methods": [
+      "API Key"
+    ],
+    "credential_requirements": "Users can generate Public API keys and MCP keys directly from their systeme.io account dashboard under Settings > MCP & API keys. Accounts can hold up to 3 Public API keys and 2 MCP keys at a time.",
+    "self_serve": "unknown",
+    "rest_api": "yes",
+    "graphql_api": "no",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Systeme.io provides a RESTful Public API for managing contacts, tags, funnels, newsletters, courses, and other platform resources.",
+        "url": "https://developer.systeme.io/reference/api",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Adhering to RESTful conventions, our API ensures an intuitive and consistent interaction pattern for all users."
+      },
+      {
+        "claim": "Public API authentication requires attaching an API key to the X-API-Key header of each request.",
+        "url": "https://developer.systeme.io/reference/api",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "To authenticate with the Systeme.io Public API, your only option right now is to attach your API key to the`X-API-Key` header of each request."
+      },
+      {
+        "claim": "Users can generate API keys directly from their account dashboard settings.",
+        "url": "https://help.systeme.io/article/2323-how-to-create-a-public-api-key-on-systeme-io",
+        "source_type": "official_help",
+        "quote_or_excerpt": "To create a public API key, click your profile picture, select Settings (1), and scroll down to MCP & API keys (2)."
+      },
+      {
+        "claim": "Systeme.io offers a native MCP server for AI tools to interact with platform data.",
+        "url": "https://help.systeme.io/article/9489-how-to-use-systeme-ios-mcp",
+        "source_type": "official_help",
+        "quote_or_excerpt": "The new MCP server feature gives users, partners, and developers a powerful new way to interact with systeme.io using AI tools."
+      }
+    ],
+    "confidence": "high"
+  }
+}

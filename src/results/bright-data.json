@@ -1,0 +1,55 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "Bright Data",
+  "website": "https://brightdata.com/",
+  "category": "Data, SEO and Scraping",
+  "completed_at": "2026-08-24T08:23:53.269567+00:00",
+  "elapsed_seconds": 66.84,
+  "repair_attempts": 1,
+  "research_result": {
+    "app": "Bright Data",
+    "website": "https://brightdata.com/",
+    "category": "Data, SEO and Scraping",
+    "description": "Bright Data provides web data collection infrastructure, including SERP API, Web Unlocker API, Web Scraper API, cloud browser automation, and an official MCP server for AI agents.",
+    "auth_methods": [
+      "API Key",
+      "Bearer Token"
+    ],
+    "credential_requirements": "A default API key is created automatically upon account creation. Additional API keys can be generated in the control panel under Account Settings.",
+    "self_serve": "free",
+    "rest_api": "yes",
+    "graphql_api": "no",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Bright Data provides a recurring free tier with 5,000 credits per month without requiring a credit card.",
+        "url": "https://docs.brightdata.com/general/account/billing-and-pricing/free-tier",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The free tier is a recurring monthly credit allowance that applies automatically to every new account."
+      },
+      {
+        "claim": "Bright Data supports authentication using an API key sent as a Bearer token in the Authorization header.",
+        "url": "https://docs.brightdata.com/api-reference/authentication",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "An API key is a secure hashed token used to authenticate with Bright Data API. We create a default key for you upon account creation automatically."
+      },
+      {
+        "claim": "Bright Data provides an official Model Context Protocol (MCP) server for AI agents.",
+        "url": "https://docs.brightdata.com/ai/mcp-server/overview",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Connect it to Claude, Cursor or any MCP-compatible client, and your agent can search, scrape and read live web pages without you building or maintaining data pipelines."
+      },
+      {
+        "claim": "Bright Data provides REST API endpoints for web data collection and SERP scraping.",
+        "url": "https://docs.brightdata.com/api-reference/rest-api/serp/serp-api",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Use the Bright Data SERP API (31 languages) to extract structured results from Google, Bing, Yandex and DuckDuckGo with organic listings, ads and shopping data."
+      }
+    ],
+    "confidence": "high"
+  }
+}

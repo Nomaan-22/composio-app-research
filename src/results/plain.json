@@ -1,0 +1,55 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "Plain",
+  "website": "https://plain.com/",
+  "category": "Support and Helpdesk",
+  "completed_at": "2026-08-24T06:14:09.547530+00:00",
+  "elapsed_seconds": 156.49,
+  "repair_attempts": 0,
+  "research_result": {
+    "app": "Plain",
+    "website": "https://plain.com/",
+    "category": "Support and Helpdesk",
+    "description": "Plain is a customer support platform built on top of a GraphQL API that provides full feature parity between its UI and API, including native MCP server support for AI agents.",
+    "auth_methods": [
+      "API Key",
+      "Bearer Token"
+    ],
+    "credential_requirements": "Access requires an API key generated from Plain, which is passed in request headers as a Bearer token (`Authorization: Bearer YOUR_TOKEN`).",
+    "self_serve": "unknown",
+    "rest_api": "unknown",
+    "graphql_api": "yes",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Plain provides a full GraphQL API with complete feature parity with its UI.",
+        "url": "https://plain.mintlify.app/graphql/introduction",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Plain is built with this very GraphQL API we expose to you. This means that there are no limitations in what can be done via the API vs the UI."
+      },
+      {
+        "claim": "Plain officially provides an MCP Server for integration with AI Agents.",
+        "url": "https://plain.mintlify.app/graphql/introduction",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "If you're looking to access our GraphQL API from an Agent, try our MCP Server instead."
+      },
+      {
+        "claim": "Plain uses API keys passed via Bearer token in HTTP Authorization headers.",
+        "url": "https://plain.mintlify.app/graphql/introduction",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "`Authorization: Bearer YOUR_TOKEN` where the token is your API key."
+      },
+      {
+        "claim": "Plain provides an official typed GraphQL SDK.",
+        "url": "https://www.plain.com/docs/graphql/sdk",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The `@team-plain/graphql` package provides a fully typed client for Plain's GraphQL API."
+      }
+    ],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "Copper",
+  "website": "https://copper.com/",
+  "category": "CRM and Sales",
+  "completed_at": "2026-08-24T05:59:10.361511+00:00",
+  "elapsed_seconds": 38.4,
+  "repair_attempts": 0,
+  "research_result": {
+    "app": "Copper",
+    "website": "https://copper.com/",
+    "category": "CRM and Sales",
+    "description": "Copper is a CRM platform for managing sales and customer data. It provides a RESTful API with JSON responses to access, create, read, update, and delete resources across the platform.",
+    "auth_methods": [
+      "API Key",
+      "OAuth 2.0"
+    ],
+    "credential_requirements": "API keys are generated in the Copper web app under Settings > Integrations > API Keys by Admin users. Requests require passing the API token and the email address of the generating user in request headers. OAuth 2.0 is also supported for partner integrations.",
+    "self_serve": "unknown",
+    "rest_api": "yes",
+    "graphql_api": "unknown",
+    "api_breadth": "broad",
+    "mcp_available": "no",
+    "buildability": "conditional",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Copper offers a RESTful Developer API providing access to most Copper resources.",
+        "url": "https://developer.copper.com/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The Copper Developer API (\"Dev API\") provides a RESTful interface with JSON-formatted responses to access most Copper resources."
+      },
+      {
+        "claim": "Copper supports API keys and OAuth 2.0 for API access.",
+        "url": "https://developer.copper.com/introduction/authentication.html",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "There are two ways to access the Copper Developer API: API keys and OAuth2.0."
+      },
+      {
+        "claim": "Only Admin users can generate API keys to perform CRUD operations on Copper data.",
+        "url": "https://support.copper.com/en/articles/8823347-generating-an-api-key",
+        "source_type": "official_help",
+        "quote_or_excerpt": "API Keys can be used to create, read, update, and delete data in Copper. Only Admin users are able to generate API Keys."
+      }
+    ],
+    "confidence": "high"
+  }
+}

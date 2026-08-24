@@ -1,0 +1,55 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "Pylon",
+  "website": "https://usepylon.com/",
+  "category": "Support and Helpdesk",
+  "completed_at": "2026-08-23T15:53:55.602319+00:00",
+  "elapsed_seconds": 38.88,
+  "repair_attempts": 0,
+  "research_result": {
+    "app": "Pylon",
+    "website": "https://usepylon.com/",
+    "category": "Support and Helpdesk",
+    "description": "Pylon is a customer support and helpdesk platform designed for B2B teams, offering issue tracking, account intelligence, and AI integration capabilities.",
+    "auth_methods": [
+      "Bearer Token",
+      "OAuth 2.0"
+    ],
+    "credential_requirements": "API tokens are generated from the Pylon dashboard under Settings -> API Tokens by an account Admin. MCP access is configured under Settings -> AI Controls -> MCP Server and uses OAuth 2.0 authentication.",
+    "self_serve": "gated",
+    "rest_api": "yes",
+    "graphql_api": "no",
+    "api_breadth": "moderate",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "The Pylon API uses REST principles and Bearer authentication.",
+        "url": "https://docs.usepylon.com/pylon-docs/developer/api/authentication",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The Pylon API uses Bearer authentication. This means you’ll need to pass your API token in the header of your request:"
+      },
+      {
+        "claim": "Pylon provides a dedicated MCP server for AI tools with OAuth 2.0 authentication.",
+        "url": "https://docs.usepylon.com/pylon-docs/integrations/pylon-mcp",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The Pylon MCP Server exposes Pylon data to AI tools that support the Model Context Protocol (e.g. Claude, ChatGPT, Cursor)."
+      },
+      {
+        "claim": "Pylon MCP uses OAuth 2.0 (AuthKit) for authentication.",
+        "url": "https://docs.usepylon.com/pylon-docs/integrations/pylon-mcp",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Auth: OAuth 2.0 (AuthKit). Actions are performed on behalf of the authenticated user; access is scoped to the same data as in the Pylon dashboard."
+      },
+      {
+        "claim": "API tokens must be created by an Admin in the Pylon dashboard.",
+        "url": "https://support.usepylon.com/articles/4735104435-how-do-i-create-an-api-token",
+        "source_type": "official_help",
+        "quote_or_excerpt": "You must be an Admin to access the API tokens page and create a token. If you are not an admin, ask an admin on your team!"
+      }
+    ],
+    "confidence": "high"
+  }
+}

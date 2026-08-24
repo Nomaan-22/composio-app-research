@@ -1,0 +1,61 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "Grain",
+  "website": "https://grain.com/",
+  "category": "AI, Research and Media-native",
+  "completed_at": "2026-08-24T12:09:28.975269+00:00",
+  "elapsed_seconds": 114.16,
+  "repair_attempts": 2,
+  "research_result": {
+    "app": "Grain",
+    "website": "https://grain.com/",
+    "category": "AI, Research and Media-native",
+    "description": "Grain is an AI meeting recorder and conversation intelligence platform that captures, transcribes, and summarizes meetings, providing a REST API and official MCP server for workflow automation.",
+    "auth_methods": [
+      "OAuth 2.0",
+      "Bearer Token"
+    ],
+    "credential_requirements": "API access requires a Starter plan or higher for Personal Access Tokens, or a Business/Enterprise plan for Workspace Access Tokens. Tokens can be generated in Workspace settings under Integrations > API. OAuth2 applications require requesting a Client ID and Client Secret from Grain.",
+    "self_serve": "trial_or_paid",
+    "rest_api": "yes",
+    "graphql_api": "no",
+    "api_breadth": "moderate",
+    "mcp_available": "yes",
+    "buildability": "conditional",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Grain supports OAuth2 authentication with standard authorization code flow and PKCE extension.",
+        "url": "https://developers.grain.com/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The API supports a standard OAuth2 Authorization Code flow, including the PKCE extension for client-side only authentication."
+      },
+      {
+        "claim": "API calls require a Bearer token in the Authorization header.",
+        "url": "https://developers.grain.com/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "To authenticate API calls, the client must add the following header:"
+      },
+      {
+        "claim": "Grain offers a REST API for reading meeting data, managing recordings, and webhooks.",
+        "url": "https://support.grain.com/en/articles/15507288-grain-api",
+        "source_type": "official_help",
+        "quote_or_excerpt": "The Grain API lets developers read meeting data, manage recordings, and receive real-time events from Grain programmatically."
+      },
+      {
+        "claim": "API access is available on Starter, Business, and Enterprise plans, but not on the Free plan.",
+        "url": "https://support.grain.com/en/articles/15507288-grain-api",
+        "source_type": "official_help",
+        "quote_or_excerpt": "Do I need a specific Grain plan to use the API? Yes. Personal API access is available on Starter, Business, and Enterprise plans. Workspace API access is available on Business and Enterprise plans and requires admin access to generate. The Free plan does not include API access."
+      },
+      {
+        "claim": "Grain provides an official Model Context Protocol (MCP) server.",
+        "url": "https://support.grain.com/en/articles/14811968-grain-mcp",
+        "source_type": "official_help",
+        "quote_or_excerpt": "Grain's MCP (Model Context Protocol) server gives AI assistants direct access to your meetings, transcripts, AI notes, and workspace data."
+      }
+    ],
+    "confidence": "high"
+  }
+}

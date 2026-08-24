@@ -1,0 +1,54 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "YouTube Transcript",
+  "website": "https://transcriptapi.com/",
+  "category": "AI, Research and Media-native",
+  "completed_at": "2026-08-24T12:07:34.812858+00:00",
+  "elapsed_seconds": 39.9,
+  "repair_attempts": 0,
+  "research_result": {
+    "app": "YouTube Transcript",
+    "website": "https://transcriptapi.com/",
+    "category": "AI, Research and Media-native",
+    "description": "YouTube Transcript (TranscriptAPI) provides a REST API and native MCP server for extracting transcript content, searching YouTube, and gathering channel and playlist metadata.",
+    "auth_methods": [
+      "API key"
+    ],
+    "credential_requirements": "Developers can obtain access by registering for a free account at transcriptapi.com, which instantly provides 100 free credits without requiring a credit card, and copying their API key from the dashboard.",
+    "self_serve": "free",
+    "rest_api": "yes",
+    "graphql_api": "no",
+    "api_breadth": "narrow",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "TranscriptAPI provides access to video transcript data via a REST interface.",
+        "url": "https://transcriptapi.com/blog/youtube-transcript-api-complete-developer-guide",
+        "source_type": "official_blog",
+        "quote_or_excerpt": "You get reliable, fast access to video text data through a clean REST interface."
+      },
+      {
+        "claim": "TranscriptAPI offers a native MCP server integration.",
+        "url": "https://transcriptapi.com/blog/youtube-transcript-api-complete-developer-guide",
+        "source_type": "official_blog",
+        "quote_or_excerpt": "TranscriptAPI has a native MCP server that works with Claude, Cursor, Windsurf, ChatGPT, and OpenClaw."
+      },
+      {
+        "claim": "TranscriptAPI provides a free self-serve tier with 100 credits without requiring a credit card.",
+        "url": "https://transcriptapi.com/blog/youtube-transcript-api-complete-developer-guide",
+        "source_type": "official_blog",
+        "quote_or_excerpt": "Free tier: 100 credits to start. No credit card required. No time limit."
+      },
+      {
+        "claim": "Authentication is performed using an API key passed in the Authorization header.",
+        "url": "https://transcriptapi.com/blog/youtube-transcript-api-complete-developer-guide",
+        "source_type": "official_blog",
+        "quote_or_excerpt": "The API key goes in the Authorization header, not in the URL."
+      }
+    ],
+    "confidence": "high"
+  }
+}

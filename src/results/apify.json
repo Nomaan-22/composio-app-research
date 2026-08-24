@@ -1,0 +1,55 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "Apify",
+  "website": "https://docs.apify.com/",
+  "category": "Data, SEO and Scraping",
+  "completed_at": "2026-08-23T08:14:33.290246+00:00",
+  "elapsed_seconds": 46.05,
+  "repair_attempts": 0,
+  "research_result": {
+    "app": "Apify",
+    "website": "https://docs.apify.com/",
+    "category": "Data, SEO and Scraping",
+    "description": "Apify is a platform for web scraping, data extraction, and browser automation that provides serverless cloud programs called Actors, structured storage systems, and integration interfaces for AI agents.",
+    "auth_methods": [
+      "OAuth 2.0",
+      "API token"
+    ],
+    "credential_requirements": "Developers can register for a free account on Apify Console with no credit card required to obtain an API token under Settings > API & Integrations, or authorize via OAuth 2.0.",
+    "self_serve": "free",
+    "rest_api": "yes",
+    "graphql_api": "no",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Apify offers a REST API that controls all platform operations.",
+        "url": "https://docs.apify.com/integrations/api",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "All aspects of the Apify platform can be controlled via a REST API, which is described in detail in the API Reference."
+      },
+      {
+        "claim": "Apify supports OAuth 2.0 and API token for API authentication.",
+        "url": "https://docs.apify.com/integrations/integrate",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Apify supports two main authentication methods for secure API access."
+      },
+      {
+        "claim": "Apify provides self-serve free plan access requiring no credit card.",
+        "url": "https://docs.apify.com/get-started/agent-onboarding",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The free plan includes monthly platform usage credits with no credit card required."
+      },
+      {
+        "claim": "Apify provides a dedicated hosted MCP server for AI agents.",
+        "url": "https://docs.apify.com/integrations/mcp",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The Apify's MCP server (mcp.apify.com) allows AI applications and agents to interact with the Apify platform using Model Context Protocol (MCP)."
+      }
+    ],
+    "confidence": "high"
+  }
+}

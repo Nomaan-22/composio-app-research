@@ -1,0 +1,61 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "Lark (Larksuite)",
+  "website": "https://open.larksuite.com/",
+  "category": "Communications and Messaging",
+  "completed_at": "2026-08-24T06:36:20.736419+00:00",
+  "elapsed_seconds": 43.73,
+  "repair_attempts": 0,
+  "research_result": {
+    "app": "Lark (Larksuite)",
+    "website": "https://open.larksuite.com/",
+    "category": "Communications and Messaging",
+    "description": "Lark (Larksuite) is an enterprise collaboration platform providing RESTful APIs and an official OpenAPI MCP server that enable AI agents and integrations to interact with messaging, contacts, cloud documents, calendar, tasks, video conferencing, and Base/Bitable applications.",
+    "auth_methods": [
+      "OAuth 2.0",
+      "Bearer Token"
+    ],
+    "credential_requirements": "Developers register an organization account and create custom or store applications in the Lark Developer Console to obtain an App ID and App Secret. Using these credentials, developers generate a tenant_access_token or execute an OAuth 2.0 flow to acquire a user_access_token. Production deployment of custom apps within an enterprise requires approval from a tenant administrator.",
+    "self_serve": "free",
+    "rest_api": "yes",
+    "graphql_api": "no",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Lark APIs use OAuth 2.0 for user access tokens following RFC 6749.",
+        "url": "https://open.larksuite.com/document/uAjLw4CM/ukTMukTMukTM/authentication-management/access-token/get-user-access-token",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "This API implementation adheres to RFC 6749 - The OAuth 2.0 Authorization Framework."
+      },
+      {
+        "claim": "API calls require sending the access token as a Bearer token in the request header.",
+        "url": "https://open.larksuite.com/document/ukTMukTMukTM/uMTNz4yM1MjLzUzM",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "To use an access token (access_token), you need to fill it in the Request Header parameter of the HTTP request when calling the API. The value needs to be prefixed with Bearer ."
+      },
+      {
+        "claim": "Lark Open Platform server APIs follow the RESTful architecture.",
+        "url": "https://open.larksuite.com/document/server-docs/getting-started/getting-started",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The APIs provided by Lark Open Platform follow the RESTful style, and the format of the request URL is as follows:"
+      },
+      {
+        "claim": "An official OpenAPI MCP tool is available for connecting AI agents to Lark capabilities.",
+        "url": "https://github.com/larksuite/lark-openapi-mcp",
+        "source_type": "official_github",
+        "quote_or_excerpt": "This is the Feishu/Lark official OpenAPI MCP (Model Context Protocol) tool designed to help users quickly connect to the Feishu/Lark platform and enable efficient collaboration between AI Agents and Feishu/Lark."
+      },
+      {
+        "claim": "Developers can sign up for an organization account via a free trial path.",
+        "url": "https://open.larksuite.com/document/home/introduction-to-custom-app-development/self-built-application-development-process?lang=en-US",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "If you are an enterprise administrator, you can go to the Lark website, click Free Trial in the upper right corner, register, and create an organization account."
+      }
+    ],
+    "confidence": "high"
+  }
+}

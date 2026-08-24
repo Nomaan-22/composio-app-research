@@ -1,0 +1,74 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "Zendesk",
+  "website": "https://zendesk.com/",
+  "category": "Support and Helpdesk",
+  "completed_at": "2026-08-23T08:10:45.522033+00:00",
+  "elapsed_seconds": 49.6,
+  "repair_attempts": 0,
+  "research_result": {
+    "app": "Zendesk",
+    "website": "https://zendesk.com/",
+    "category": "Support and Helpdesk",
+    "description": "Zendesk is a customer service and support platform that offers APIs across ticketing, help center, messaging, live chat, voice, sales CRM, and custom data, along with Model Context Protocol (MCP) support.",
+    "auth_methods": [
+      "OAuth 2.0",
+      "API Token",
+      "Basic Authentication"
+    ],
+    "credential_requirements": "Developers can sign up for a 14-day free trial account or apply for a non-expiring sponsored developer account if creating apps for the Zendesk Marketplace. API OAuth clients and legacy API tokens are managed in Admin Center under Apps and integrations > APIs. Note that legacy API tokens are scheduled for full retirement by April 30, 2027, requiring migration to OAuth 2.0 access tokens.",
+    "self_serve": "trial_or_paid",
+    "rest_api": "yes",
+    "graphql_api": "yes",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Zendesk supports OAuth access tokens, API tokens, and Basic authentication for API access.",
+        "url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Zendesk supports using OAuth access tokens to authenticate API requests."
+      },
+      {
+        "claim": "API tokens are deprecated and set for permanent deactivation on April 30, 2027.",
+        "url": "https://developer.zendesk.com/documentation/authentication/oauth-migration/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Zendesk API tokens will be permanently deactivated on April 30, 2027."
+      },
+      {
+        "claim": "Developers can access Zendesk via a free 14-day trial account or convert it into a sponsored account for development.",
+        "url": "https://developer.zendesk.com/documentation/api-basics/getting-started/getting-a-trial-or-sponsored-account-for-development/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "You can try out the Zendesk platform with a free, 14-day trial account."
+      },
+      {
+        "claim": "Zendesk's primary APIs are built around REST principles.",
+        "url": "https://developer.zendesk.com/documentation/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Zendesk's APIs are organized around REST principles."
+      },
+      {
+        "claim": "Zendesk offers a GraphQL API for querying Sell company information and hierarchy.",
+        "url": "https://developer.zendesk.com/api-reference/sales-crm/search/introduction/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "GraphQL API for querying company information alongside with Company Hierarchy data"
+      },
+      {
+        "claim": "Zendesk can act as an MCP server exposing tools to third-party AI agents, as well as an MCP client.",
+        "url": "https://support.zendesk.com/hc/en-us/articles/10497779528730-Connecting-to-MCP-servers-and-using-MCP-tools-in-action-flows",
+        "source_type": "official_help",
+        "quote_or_excerpt": "Zendesk can also act as an MCP server in other scenarios. In that role, Zendesk exposes tools or resources that third-party AI agents can use to access Zendesk data or perform actions in Zendesk."
+      },
+      {
+        "claim": "Zendesk APIs span across ticketing, help center, live chat, voice, sales CRM, and custom data.",
+        "url": "https://developer.zendesk.com/api-reference/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "You'll find APIs for ticketing, help center, live chat, voice, sales CRM as well as some features that span capabilities, such as omnichannel routing and custom data."
+      }
+    ],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "Harvest",
+  "website": "https://help.getharvest.com/api-v2",
+  "category": "Productivity and Project Management",
+  "completed_at": "2026-08-24T10:26:02.570851+00:00",
+  "elapsed_seconds": 51.5,
+  "repair_attempts": 0,
+  "research_result": {
+    "app": "Harvest",
+    "website": "https://help.getharvest.com/api-v2",
+    "category": "Productivity and Project Management",
+    "description": "Harvest is a time tracking and project management platform providing a comprehensive REST API and an official MCP server for managing timers, projects, tasks, expenses, invoices, and reports.",
+    "auth_methods": [
+      "OAuth 2.0",
+      "Personal Access Tokens"
+    ],
+    "credential_requirements": "Credentials can be created directly in the Developers section of Harvest ID. Developers can generate a Personal Access Token for custom scripts or register an OAuth 2.0 Application for multi-user integrations. API access is included with all Harvest accounts, including free and trial accounts.",
+    "self_serve": "free",
+    "rest_api": "yes",
+    "graphql_api": "no",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Harvest V2 API is a REST API supporting CRUD operations across time tracking, expenses, projects, and reporting.",
+        "url": "https://help.getharvest.com/api-v2/introduction/overview/general/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The Harvest V2 API is a REST API that allows you to interact with your Harvest account programmatically. You can track time, log expenses, create projects, and more."
+      },
+      {
+        "claim": "Harvest supports authentication via Personal Access Tokens and OAuth 2.0.",
+        "url": "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The V2 API requires an access token to authenticate requests. There are two options available to you: - A Personal Access Token which is tied directly to you and is the quickest way to start playing around with the API. - Implementing a full OAuth2 Authentication flow which allows other people to use your Harvest integrations."
+      },
+      {
+        "claim": "API access is available for all Harvest account tiers, including free and trial accounts.",
+        "url": "https://support.getharvest.com/hc/en-us/articles/360048180732-The-Harvest-API",
+        "source_type": "official_help",
+        "quote_or_excerpt": "Your Harvest subscription includes API access for all accounts (including free and trial accounts) which can be used to manage your Harvest account."
+      },
+      {
+        "claim": "Harvest provides an official MCP endpoint for connecting AI assistants.",
+        "url": "https://support.getharvest.com/hc/en-us/articles/46293697226381-Harvest-MCP",
+        "source_type": "official_help",
+        "quote_or_excerpt": "The Harvest MCP (Model Context Protocol) connection lets you work with your Harvest data through an AI assistant, using plain language instead of clicking through the app."
+      }
+    ],
+    "confidence": "high"
+  }
+}

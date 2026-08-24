@@ -1,0 +1,67 @@
+{
+  "status": "completed",
+  "validated": false,
+  "app": "Neo4j",
+  "website": "https://neo4j.com/docs/api",
+  "category": "Developer, Infra and Data platforms",
+  "completed_at": "2026-08-24T09:05:04.447838+00:00",
+  "elapsed_seconds": 161.25,
+  "repair_attempts": 2,
+  "research_result": {
+    "app": "Neo4j",
+    "website": "https://neo4j.com/docs/api",
+    "category": "Developer, Infra and Data platforms",
+    "description": "Neo4j is a graph database platform that allows developers to store, query, and manage connected data using Cypher queries via HTTP APIs, GraphQL libraries, and official MCP server integrations.",
+    "auth_methods": [
+      "Basic authentication",
+      "Bearer token"
+    ],
+    "credential_requirements": "Developers can obtain credentials by creating a free or paid Neo4j Aura cloud instance via console.neo4j.io, or by setting up a self-managed local instance.",
+    "self_serve": "free",
+    "rest_api": "yes",
+    "graphql_api": "yes",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Neo4j Query API supports basic authentication.",
+        "url": "https://neo4j.com/docs/query-api/current/authentication-authorization/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The header format for basic authentication follows the standard format (RFC 7617), with UTF-8 encoding:"
+      },
+      {
+        "claim": "Neo4j Query API supports bearer token authentication.",
+        "url": "https://neo4j.com/docs/query-api/current/authentication-authorization/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The header format to authenticate with a bearer token is:"
+      },
+      {
+        "claim": "Neo4j provides an HTTP Query API to execute Cypher statements against the database.",
+        "url": "https://neo4j.com/docs/query-api/current/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The Query API allows to execute Cypher statements against a Neo4j server through HTTP requests. This API supersedes the deprecated HTTP API."
+      },
+      {
+        "claim": "Neo4j provides an official GraphQL Library for building GraphQL APIs.",
+        "url": "https://neo4j.com/docs/graphql/current/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The Neo4j GraphQL Library is a highly flexible, low-code, open source JavaScript library that enables rapid API development for cross-platform and mobile applications by tapping into the power of connected data."
+      },
+      {
+        "claim": "Neo4j supports an official MCP server for integrating graph database tools into MCP clients.",
+        "url": "https://neo4j.com/docs/mcp/current/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Neo4j MCP implements the Model Context Protocol (MCP), an open standard that lets applications connect to external data sources and tools."
+      },
+      {
+        "claim": "Neo4j provides a self-serve free cloud database tier (AuraDB Free).",
+        "url": "https://graphacademy.neo4j.com/courses/aura-fundamentals/1-introduction/3-sign-up/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Once you have selected the AuraDB Free option, you will have access to a Google Cloud Platform (GCP) instance in the us-central1 region, and the UI will not prompt you for size or cloud provider options, as these are fixed for the AuraDB Free."
+      }
+    ],
+    "confidence": "high"
+  }
+}

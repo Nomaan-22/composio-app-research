@@ -1,0 +1,61 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "Slack",
+  "website": "https://slack.com/",
+  "category": "Communications and Messaging",
+  "completed_at": "2026-08-23T08:00:55.188252+00:00",
+  "elapsed_seconds": 54.91,
+  "repair_attempts": 0,
+  "research_result": {
+    "app": "Slack",
+    "website": "https://slack.com/",
+    "category": "Communications and Messaging",
+    "description": "Slack is a messaging and collaboration platform that offers extensive developer tooling, including a Web API, event subscriptions, SDKs, and native Model Context Protocol (MCP) support for AI agents.",
+    "auth_methods": [
+      "OAuth 2.0",
+      "Bearer token"
+    ],
+    "credential_requirements": "Developers can sign up for the free Slack Developer Program to create apps via api.slack.com/apps or provision free developer sandboxes. Payment method verification is required for sandbox provisioning, but no charges are incurred.",
+    "self_serve": "free",
+    "rest_api": "no",
+    "graphql_api": "unknown",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Slack Web API uses HTTP RPC-style methods and is explicitly not a REST API.",
+        "url": "https://docs.slack.dev/apis/web-api/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "While it's not a REST API, those familiar with REST should be at home with its foundations in HTTP."
+      },
+      {
+        "claim": "Slack requests are authenticated using Bearer tokens obtained via OAuth 2.0.",
+        "url": "https://docs.slack.dev/apis/web-api/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Authenticate your Web API requests by providing a bearer token, which identifies a single user or bot user relationship."
+      },
+      {
+        "claim": "Joining the Slack Developer Program and creating developer sandboxes is free.",
+        "url": "https://docs.slack.dev/tools/developer-sandboxes",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Anyone can sign up for an account, and there are no costs associated with being a member of the Slack Developer Program."
+      },
+      {
+        "claim": "Slack provides an official MCP server and Slackbot MCP client for AI integrations.",
+        "url": "https://docs.slack.dev/ai/slack-mcp-server",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "With the Slack MCP server, your integrated apps can search channels, send messages, and perform other Slack actions through MCP clients."
+      },
+      {
+        "claim": "The Web API surface contains over 200 methods.",
+        "url": "https://docs.slack.dev/apis/web-api/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "With over 200 methods, surely there's one right for you."
+      }
+    ],
+    "confidence": "high"
+  }
+}

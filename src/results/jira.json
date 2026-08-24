@@ -1,0 +1,75 @@
+{
+  "status": "completed",
+  "validated": false,
+  "app": "Jira",
+  "website": "https://developer.atlassian.com/",
+  "category": "Productivity and Project Management",
+  "completed_at": "2026-08-24T09:58:12.168684+00:00",
+  "elapsed_seconds": 91.05,
+  "repair_attempts": 2,
+  "research_result": {
+    "app": "Jira",
+    "website": "https://developer.atlassian.com/",
+    "category": "Productivity and Project Management",
+    "description": "Jira is a project management and issue tracking tool by Atlassian that provides extensive REST APIs for programmatic access to issues, projects, workflows, and custom fields, along with an official Model Context Protocol (MCP) server.",
+    "auth_methods": [
+      "OAuth 2.0",
+      "Basic authentication",
+      "API token",
+      "JWT"
+    ],
+    "credential_requirements": "Developers can sign up online to obtain a free cloud developer bundle instance. Credentials for API access can be obtained by creating an OAuth 2.0 (3LO) app in the Atlassian Developer Console, generating an API token from an Atlassian account for basic authentication, or using OAuth 2.1/API tokens for the official MCP server.",
+    "self_serve": "free",
+    "rest_api": "yes",
+    "graphql_api": "unknown",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Jira provides a REST API to programmatically interact with Jira resources.",
+        "url": "https://developer.atlassian.com/cloud/jira/platform/rest/v2/intro/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The Jira REST API enables you to interact with Jira programmatically. Use this API to build apps, script interactions with Jira, or develop any other type of integration."
+      },
+      {
+        "claim": "Jira supports OAuth 2.0 authorization code grants (3LO) for integrations.",
+        "url": "https://developer.atlassian.com/cloud/jira/platform/rest/v2/intro/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "For integrations that are not Forge or Connect apps, use OAuth 2.0 authorization code grants (3LO) for security (3LO scopes are shown as for operations OAuth scopes required)."
+      },
+      {
+        "claim": "Jira supports basic authentication for personal scripts and bots.",
+        "url": "https://developer.atlassian.com/cloud/jira/platform/rest/v2/intro/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "For personal scripts, bots, and ad-hoc execution of the REST APIs use basic authentication."
+      },
+      {
+        "claim": "Atlassian Connect apps use JWT for authentication.",
+        "url": "https://developer.atlassian.com/cloud/jira/platform/rest/v2/intro/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "For Connect apps, authentication (JWT-based) is built into the Connect libraries."
+      },
+      {
+        "claim": "Basic authentication uses an API token to authenticate the client.",
+        "url": "https://developer.atlassian.com/cloud/jira/software/security-overview/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Basic authentication uses an API token to authenticate the client."
+      },
+      {
+        "claim": "Developers can sign up online to create a free cloud developer instance.",
+        "url": "https://developer.atlassian.com/developer-guide/cloud-and-data-center-for-developers/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "To get started, sign up online to create an instance of one of our Atlassian cloud apps such as Jira or Confluence."
+      },
+      {
+        "claim": "Atlassian provides an official Model Context Protocol (MCP) server for Jira.",
+        "url": "https://github.com/atlassian/atlassian-mcp-server/",
+        "source_type": "official_github",
+        "quote_or_excerpt": "Official remote MCP server for Atlassian. Securely connect Jira, Confluence, Jira Service Management, Bitbucket, and Compass to Claude, ChatGPT, Cursor, VS Code, and other AI tools using OAuth 2.1 or API tokens."
+      }
+    ],
+    "confidence": "high"
+  }
+}

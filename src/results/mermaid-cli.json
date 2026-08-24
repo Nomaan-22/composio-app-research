@@ -1,0 +1,46 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "Mermaid CLI",
+  "website": "https://github.com/mermaid-js/mermaid-cli",
+  "category": "AI, Research and Media-native",
+  "completed_at": "2026-08-24T12:06:54.910276+00:00",
+  "elapsed_seconds": 104.17,
+  "repair_attempts": 1,
+  "research_result": {
+    "app": "Mermaid CLI",
+    "website": "https://github.com/mermaid-js/mermaid-cli",
+    "category": "AI, Research and Media-native",
+    "description": "Mermaid CLI (@mermaid-js/mermaid-cli) is an open-source command-line interface and Node.js library for converting Mermaid diagram definition files into SVG, PNG, or PDF output.",
+    "auth_methods": [],
+    "credential_requirements": "No credentials or API keys are required. Mermaid CLI is an open-source tool installed and run locally via npm, npx, or Docker.",
+    "self_serve": "free",
+    "rest_api": "no",
+    "graphql_api": "no",
+    "api_breadth": "narrow",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Mermaid CLI is free, open-source software distributed under the MIT license.",
+        "url": "https://www.npmjs.com/package/@mermaid-js/mermaid-cli",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "- License: MIT"
+      },
+      {
+        "claim": "Mermaid CLI provides a command-line interface to convert Mermaid diagram files into SVG, PNG, or PDF files.",
+        "url": "https://github.com/mermaid-js/mermaid-cli",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "This is a command-line interface (CLI) for mermaid. It takes a mermaid definition file as input and generates an SVG/PNG/PDF file as output."
+      },
+      {
+        "claim": "An MCP server integration is available that uses Mermaid CLI for diagram validation and rendering.",
+        "url": "https://mcp.directory/servers/mermaid-validator",
+        "source_type": "third_party",
+        "quote_or_excerpt": "Leverages the Mermaid CLI tool to perform diagram validation and rendering"
+      }
+    ],
+    "confidence": "high"
+  }
+}

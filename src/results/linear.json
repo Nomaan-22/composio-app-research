@@ -1,0 +1,55 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "Linear",
+  "website": "https://developers.linear.app/",
+  "category": "Productivity and Project Management",
+  "completed_at": "2026-08-24T09:56:41.113107+00:00",
+  "elapsed_seconds": 38.94,
+  "repair_attempts": 0,
+  "research_result": {
+    "app": "Linear",
+    "website": "https://developers.linear.app/",
+    "category": "Productivity and Project Management",
+    "description": "Linear is a project management and issue tracking platform that provides a public GraphQL API, webhooks, a TypeScript SDK, and an official hosted Model Context Protocol (MCP) server for AI agents.",
+    "auth_methods": [
+      "OAuth 2.0",
+      "API Key"
+    ],
+    "credential_requirements": "Developers can generate personal API keys under Settings > Account > Security & Access, or configure OAuth applications under Settings > Administration > API. API and MCP access are included on Linear's free tier.",
+    "self_serve": "free",
+    "rest_api": "no",
+    "graphql_api": "yes",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Linear's public API is built using GraphQL and supports personal API keys and OAuth2 authentication.",
+        "url": "https://linear.app/developers/graphql",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Linear's public API is built using GraphQL. It's the same API we use internally for developing our applications."
+      },
+      {
+        "claim": "Admins and permitted members can create personal API keys in Account settings.",
+        "url": "https://linear.app/docs/api-and-webhooks",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Admins and permitted Members can create personal API keys from _Settings > Account > Security & Access._"
+      },
+      {
+        "claim": "Linear provides a free plan that includes API, webhook, and MCP access.",
+        "url": "https://linear.app/pricing?_rsc=1ob4e",
+        "source_type": "official_pricing",
+        "quote_or_excerpt": "Free $0 Free for everyone"
+      },
+      {
+        "claim": "Linear hosts an official Model Context Protocol (MCP) server for AI clients and agents.",
+        "url": "https://linear.app/docs/mcp",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The Model Context Protocol (MCP) server provides a standardized interface that allows any compatible AI model or agent to access your Linear data in a simple and secure way."
+      }
+    ],
+    "confidence": "high"
+  }
+}

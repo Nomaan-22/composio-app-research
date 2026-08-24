@@ -1,0 +1,55 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "Ahrefs",
+  "website": "https://ahrefs.com/api",
+  "category": "Data, SEO and Scraping",
+  "completed_at": "2026-08-24T08:13:30.809051+00:00",
+  "elapsed_seconds": 48.57,
+  "repair_attempts": 0,
+  "research_result": {
+    "app": "Ahrefs",
+    "website": "https://ahrefs.com/api",
+    "category": "Data, SEO and Scraping",
+    "description": "Ahrefs provides SEO, marketing, and search data—including backlinks, organic and paid traffic, keyword metrics, site audits, rank tracking, and AI brand visibility—via REST API v3 endpoints and a hosted remote MCP server.",
+    "auth_methods": [
+      "API Key",
+      "OAuth 2.0"
+    ],
+    "credential_requirements": "API and MCP server access require a paid Lite or higher subscription plan. Workspace owners and admins can generate API keys or MCP-scoped keys from Account Settings > API Keys, or connect via OAuth 2.0 authorization flows.",
+    "self_serve": "trial_or_paid",
+    "rest_api": "yes",
+    "graphql_api": "unknown",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "conditional",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Ahrefs API v3 provides programmatic access to SEO, marketing, and search data organized into REST endpoint tools.",
+        "url": "https://docs.ahrefs.com/llms.txt",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Ahrefs API v3 gives programmatic access to Ahrefs' SEO, marketing, and AI-search data — backlinks, organic and paid traffic, keywords, SERPs, rank tracking, site audits, brand/AI-search visibility, web and social analytics, and account management."
+      },
+      {
+        "claim": "Accessing API v3 and the MCP server requires a Lite or higher subscription plan.",
+        "url": "https://help.ahrefs.com/en/articles/6559232-about-api-v3",
+        "source_type": "official_help",
+        "quote_or_excerpt": "Using API v3 from any of the above methods is possible for Lite and higher subscription plans, and consume from the same API & Integrations limit."
+      },
+      {
+        "claim": "Ahrefs supports authentication via HTTP Bearer API keys and OAuth 2.0 authorization code flows.",
+        "url": "https://apis.io/security/ahrefs/ahrefs-authentication/",
+        "source_type": "third_party",
+        "quote_or_excerpt": "Ahrefs secures its APIs with http and oauth2 across 3 declared security schemes, as derived from its OpenAPI definitions."
+      },
+      {
+        "claim": "Ahrefs provides an official hosted Model Context Protocol (MCP) server.",
+        "url": "https://a2a-mcp.org/entry/ahrefs",
+        "source_type": "third_party",
+        "quote_or_excerpt": "Ahrefs MCP is Ahrefs' official hosted Model Context Protocol server for connecting AI assistants to Ahrefs data."
+      }
+    ],
+    "confidence": "high"
+  }
+}

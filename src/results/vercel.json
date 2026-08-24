@@ -1,0 +1,62 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "Vercel",
+  "website": "https://vercel.com/docs/rest-api",
+  "category": "Developer, Infra and Data platforms",
+  "completed_at": "2026-08-24T08:45:28.425262+00:00",
+  "elapsed_seconds": 52.21,
+  "repair_attempts": 0,
+  "research_result": {
+    "app": "Vercel",
+    "website": "https://vercel.com/docs/rest-api",
+    "category": "Developer, Infra and Data platforms",
+    "description": "Vercel is a cloud platform for frontend deployment, hosting, and developer infrastructure providing extensive REST APIs and an official Model Context Protocol (MCP) server.",
+    "auth_methods": [
+      "OAuth 2.0",
+      "Bearer token",
+      "OIDC token"
+    ],
+    "credential_requirements": "Developers can sign up self-serve for a free Hobby account and create access tokens via user/team settings or exchange codes via OAuth 2.0. Deployments on Vercel can also authenticate automatically using Vercel OIDC tokens.",
+    "self_serve": "free",
+    "rest_api": "yes",
+    "graphql_api": "unknown",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Vercel provides a REST API covering deployments, access groups, AI gateway, domains, DNS, environment variables, and more.",
+        "url": "https://vercel.com/docs/rest-api",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Vercel REST API Reference"
+      },
+      {
+        "claim": "Authentication for Vercel REST API uses access tokens sent via the Authorization header, or exchanged via OAuth 2.0.",
+        "url": "https://vercel.com/docs/integrations/create-integration/vercel-api-integrations",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "To use Vercel REST API, you need to authenticate with an access token that contains the necessary scope. You can then provide the API token through the Authorization header."
+      },
+      {
+        "claim": "Vercel Connect SDK supports OIDC token authentication for running deployments and access tokens passed as Bearer tokens.",
+        "url": "https://vercel.com/docs/connect/concepts/authentication",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "A running Vercel deployment authenticates with its OIDC token."
+      },
+      {
+        "claim": "Developers can create a self-serve free account with Hobby, Pro, or Enterprise plans available.",
+        "url": "https://vercel.com/docs/accounts",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "When you first sign up for Vercel, you'll create an account. This account is used to manage your Vercel resources. Vercel has three types of plans:"
+      },
+      {
+        "claim": "Vercel offers an official remote MCP server for AI tools at https://mcp.vercel.com.",
+        "url": "https://vercel.com/docs/agent-resources/vercel-mcp",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Vercel MCP is Vercel's official MCP server. It's a remote MCP with OAuth that gives AI tools secure access to your Vercel projects available at:"
+      }
+    ],
+    "confidence": "high"
+  }
+}

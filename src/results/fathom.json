@@ -1,0 +1,74 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "Fathom",
+  "website": "https://fathom.video/",
+  "category": "AI, Research and Media-native",
+  "completed_at": "2026-08-24T11:48:11.698998+00:00",
+  "elapsed_seconds": 65.15,
+  "repair_attempts": 1,
+  "research_result": {
+    "app": "Fathom",
+    "website": "https://fathom.video/",
+    "category": "AI, Research and Media-native",
+    "description": "Fathom provides meeting recording, transcription, and summary insights via a REST API, official SDKs, webhooks, and an official MCP server.",
+    "auth_methods": [
+      "API key",
+      "Bearer token",
+      "OAuth 2.0"
+    ],
+    "credential_requirements": "Users can generate API keys directly in the Fathom account settings area. Developers building multi-tenant integrations can register an OAuth app to obtain client credentials.",
+    "self_serve": "free",
+    "rest_api": "yes",
+    "graphql_api": "no",
+    "api_breadth": "moderate",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Fathom SDKs support API Key authentication.",
+        "url": "https://developers.fathom.ai/sdks/authentication",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Authenticate with the Fathom SDKs using API keys"
+      },
+      {
+        "claim": "Fathom SDKs and API support Bearer Token authentication.",
+        "url": "https://developers.fathom.ai/sdks/authentication",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "## Bearer Token Authentication"
+      },
+      {
+        "claim": "Fathom supports OAuth 2.0 authentication for multi-account integrations.",
+        "url": "https://developers.fathom.ai/sdks/oauth",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Both TypeScript and Python SDKs support OAuth 2.0 authentication for building integrations that can be installed by multiple Fathom accounts."
+      },
+      {
+        "claim": "API access is self-serve and open to anyone via account settings and documentation.",
+        "url": "https://help.fathom.video/en/articles/8368641",
+        "source_type": "official_help",
+        "quote_or_excerpt": "Anyone can browse the API docs and start building!"
+      },
+      {
+        "claim": "Developers can generate an API key and begin making API calls quickly.",
+        "url": "https://developers.fathom.ai/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Generate an API key and make your first call in minutes."
+      },
+      {
+        "claim": "Fathom provides a REST API.",
+        "url": "https://developers.fathom.ai/api-overview",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "This documentation describes Fathom's REST API."
+      },
+      {
+        "claim": "Fathom offers an official Model Context Protocol (MCP) server.",
+        "url": "https://developers.fathom.ai/mcp-docs",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Fathom now offers an official MCP (Model Context Protocol) server, allowing you to connect your Fathom meeting data to AI assistants like ChatGPT, Claude, and more."
+      }
+    ],
+    "confidence": "high"
+  }
+}

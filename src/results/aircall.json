@@ -1,0 +1,68 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "Aircall",
+  "website": "https://aircall.io/",
+  "category": "Communications and Messaging",
+  "completed_at": "2026-08-24T06:55:18.950264+00:00",
+  "elapsed_seconds": 102.05,
+  "repair_attempts": 1,
+  "research_result": {
+    "app": "Aircall",
+    "website": "https://aircall.io/",
+    "category": "Communications and Messaging",
+    "description": "Aircall is a cloud-based business phone system and customer communication platform that offers voice, SMS messaging, and AI conversation intelligence capabilities.",
+    "auth_methods": [
+      "API Key",
+      "Basic Authentication",
+      "OAuth 2.0"
+    ],
+    "credential_requirements": "To build private integrations, developers need an Aircall customer account to generate an API ID and API Token from the Aircall Dashboard. To build public integrations, developers must apply to the Aircall Technology Partner Program and receive approval to obtain a developer account and OAuth credentials.",
+    "self_serve": "gated",
+    "rest_api": "yes",
+    "graphql_api": "no",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "conditional",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Aircall supports API key authentication for private apps.",
+        "url": "https://developer.aircall.io/docs/public-vs-private-app",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The app is authenticated using API keys scoped to your specific Aircall account."
+      },
+      {
+        "claim": "Aircall supports Basic Authentication for authenticating requests to the REST API.",
+        "url": "https://developer.aircall.io/docs/authentication",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Aircall supports two ways to authenticate with the REST API: Basic Authentication and OAuth."
+      },
+      {
+        "claim": "Public applications use OAuth 2.0 to authorize access across multiple Aircall customer accounts.",
+        "url": "https://developer.aircall.io/docs/public-vs-private-app",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Public Apps use OAuth 2.0 so each customer can securely connect their own Aircall account to your integration."
+      },
+      {
+        "claim": "Developer accounts and OAuth credentials require partner program approval.",
+        "url": "https://developer.aircall.io/docs/plan-your-integration",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "If approved, you'll receive your developer account and OAuth credentials to start building"
+      },
+      {
+        "claim": "Aircall provides a REST API to connect business tools and manage calls, messages, and contacts.",
+        "url": "https://developer.aircall.io/docs/introduction",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Connect Aircall to any business tool using our REST API and webhooks."
+      },
+      {
+        "claim": "Third-party Model Context Protocol (MCP) servers exist for the Aircall REST API.",
+        "url": "https://github.com/growth-box/aircall-mcp",
+        "source_type": "official_github",
+        "quote_or_excerpt": "A local, read-only Model Context Protocol server for the official Aircall REST API."
+      }
+    ],
+    "confidence": "high"
+  }
+}

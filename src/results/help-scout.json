@@ -1,0 +1,62 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "Help Scout",
+  "website": "https://helpscout.com/",
+  "category": "Support and Helpdesk",
+  "completed_at": "2026-08-24T06:15:28.039217+00:00",
+  "elapsed_seconds": 78.49,
+  "repair_attempts": 1,
+  "research_result": {
+    "app": "Help Scout",
+    "website": "https://helpscout.com/",
+    "category": "Support and Helpdesk",
+    "description": "Help Scout is a customer support and help desk platform featuring shared inboxes, knowledge base management, live chat, and reporting. It provides REST APIs across its Inbox and Docs services, as well as an official Model Context Protocol (MCP) server for AI integrations.",
+    "auth_methods": [
+      "OAuth 2.0",
+      "API Key",
+      "Basic Authentication"
+    ],
+    "credential_requirements": "API access requires a paid Help Scout plan or trial (Standard, Plus, or Pro), as the Free plan excludes API access. OAuth 2.0 applications (Client Credentials or Authorization Code flow) can be created under Profile > My apps to generate an Application ID and Secret. Docs API access uses per-user API keys generated under Profile > Security and Access and passed via HTTP Basic Authentication.",
+    "self_serve": "trial_or_paid",
+    "rest_api": "yes",
+    "graphql_api": "no",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Help Scout Inbox API 2.0 uses OAuth 2.0 authorization implementing Authorization Code and Client Credential flows.",
+        "url": "https://developer.helpscout.com/mailbox-api/overview/authentication/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "This is an HTTPS-only API and it uses OAuth 2.0 authorization, implementing Authorization Code and Client Credential flows."
+      },
+      {
+        "claim": "Help Scout Docs API uses API keys passed via HTTP Basic Authentication.",
+        "url": "https://developer.helpscout.com/docs-api/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The API key is passed via HTTP Basic Authentication and goes in the username field."
+      },
+      {
+        "claim": "The Free plan does not include access to the API or integrations.",
+        "url": "https://docs.helpscout.com/article/1140-mailbox-api",
+        "source_type": "official_help",
+        "quote_or_excerpt": "The Free plan does not include access to the API or integrations."
+      },
+      {
+        "claim": "Help Scout provides an official MCP server connecting AI assistants to Help Scout data.",
+        "url": "https://docs.helpscout.com/article/1779-connect-your-ai-agent-with-help-scout-to-search-conversations-and-pull-reports",
+        "source_type": "official_help",
+        "quote_or_excerpt": "Help Scout MCP gives AI assistants secure, official access to Help Scout data."
+      },
+      {
+        "claim": "Inbox API 2.0 is an HTTPS REST API running at api.helpscout.net/v2.",
+        "url": "https://developer.helpscout.com/mailbox-api/",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Welcome to the second generation of our Inbox API. This is an HTTPS-only API, with OAuth 2 authentication and CORS support running at:"
+      }
+    ],
+    "confidence": "high"
+  }
+}

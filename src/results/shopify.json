@@ -1,0 +1,73 @@
+{
+  "status": "completed",
+  "validated": true,
+  "app": "Shopify",
+  "website": "https://shopify.dev/",
+  "category": "Ecommerce",
+  "completed_at": "2026-08-23T08:13:47.236588+00:00",
+  "elapsed_seconds": 145.84,
+  "repair_attempts": 2,
+  "research_result": {
+    "app": "Shopify",
+    "website": "https://shopify.dev/",
+    "category": "Ecommerce",
+    "description": "Shopify is an ecommerce platform providing extensive APIs, developer tools, and Model Context Protocol (MCP) servers to build commerce integrations, custom storefronts, and AI-powered shopping agents.",
+    "auth_methods": [
+      "OAuth 2.0",
+      "API key"
+    ],
+    "credential_requirements": "Developers obtain client credentials (client ID / SHOPIFY_API_KEY and client secret / SHOPIFY_API_SECRET) via the Dev Dashboard or Shopify CLI. These credentials are used to obtain access tokens via OAuth grants (such as token exchange or client credentials grant) to authenticate requests.",
+    "self_serve": "free",
+    "rest_api": "yes",
+    "graphql_api": "yes",
+    "api_breadth": "broad",
+    "mcp_available": "yes",
+    "buildability": "ready",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Shopify supports OAuth 2.0 for API authentication.",
+        "url": "https://shopify.dev/docs/api/usage/authentication",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Buyer signs in with [OAuth 2.0 and PKCE](https://shopify.dev/docs/api/customer#authentication)"
+      },
+      {
+        "claim": "Shopify uses API keys and client credentials to identify and authorize apps.",
+        "url": "https://shopify.dev/docs/apps/build/authentication-authorization/manage-credentials",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Some tools and documentation call these the API key and API secret: `SHOPIFY_API_KEY` holds your client ID, and `SHOPIFY_API_SECRET` holds your client secret."
+      },
+      {
+        "claim": "Shopify provides a REST Admin API.",
+        "url": "https://shopify.dev/docs/api/admin-rest",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The REST Admin API is a legacy API as of October 1, 2024."
+      },
+      {
+        "claim": "Shopify provides a GraphQL Admin API as its primary API.",
+        "url": "https://shopify.dev/docs/apps/build/graphql",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "GraphQL has become Shopify's technology of choice for building APIs."
+      },
+      {
+        "claim": "Shopify offers Model Context Protocol (MCP) servers to build AI shopping experiences.",
+        "url": "https://shopify.dev/docs/apps/build/storefront-mcp",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Connect any AI assistant to real-time commerce data from Shopify stores with Model Context Protocol (MCP) servers."
+      },
+      {
+        "claim": "Developers can use the Dev Dashboard as a central hub for building apps and managing test stores.",
+        "url": "https://shopify.dev/docs/apps/build/dev-dashboard",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "The Dev Dashboard is your central hub for building on Shopify."
+      },
+      {
+        "claim": "Shopify provides a broad API surface across store data, customer accounts, storefronts, and extensions.",
+        "url": "https://shopify.dev/docs/api",
+        "source_type": "official_docs",
+        "quote_or_excerpt": "Build apps that extend and interact with the Shopify admin. Access products, customers, orders, inventory, and more."
+      }
+    ],
+    "confidence": "high"
+  }
+}
